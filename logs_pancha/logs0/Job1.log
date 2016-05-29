@@ -1,0 +1,2534 @@
+\# Program start time UTC 2016.05.17 18:26:17.351
+\# Local time Tuesday 17 May 2016, 8:26 pm
+\o Program:		@(#)$CDS: virtuoso version 6.1.6-64b 12/07/2015 20:18 (sjfbm186) $
+\o Hierarchy:		/pkg/Cadence/installs/IC616/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.6-64b.500.14  (64-bit addresses)
+\# Command line:	/pkg/Cadence/installs/IC616/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso24042 -mpshost s1632.it.kth.se -davinciService DaVinciService_24042_1463508973 -log /home/pancha/ProjGe3D/lf150/logs_pancha/logs0/Job1.log -licenseLockFileName /home/pancha/ProjGe3D/lf150/.tmp_pancha/.s1632.it.kth.se_24042 -nograph -nostdin -axlChildIdFlag 1
+\# Host name (type):	s1632.it.kth.se (x86_64)
+\# Operating system:	Linux 2.6.18-407.el5 #1 SMP Wed Nov 11 08:12:41 EST 2015
+\# Linux /etc/issue:	CentOS release 5.11 (Final)
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	s1632.it.kth.se:80.0 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 8788)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x33, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        594 MB
+\# Available memory:	     14,775 MB
+\# System memory:	     21,992 MB
+\# Maximum memory size:	     21,470 MB
+\# Max mem available:	     14,846 MB
+\# Initial memory used:	         71 MB
+\#        process size:	        749 MB
+\# Qt version:		4.7.2
+\# Window Manager:	other
+\# User Name:		pancha
+\o Working Directory:	s1632.it.kth.se:/home/pancha/ProjGe3D/lf150
+\# Process Id:		8790
+\o 
+\o COPYRIGHT © 1992-2015  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2015  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt.
+\o Loading LVS.cxt 
+\o Loading layerProc.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading socket.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\# Memory report: using         181 MB, process size 986 MB at UTC 2016.05.17 18:26:19.526
+\o 
+\o ----------------      LFoundry GmbH           ----------------
+\o ----------------    Initializing LF150 PDK    ----------------
+\o ----------------       Version 2.0.0          ----------------
+\o ----------------       Option 6metal          ----------------
+\o *LF-INFO* .cdsinit: Loading project .cdsenv file       skipped
+\o *LF-INFO* .cdsinit: Setting Spectre models                done
+\o *LF-INFO* .cdsinit: Setting UltraSim models               done
+\o *LF-INFO* .cdsinit: Setting AMS analog models             done
+\o *LF-INFO* .cdsinit: Setting AMS netlist mode to OSS       done
+\o *LF-INFO* .cdsinit: Setting CDL out keys                  done
+\o *LF-INFO* .cdsinit: Loading Ciranova abut function        done
+\o *LF-INFO* .cdsinit: WiCkeD setup                       skipped
+\o *LF-INFO* .cdsinit: Golden Gate setup                  skipped
+\o *LF-INFO* .cdsinit: Loading default bindkeys              done
+\o *LF-INFO* .cdsinit: Opening library manager               done
+\w *WARNING* .cdsinit: PDF reader not found.
+\o *LF-INFO* .cdsinit: Creating LF150 PDK menus           skipped
+\o *LF-INFO* .cdsinit: Loading LF150 display.drf             done
+\o *LF-INFO* .cdsinit: Loading the user .cdsinit          skipped
+\o *Info*    Client has finished starting ... 
+\o 
+\p > 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = RF_FrontEnd
+\o 	Cell         = Tia4_biasing_8
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = RF_FrontEnd:Tia4_biasing_8:1_spectre_state1_MonteCarlo.0
+\o 	Results DB   = /home/pancha/ProjGe3D/lf150/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.0.rdb
+\o 	Results Dir  = /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.0/1/RF_FrontEnd:Tia4_biasing_8:1
+\o 	Results Loc  = /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data
+\o 	Project Dir  = /home/pancha/simulation
+\o 	Setup DB loc = /home/pancha/ProjGe3D/lf150/RF_FrontEnd/Tia4_biasing_8/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading simui.cxt 
+\o Loading viva.cxt 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o *LF-INFO* Loading lf150/lf150.skill/lf150_cdfCbks.il   done
+\o *LF-INFO* lf150 libInit.il loaded successfully. 
+\o  Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 1) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Cdecap = "3.55p"
+\o Setting var Cload = "2p"
+\o Setting var Cph = "2.47p"
+\o Setting var Freq = "2M"
+\o Setting var ID1 = "30u"
+\o Setting var ID2 = "120u"
+\o Setting var Ipeak = "500n"
+\o Setting var L1 = "1u"
+\o Setting var Lp2 = "500n"
+\o Setting var R1 = "2.7K"
+\o Setting var Rph = "1K"
+\o Setting var VDD = "1.8"
+\o Setting var Wn1 = "10u"
+\o Setting var Wp1 = "10u"
+\o Setting var Wp2 = "20u"
+\o Loading monte.cxt 
+\o Setting temp(T) = 27
+\o Setting var vgsn1 = "291m"
+\o Setting var vgsp2 = "685m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.0/1/RF_FrontEnd:Tia4_biasing_8:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.0/1/RF_FrontEnd:Tia4_biasing_8:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 1)
+\o 
+\o generate netlist...
+\o Loading seCore.cxt 
+\o Initializing the control file using cp:
+\o     cp /pkg/Cadence/installs/IC616/tools.lnx86/dfII/etc/si/control.spectre /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.0/1/RF_FrontEnd:Tia4_biasing_8:1/groupRunDataDir/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting May 17 20:26:21 2016
+\o End netlisting May 17 20:26:21 2016
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   34
+\o 
+\o 	Elapsed time:          1.0s (34.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ] for Point ID (0 1).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.0/1/RF_FrontEnd:Tia4_biasing_8:1/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting May 17 20:26:23 2016
+\o End netlisting May 17 20:26:23 2016
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\o Loading stats.cxt 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 1) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 2) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 3) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 4) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Memory report: using         353 MB, process size 1,158 MB at UTC 2016.05.17 18:26:25.572
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 5) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 6) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 7) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 8) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 9) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 10) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 11) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 12) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\# Available memory:         14,548 MB at UTC 2016.05.17 18:26:27.584
+\# Memory report: Maximum memory size now 14,901 MB at UTC 2016.05.17 18:26:27.584
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 13) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 14) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 15) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 16) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 17) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 18) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 19) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 20) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 21) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 22) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 23) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 24) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 25) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 26) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 27) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 28) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 29) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 30) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 31) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 32) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 33) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 34) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 35) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 36) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 37) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 38) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 39) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 40) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 41) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 42) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 43) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 44) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 45) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 46) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 47) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 48) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 49) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 50) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 51) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 52) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 53) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 54) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 55) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 56) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 57) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 58) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 59) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 60) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 61) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 62) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 63) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 64) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 65) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 66) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 67) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 68) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 69) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 70) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 71) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 72) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 73) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 74) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 75) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 76) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 77) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 78) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 79) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 80) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 81) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 82) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 83) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 84) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 85) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 86) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 87) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 88) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 89) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 90) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 91) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 92) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 93) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 94) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 95) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 96) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 97) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 98) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 99) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 100) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 101) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 102) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 103) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 104) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 105) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 106) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 107) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 108) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 109) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 110) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 111) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 112) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 113) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 114) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 115) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 116) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 117) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 118) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 119) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 120) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 121) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 122) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 123) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 124) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 125) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 126) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 127) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 128) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 129) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 130) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 131) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 132) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 133) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 134) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 135) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 136) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 137) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 138) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 139) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 140) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 141) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 142) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 143) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 144) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 145) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 146) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 147) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 148) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 149) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 150) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 151) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 152) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 153) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 154) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 155) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 156) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 157) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 158) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 159) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 160) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 161) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 162) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 163) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 164) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 165) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 166) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 167) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 168) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 169) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 170) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 171) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 172) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 173) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 174) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 175) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 176) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 177) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 178) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 179) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 180) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 181) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 182) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 183) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 184) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 185) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 186) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 187) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 188) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 189) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 190) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 191) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 192) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 193) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 194) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 195) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 196) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 197) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 198) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 199) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (0 200) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = RF_FrontEnd
+\o 	Cell         = Tia4_biasing_8
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = RF_FrontEnd:Tia4_biasing_8:1_spectre_state1_MonteCarlo.1
+\o 	Results DB   = /home/pancha/ProjGe3D/lf150/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.1.rdb
+\o 	Results Dir  = /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.1/1/RF_FrontEnd:Tia4_biasing_8:1
+\o 	Results Loc  = /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data
+\o 	Project Dir  = /home/pancha/simulation
+\o 	Setup DB loc = /home/pancha/ProjGe3D/lf150/RF_FrontEnd/Tia4_biasing_8/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 1) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Cdecap = "3.55p"
+\o Setting var Cload = "2p"
+\o Setting var Cph = "2.47p"
+\o Setting var Freq = "2M"
+\o Setting var ID1 = "30u"
+\o Setting var ID2 = "120u"
+\o Setting var Ipeak = "500n"
+\o Setting var L1 = "1u"
+\o Setting var Lp2 = "500n"
+\o Setting var R1 = "2.7K"
+\o Setting var Rph = "1K"
+\o Setting var VDD = "1.8"
+\o Setting var Wn1 = "10u"
+\o Setting var Wp1 = "10u"
+\o Setting var Wp2 = "20u"
+\o Setting temp(T) = 27
+\o Setting var vgsn1 = "291m"
+\o Setting var vgsp2 = "685m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.1/1/RF_FrontEnd:Tia4_biasing_8:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.1/1/RF_FrontEnd:Tia4_biasing_8:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May 17 20:28:02 2016
+\o End netlisting May 17 20:28:02 2016
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ] for Point ID (1 1).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.1/1/RF_FrontEnd:Tia4_biasing_8:1/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting May 17 20:28:02 2016
+\o End netlisting May 17 20:28:02 2016
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+\o         on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+\o         to view the simulation run log.
+\o *Info*    Monte Carlo Simulation unsuccessful...
+\o *Info*    See simulation output log for more information.
+\o 
+\o *Error*   Error ID  = 5052
+\o *Error*   Error Msg = 
+\o Nominal simulation might have failed. Either
+\o           fix the problem in the test setup or disable the test and
+\o           re-run.
+\o 
+\o To view the simulator output, right-click on the
+\o           test name, result name, or any corner column in the
+\o           "Detail" view 
+\o of the "Results" tab and choose "Output Log"
+\o           menu option.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Error*   Error ID  = 5011
+\o *Error*   Error Msg = Simulator failed to complete the simulation.
+\o 
+\o           Error found by spectre during circuit read-in.
+\o Error found
+\o           by spectre during circuit read-in.
+\o ERROR (SFE-59):
+\o           "/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" 213: Parameter `vth0nhs_mis' was previously defined. Please try to
+\o  add `+spice' in command line or option `redefinedparams' in netlist to avoid these type of errors.
+\o ERROR (SFE-59): "/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" 214: Parameter `uanhs_mis' was previously defined. Please try to a
+\o dd `+spice' in command line or option `redefinedparams' in netlist to avoid these type of errors.
+\o ERROR (SFE-59): "/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" 215: Parameter `u0nhs_mis' was previously defined. Please try to a
+\o dd `+spice' in command line or option `redefinedparams' in netlist to avoid these type of errors.
+\o ERROR (SFE-59): "/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" 216: Parameter `vth0phs_mis' was previously defined. Please try to
+\o  add `+spice' in command line or option `redefinedparams' in netlist to avoid these type of errors.
+\o ERROR (SFE-59): "/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" 217: Parameter `uaphs_mis' was previously defined. Please try to a
+\o dd `+spice' in command line or option `redefinedparams' in netlist to avoid these type of errors.
+\o ERROR (SFE-59): "/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" 218: Parameter `u0phs_mis' was previously defined. Please try to a
+\o dd `+spice' in command line or option `redefinedparams' in netlist to avoid these type of errors.
+\o ERROR (SFE-59): "/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" 220: Parameter `dtox_pmc_nhs' was previously defined. Please try t
+\o o add `+spice' in command line or option `redefinedparams' in netlist to avoid these type of errors.
+\o ERROR (SFE-59): "/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" 221: Parameter `dtox_pmc_phs' was previously defined. Please try t
+\o o add `+spice' in command line or option `redefinedparams' in netlist to avoid these type of errors.
+\o ERROR (SFE-59): "/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" 222: Parameter `dvth_pmc_nhs' was previously defined. Please try t
+\o o add `+spice' in command line or option `redefinedparams' in netlist to avoid these type of errors.
+\o ERROR (SFE-59): "/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" 223: Parameter `dvth_pmc_phs' was previously defined. Please try t
+\o o add `+spice' in command line or option `redefinedparams' in netlist to avoid these type of errors.
+\o ERROR (SFE-59): "/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" 224: Parameter `du0_pmc_nhs' was previously defined. Please try to
+\o  add `+spice' in command line or option `redefinedparams' in netlist to avoid these type of
+\o            errors.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = RF_FrontEnd
+\o 	Cell         = Tia4_biasing_8
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = RF_FrontEnd:Tia4_biasing_8:1_spectre_state1_MonteCarlo.2
+\o 	Results DB   = /home/pancha/ProjGe3D/lf150/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.2.rdb
+\o 	Results Dir  = /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.2/1/RF_FrontEnd:Tia4_biasing_8:1
+\o 	Results Loc  = /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data
+\o 	Project Dir  = /home/pancha/simulation
+\o 	Setup DB loc = /home/pancha/ProjGe3D/lf150/RF_FrontEnd/Tia4_biasing_8/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 1) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Cdecap = "3.55p"
+\o Setting var Cload = "2p"
+\o Setting var Cph = "2.47p"
+\o Setting var Freq = "2M"
+\o Setting var ID1 = "30u"
+\o Setting var ID2 = "120u"
+\o Setting var Ipeak = "500n"
+\o Setting var L1 = "1u"
+\o Setting var Lp2 = "500n"
+\o Setting var R1 = "2.7K"
+\o Setting var Rph = "1K"
+\o Setting var VDD = "1.8"
+\o Setting var Wn1 = "10u"
+\o Setting var Wp1 = "10u"
+\o Setting var Wp2 = "20u"
+\o Setting temp(T) = 27
+\o Setting var vgsn1 = "291m"
+\o Setting var vgsp2 = "685m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.2/1/RF_FrontEnd:Tia4_biasing_8:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.2/1/RF_FrontEnd:Tia4_biasing_8:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May 17 20:29:04 2016
+\o End netlisting May 17 20:29:04 2016
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ] for Point ID (2 1).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.2/1/RF_FrontEnd:Tia4_biasing_8:1/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting May 17 20:29:04 2016
+\o End netlisting May 17 20:29:04 2016
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+\o         on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+\o         to view the simulation run log.
+\o *Info*    Monte Carlo Simulation unsuccessful...
+\o *Info*    See simulation output log for more information.
+\o 
+\o *Error*   Error ID  = 5052
+\o *Error*   Error Msg = 
+\o Nominal simulation might have failed. Either
+\o           fix the problem in the test setup or disable the test and
+\o           re-run.
+\o 
+\o To view the simulator output, right-click on the
+\o           test name, result name, or any corner column in the
+\o           "Detail" view 
+\o of the "Results" tab and choose "Output Log"
+\o           menu option.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Error*   Error ID  = 5011
+\o *Error*   Error Msg = Simulator failed to complete the simulation.
+\o 
+\o           Error found by spectre during circuit read-in.
+\o Error found
+\o           by spectre during circuit read-in.
+\o ERROR (SFE-59):
+\o           "/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" 213: Parameter `vth0nhs_mis' was previously defined. Please try to
+\o  add `+spice' in command line or option `redefinedparams' in netlist to avoid these type of errors.
+\o ERROR (SFE-59): "/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" 214: Parameter `uanhs_mis' was previously defined. Please try to a
+\o dd `+spice' in command line or option `redefinedparams' in netlist to avoid these type of errors.
+\o ERROR (SFE-59): "/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" 215: Parameter `u0nhs_mis' was previously defined. Please try to a
+\o dd `+spice' in command line or option `redefinedparams' in netlist to avoid these type of errors.
+\o ERROR (SFE-59): "/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" 216: Parameter `vth0phs_mis' was previously defined. Please try to
+\o  add `+spice' in command line or option `redefinedparams' in netlist to avoid these type of errors.
+\o ERROR (SFE-59): "/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" 217: Parameter `uaphs_mis' was previously defined. Please try to a
+\o dd `+spice' in command line or option `redefinedparams' in netlist to avoid these type of errors.
+\o ERROR (SFE-59): "/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" 218: Parameter `u0phs_mis' was previously defined. Please try to a
+\o dd `+spice' in command line or option `redefinedparams' in netlist to avoid these type of errors.
+\o ERROR (SFE-59): "/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" 220: Parameter `dtox_pmc_nhs' was previously defined. Please try t
+\o o add `+spice' in command line or option `redefinedparams' in netlist to avoid these type of errors.
+\o ERROR (SFE-59): "/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" 221: Parameter `dtox_pmc_phs' was previously defined. Please try t
+\o o add `+spice' in command line or option `redefinedparams' in netlist to avoid these type of errors.
+\o ERROR (SFE-59): "/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" 222: Parameter `dvth_pmc_nhs' was previously defined. Please try t
+\o o add `+spice' in command line or option `redefinedparams' in netlist to avoid these type of errors.
+\o ERROR (SFE-59): "/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" 223: Parameter `dvth_pmc_phs' was previously defined. Please try t
+\o o add `+spice' in command line or option `redefinedparams' in netlist to avoid these type of errors.
+\o ERROR (SFE-59): "/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" 224: Parameter `du0_pmc_nhs' was previously defined. Please try to
+\o  add `+spice' in command line or option `redefinedparams' in netlist to avoid these type of
+\o            errors.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Memory report: on exit            364 MB, process size 1,169 MB at UTC 2016.05.17 18:30:10.271
+\# Memory report: peak usage         364 MB, process size 1,169 MB

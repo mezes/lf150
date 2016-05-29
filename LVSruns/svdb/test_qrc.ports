@@ -1,0 +1,5 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary test_qrc
+G 3 G 2570 4590 met1
+S 1 S 920 2590 met5
+D 2 D 4250 2590 met1_top

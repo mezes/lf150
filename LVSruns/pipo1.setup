@@ -1,0 +1,16 @@
+case	"preserve"
+convertDot	"node"
+convertPin	"geometry"
+hierDepth	32
+labelCase	"preserve"
+labelDepth	32
+library	"cdnlive2016"
+logFile	"/home/pancha/ProjGe3D/lf150/LVSruns/PIPO1.LOG"
+maxVertices	2048
+pinAttNum	0
+runDir	"/home/pancha/ProjGe3D/lf150/LVSruns"
+strmFile	"/home/pancha/ProjGe3D/lf150/LVSruns/inverter.gds"
+strmVersion	5
+techLib	"lf150_techLib"
+topCell	"inverter"
+view	"layout"

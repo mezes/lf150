@@ -1,0 +1,8 @@
+# Placement Hierarchy File (lph)
+# 
+# 
+# 
+% rppoly$$3 3
+R0 R 3
+% test_rppoly 3
+X3 rppoly$$3 3

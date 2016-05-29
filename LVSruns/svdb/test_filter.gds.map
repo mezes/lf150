@@ -1,0 +1,35 @@
+Gds_Map 1000
+Layers:
+0 0 30 Mar 21 14:50:28 2016
+mim_cap_top 35 0
+ndiff_bulk 42 0
+via3_top 58 0
+via2_top 57 0
+nwell 22 0
+via2 27 0
+cont 12 0
+met4_top 59 0
+via3 28 0
+poly_rout 34 0
+via1_top 53 0
+met1_top 47 0
+MIM_top 11 0
+metF_top 6 0
+miv 41 0
+met1 13 0
+via_MIM_top 46 0
+met4 30 0
+ppoly_res 29 0
+met2 19 0
+via5_top 48 0
+via4_top 2 0
+ppoly_res_h 32 0
+met3 24 0
+met5_top 4 0
+met3_top 55 0
+via4 33 0
+met2_top 50 0
+via1 21 0
+met5 36 0
+END OF RESPONSE
+0 0 0 Mar 21 14:50:28 2016

@@ -1,0 +1,922 @@
+\# Program start time UTC 2016.05.17 18:32:19.201
+\# Local time Tuesday 17 May 2016, 8:32 pm
+\o Program:		@(#)$CDS: virtuoso version 6.1.6-64b 12/07/2015 20:18 (sjfbm186) $
+\o Hierarchy:		/pkg/Cadence/installs/IC616/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.6-64b.500.14  (64-bit addresses)
+\# Command line:	/pkg/Cadence/installs/IC616/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso24042 -mpshost s1632.it.kth.se -davinciService DaVinciService_24042_1463508973 -log /home/pancha/ProjGe3D/lf150/logs_pancha/logs0/Job2.log -licenseLockFileName /home/pancha/ProjGe3D/lf150/.tmp_pancha/.s1632.it.kth.se_24042 -nograph -nostdin -axlChildIdFlag 2
+\# Host name (type):	s1632.it.kth.se (x86_64)
+\# Operating system:	Linux 2.6.18-407.el5 #1 SMP Wed Nov 11 08:12:41 EST 2015
+\# Linux /etc/issue:	CentOS release 5.11 (Final)
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	s1632.it.kth.se:80.0 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 9806)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x33, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        735 MB
+\# Available memory:	     14,707 MB
+\# System memory:	     21,992 MB
+\# Maximum memory size:	     21,328 MB
+\# Max mem available:	     14,778 MB
+\# Initial memory used:	         71 MB
+\#        process size:	        749 MB
+\# Qt version:		4.7.2
+\# Window Manager:	other
+\# User Name:		pancha
+\o Working Directory:	s1632.it.kth.se:/home/pancha/ProjGe3D/lf150
+\# Process Id:		9807
+\o 
+\o COPYRIGHT © 1992-2015  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2015  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt.
+\o Loading LVS.cxt 
+\o Loading layerProc.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading socket.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o 
+\o ----------------      LFoundry GmbH           ----------------
+\o ----------------    Initializing LF150 PDK    ----------------
+\o ----------------       Version 2.0.0          ----------------
+\o ----------------       Option 6metal          ----------------
+\o *LF-INFO* .cdsinit: Loading project .cdsenv file       skipped
+\o *LF-INFO* .cdsinit: Setting Spectre models                done
+\o *LF-INFO* .cdsinit: Setting UltraSim models               done
+\o *LF-INFO* .cdsinit: Setting AMS analog models             done
+\o *LF-INFO* .cdsinit: Setting AMS netlist mode to OSS       done
+\o *LF-INFO* .cdsinit: Setting CDL out keys                  done
+\o *LF-INFO* .cdsinit: Loading Ciranova abut function        done
+\o *LF-INFO* .cdsinit: WiCkeD setup                       skipped
+\o *LF-INFO* .cdsinit: Golden Gate setup                  skipped
+\o *LF-INFO* .cdsinit: Loading default bindkeys              done
+\o *LF-INFO* .cdsinit: Opening library manager               done
+\w *WARNING* .cdsinit: PDF reader not found.
+\o *LF-INFO* .cdsinit: Creating LF150 PDK menus           skipped
+\o *LF-INFO* .cdsinit: Loading LF150 display.drf             done
+\o *LF-INFO* .cdsinit: Loading the user .cdsinit          skipped
+\o *Info*    Client has finished starting ... 
+\o 
+\p > 
+\# Available memory:         14,603 MB at UTC 2016.05.17 18:32:29.591
+\# Memory report: Maximum memory size now 14,787 MB at UTC 2016.05.17 18:32:29.591
+\# Memory report: using         184 MB, process size 989 MB at UTC 2016.05.17 18:32:29.591
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = RF_FrontEnd
+\o 	Cell         = Tia4_biasing_8
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = RF_FrontEnd:Tia4_biasing_8:1_spectre_state1_MonteCarlo.0
+\o 	Results DB   = /home/pancha/ProjGe3D/lf150/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.0.rdb
+\o 	Results Dir  = /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.0/1/RF_FrontEnd:Tia4_biasing_8:1
+\o 	Results Loc  = /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data
+\o 	Project Dir  = /home/pancha/simulation
+\o 	Setup DB loc = /home/pancha/ProjGe3D/lf150/RF_FrontEnd/Tia4_biasing_8/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading simui.cxt 
+\o Loading viva.cxt 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o *LF-INFO* Loading lf150/lf150.skill/lf150_cdfCbks.il   done
+\o *LF-INFO* lf150 libInit.il loaded successfully. 
+\o  Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 1) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Cdecap = "3.55p"
+\o Setting var Cload = "2p"
+\o Setting var Cph = "2.47p"
+\o Setting var Freq = "2M"
+\o Setting var ID1 = "30u"
+\o Setting var ID2 = "120u"
+\o Setting var Ipeak = "0"
+\o Setting var L1 = "1u"
+\o Setting var Lp2 = "500n"
+\o Setting var R1 = "2.7K"
+\o Setting var Rph = "1K"
+\o Setting var VDD = "1.8"
+\o Setting var Wn1 = "10u"
+\o Setting var Wp1 = "10u"
+\o Setting var Wp2 = "20u"
+\o Loading monte.cxt 
+\o Setting temp(T) = 27
+\o Setting var vgsn1 = "291m"
+\o Setting var vgsp2 = "685m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.0/1/RF_FrontEnd:Tia4_biasing_8:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.0/1/RF_FrontEnd:Tia4_biasing_8:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 1)
+\o 
+\o generate netlist...
+\o Loading seCore.cxt 
+\o Begin Incremental Netlisting May 17 20:33:50 2016
+\o End netlisting May 17 20:33:50 2016
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ] for Point ID (0 1).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.0/1/RF_FrontEnd:Tia4_biasing_8:1/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting May 17 20:33:50 2016
+\o End netlisting May 17 20:33:50 2016
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\o INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+\o         on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+\o         to view the simulation run log.
+\o *Info*    Monte Carlo Simulation unsuccessful...
+\o *Info*    See simulation output log for more information.
+\o 
+\o *Error*   Error ID  = 5052
+\o *Error*   Error Msg = 
+\o Nominal simulation might have failed. Either
+\o           fix the problem in the test setup or disable the test and
+\o           re-run.
+\o 
+\o To view the simulator output, right-click on the
+\o           test name, result name, or any corner column in the
+\o           "Detail" view 
+\o of the "Results" tab and choose "Output Log"
+\o           menu option.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Error*   Error ID  = 5011
+\o *Error*   Error Msg = Simulator failed to complete the simulation.
+\o 
+\o           Error found by spectre during circuit read-in.
+\o Error found
+\o           by spectre during circuit read-in.
+\o ERROR (SFE-23):
+\o           "input.scs" 29: The instance `M12q' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the
+\o  definition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 31: The instance `M13' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the 
+\o definition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 33: The instance `M6' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 36: The instance `M2' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 38: The instance `M1' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 40: The instance `M11' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the 
+\o definition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 42: The instance `M4' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 44: The instance `M7' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 46: The instance `M7q' is referencing an
+\o           undefined model or subcircuit, `nmos_hs'. Either include
+\o           the file containing the 
+\o definition of `nmos_hs', or define
+\o           `nmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 48: The instance `M9' is referencing an
+\o           undefined model or subcircuit, `nmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `nmos_hs', or define
+\o           `nmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 50: The instance `M8' is referencing an
+\o           undefined model or subcircuit, `nmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `nmos_hs', or define
+\o           `nmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 53: The instance `M0' is referencing an
+\o           undefined model or subcircuit, `nmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `nmos_hs', or define
+\o           `nmos_hs' before running the simulation.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = RF_FrontEnd
+\o 	Cell         = Tia4_biasing_8
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = RF_FrontEnd:Tia4_biasing_8:1_spectre_state1_MonteCarlo.1
+\o 	Results DB   = /home/pancha/ProjGe3D/lf150/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.1.rdb
+\o 	Results Dir  = /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.1/1/RF_FrontEnd:Tia4_biasing_8:1
+\o 	Results Loc  = /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data
+\o 	Project Dir  = /home/pancha/simulation
+\o 	Setup DB loc = /home/pancha/ProjGe3D/lf150/RF_FrontEnd/Tia4_biasing_8/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 1) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Cdecap = "3.55p"
+\o Setting var Cload = "2p"
+\o Setting var Cph = "2.47p"
+\o Setting var Freq = "2M"
+\o Setting var ID1 = "30u"
+\o Setting var ID2 = "120u"
+\o Setting var Ipeak = "0"
+\o Setting var L1 = "1u"
+\o Setting var Lp2 = "500n"
+\o Setting var R1 = "2.7K"
+\o Setting var Rph = "1K"
+\o Setting var VDD = "1.8"
+\o Setting var Wn1 = "10u"
+\o Setting var Wp1 = "10u"
+\o Setting var Wp2 = "20u"
+\o Setting temp(T) = 27
+\o Setting var vgsn1 = "291m"
+\o Setting var vgsp2 = "685m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.1/1/RF_FrontEnd:Tia4_biasing_8:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.1/1/RF_FrontEnd:Tia4_biasing_8:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May 17 20:34:11 2016
+\o End netlisting May 17 20:34:11 2016
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ] for Point ID (1 1).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.1/1/RF_FrontEnd:Tia4_biasing_8:1/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting May 17 20:34:12 2016
+\o End netlisting May 17 20:34:12 2016
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+\o         on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+\o         to view the simulation run log.
+\# Memory report: using         285 MB, process size 1,090 MB at UTC 2016.05.17 18:34:13.786
+\o *Info*    Monte Carlo Simulation unsuccessful...
+\o *Info*    See simulation output log for more information.
+\o 
+\o *Error*   Error ID  = 5052
+\o *Error*   Error Msg = 
+\o Nominal simulation might have failed. Either
+\o           fix the problem in the test setup or disable the test and
+\o           re-run.
+\o 
+\o To view the simulator output, right-click on the
+\o           test name, result name, or any corner column in the
+\o           "Detail" view 
+\o of the "Results" tab and choose "Output Log"
+\o           menu option.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Error*   Error ID  = 5011
+\o *Error*   Error Msg = Simulator failed to complete the simulation.
+\o 
+\o           Error found by spectre during circuit read-in.
+\o Error found
+\o           by spectre during circuit read-in.
+\o ERROR (SFE-23):
+\o           "input.scs" 29: The instance `M12q' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the
+\o  definition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 31: The instance `M13' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the 
+\o definition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 33: The instance `M6' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 36: The instance `M2' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 38: The instance `M1' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 40: The instance `M11' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the 
+\o definition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 42: The instance `M4' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 44: The instance `M7' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 46: The instance `M7q' is referencing an
+\o           undefined model or subcircuit, `nmos_hs'. Either include
+\o           the file containing the 
+\o definition of `nmos_hs', or define
+\o           `nmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 48: The instance `M9' is referencing an
+\o           undefined model or subcircuit, `nmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `nmos_hs', or define
+\o           `nmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 50: The instance `M8' is referencing an
+\o           undefined model or subcircuit, `nmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `nmos_hs', or define
+\o           `nmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 53: The instance `M0' is referencing an
+\o           undefined model or subcircuit, `nmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `nmos_hs', or define
+\o           `nmos_hs' before running the simulation.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = RF_FrontEnd
+\o 	Cell         = Tia4_biasing_8
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = RF_FrontEnd:Tia4_biasing_8:1_spectre_state1_MonteCarlo.2
+\o 	Results DB   = /home/pancha/ProjGe3D/lf150/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.2.rdb
+\o 	Results Dir  = /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.2/1/RF_FrontEnd:Tia4_biasing_8:1
+\o 	Results Loc  = /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data
+\o 	Project Dir  = /home/pancha/simulation
+\o 	Setup DB loc = /home/pancha/ProjGe3D/lf150/RF_FrontEnd/Tia4_biasing_8/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (2 1) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Cdecap = "3.55p"
+\o Setting var Cload = "2p"
+\o Setting var Cph = "2.47p"
+\o Setting var Freq = "2M"
+\o Setting var ID1 = "30u"
+\o Setting var ID2 = "120u"
+\o Setting var Ipeak = "0"
+\o Setting var L1 = "1u"
+\o Setting var Lp2 = "500n"
+\o Setting var R1 = "2.7K"
+\o Setting var Rph = "1K"
+\o Setting var VDD = "1.8"
+\o Setting var Wn1 = "10u"
+\o Setting var Wp1 = "10u"
+\o Setting var Wp2 = "20u"
+\o Setting temp(T) = 27
+\o Setting var vgsn1 = "291m"
+\o Setting var vgsp2 = "685m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.2/1/RF_FrontEnd:Tia4_biasing_8:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.2/1/RF_FrontEnd:Tia4_biasing_8:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (2 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May 17 20:36:29 2016
+\o End netlisting May 17 20:36:29 2016
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ] for Point ID (2 1).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.2/1/RF_FrontEnd:Tia4_biasing_8:1/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting May 17 20:36:29 2016
+\o End netlisting May 17 20:36:29 2016
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+\o         on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+\o         to view the simulation run log.
+\o *Info*    Monte Carlo Simulation unsuccessful...
+\o *Info*    See simulation output log for more information.
+\o 
+\o *Error*   Error ID  = 5052
+\o *Error*   Error Msg = 
+\o Nominal simulation might have failed. Either
+\o           fix the problem in the test setup or disable the test and
+\o           re-run.
+\o 
+\o To view the simulator output, right-click on the
+\o           test name, result name, or any corner column in the
+\o           "Detail" view 
+\o of the "Results" tab and choose "Output Log"
+\o           menu option.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Error*   Error ID  = 5011
+\o *Error*   Error Msg = Simulator failed to complete the simulation.
+\o 
+\o           Error found by spectre during circuit read-in.
+\o Error found
+\o           by spectre during circuit read-in.
+\o ERROR (SFE-23):
+\o           "input.scs" 29: The instance `M12q' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the
+\o  definition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 31: The instance `M13' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the 
+\o definition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 33: The instance `M6' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 36: The instance `M2' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 38: The instance `M1' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 40: The instance `M11' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the 
+\o definition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 42: The instance `M4' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 44: The instance `M7' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 46: The instance `M7q' is referencing an
+\o           undefined model or subcircuit, `nmos_hs'. Either include
+\o           the file containing the 
+\o definition of `nmos_hs', or define
+\o           `nmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 48: The instance `M9' is referencing an
+\o           undefined model or subcircuit, `nmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `nmos_hs', or define
+\o           `nmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 50: The instance `M8' is referencing an
+\o           undefined model or subcircuit, `nmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `nmos_hs', or define
+\o           `nmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 53: The instance `M0' is referencing an
+\o           undefined model or subcircuit, `nmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `nmos_hs', or define
+\o           `nmos_hs' before running the simulation.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = RF_FrontEnd
+\o 	Cell         = Tia4_biasing_8
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = RF_FrontEnd:Tia4_biasing_8:1_spectre_state1_MonteCarlo.3
+\o 	Results DB   = /home/pancha/ProjGe3D/lf150/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.3.rdb
+\o 	Results Dir  = /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.3/1/RF_FrontEnd:Tia4_biasing_8:1
+\o 	Results Loc  = /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data
+\o 	Project Dir  = /home/pancha/simulation
+\o 	Setup DB loc = /home/pancha/ProjGe3D/lf150/RF_FrontEnd/Tia4_biasing_8/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o *Info*    Spectre controlMode is set "batch".
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (3 1) on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var Cdecap = "3.55p"
+\o Setting var Cload = "2p"
+\o Setting var Cph = "2.47p"
+\o Setting var Freq = "2M"
+\o Setting var ID1 = "30u"
+\o Setting var ID2 = "120u"
+\o Setting var Ipeak = "0"
+\o Setting var L1 = "1u"
+\o Setting var Lp2 = "500n"
+\o Setting var R1 = "2.7K"
+\o Setting var Rph = "1K"
+\o Setting var VDD = "1.8"
+\o Setting var Wn1 = "10u"
+\o Setting var Wp1 = "10u"
+\o Setting var Wp2 = "20u"
+\o Setting temp(T) = 27
+\o Setting var vgsn1 = "291m"
+\o Setting var vgsp2 = "685m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.3/1/RF_FrontEnd:Tia4_biasing_8:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.3/1/RF_FrontEnd:Tia4_biasing_8:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (3 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting May 17 20:41:12 2016
+\o End netlisting May 17 20:41:12 2016
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [
+\o           RF_FrontEnd:Tia4_biasing_8:1 ] for Point ID (3 1).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /home/pancha/simulation/RF_FrontEnd/Tia4_biasing_8/adexl/results/data/MonteCarlo.3/1/RF_FrontEnd:Tia4_biasing_8:1/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting May 17 20:41:12 2016
+\o End netlisting May 17 20:41:12 2016
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+\o         on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+\o         to view the simulation run log.
+\o *Info*    Monte Carlo Simulation unsuccessful...
+\o *Info*    See simulation output log for more information.
+\o 
+\o *Error*   Error ID  = 5052
+\o *Error*   Error Msg = 
+\o Nominal simulation might have failed. Either
+\o           fix the problem in the test setup or disable the test and
+\o           re-run.
+\o 
+\o To view the simulator output, right-click on the
+\o           test name, result name, or any corner column in the
+\o           "Detail" view 
+\o of the "Results" tab and choose "Output Log"
+\o           menu option.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Error*   Error ID  = 5011
+\o *Error*   Error Msg = Simulator failed to complete the simulation.
+\o 
+\o           Error found by spectre during circuit read-in.
+\o Error found
+\o           by spectre during circuit read-in.
+\o ERROR (SFE-23):
+\o           "input.scs" 29: The instance `M12q' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the
+\o  definition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 31: The instance `M13' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the 
+\o definition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 33: The instance `M6' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 36: The instance `M2' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 38: The instance `M1' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 40: The instance `M11' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the 
+\o definition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 42: The instance `M4' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 44: The instance `M7' is referencing an
+\o           undefined model or subcircuit, `pmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `pmos_hs', or define
+\o           `pmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 46: The instance `M7q' is referencing an
+\o           undefined model or subcircuit, `nmos_hs'. Either include
+\o           the file containing the 
+\o definition of `nmos_hs', or define
+\o           `nmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 48: The instance `M9' is referencing an
+\o           undefined model or subcircuit, `nmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `nmos_hs', or define
+\o           `nmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 50: The instance `M8' is referencing an
+\o           undefined model or subcircuit, `nmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `nmos_hs', or define
+\o           `nmos_hs' before running the simulation.
+\o ERROR (SFE-23):
+\o           "input.scs" 53: The instance `M0' is referencing an
+\o           undefined model or subcircuit, `nmos_hs'. Either include
+\o           the file containing the d
+\o efinition of `nmos_hs', or define
+\o           `nmos_hs' before running the simulation.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3072): Simulation is stopped by user. Simulation results may not be complete.
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o Loading lce.cxt 
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 

@@ -1,0 +1,12 @@
+# Placement Hierarchy File (lph)
+# 
+# 
+# 
+% rppoly$$25 5
+R0 R 3
+% rppoly_SAL$$24 4
+R0 R 3
+% test_filter 4
+X5 rppoly_SAL$$24 4
+X6 rppoly$$25 5
+C0 C 2

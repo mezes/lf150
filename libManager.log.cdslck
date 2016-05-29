@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      pancha
+HostName                       s1632.it.kth.se
+ProcessIdentifier              12442
+ProcessCreationTime_UTC        1464335703
+ProcessCreationTime_Readable   Fri May 27 09:55:03 2016 CEST
+AppIdentifier                  /pkg/Cadence/installs/IC616/tools/dfII/bin/64bit/libManager
+OSType                         lnx86
+ReasonForPlacingEditLock       log file
+FilePathUsedToEditLock         /home/pancha/ProjGe3D/lf150/libManager.log
+TimeEditLocked                 Fri May 27 09:55:03 2016 CEST

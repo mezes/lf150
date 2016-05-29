@@ -1,0 +1,104 @@
+\# Program start time UTC 2016.05.17 18:16:18.965
+\# Local time Tuesday 17 May 2016, 8:16 pm
+\o Program:		@(#)$CDS: virtuoso version 6.1.6-64b 12/07/2015 20:18 (sjfbm186) $
+\o Hierarchy:		/pkg/Cadence/installs/IC616/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.6-64b.500.14  (64-bit addresses)
+\# Command line:	/pkg/Cadence/installs/IC616/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso24042 -mpshost s1632.it.kth.se -davinciService DaVinciService_24042_1463508973 -log /home/pancha/ProjGe3D/lf150/logs_pancha/logs0/Job0.log -licenseLockFileName /home/pancha/ProjGe3D/lf150/.tmp_pancha/.s1632.it.kth.se_24042 -nograph -nostdin -axlChildIdFlag 0
+\# Host name (type):	s1632.it.kth.se (x86_64)
+\# Operating system:	Linux 2.6.18-407.el5 #1 SMP Wed Nov 11 08:12:41 EST 2015
+\# Linux /etc/issue:	CentOS release 5.11 (Final)
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	s1632.it.kth.se:80.0 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 8608)
+\# Depth of Visual (Root):	16 (16)
+\# Number of Planes Used:	16
+\# X version:		11.0 (vendor release 3370)
+\# X resource pool:	base 0x800000, mask 0x3fffff (4194303), shift 0
+\# 			current id 0x33, current max 0x3ffffa (4194298)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        345 MB
+\# Available memory:	     14,804 MB
+\# System memory:	     21,992 MB
+\# Maximum memory size:	     21,719 MB
+\# Max mem available:	     14,875 MB
+\# Initial memory used:	         71 MB
+\#        process size:	        749 MB
+\# Qt version:		4.7.2
+\# Window Manager:	other
+\# User Name:		pancha
+\o Working Directory:	s1632.it.kth.se:/home/pancha/ProjGe3D/lf150
+\# Process Id:		8610
+\o 
+\o COPYRIGHT © 1992-2015  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2015  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt.
+\o Loading LVS.cxt 
+\o Loading layerProc.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading socket.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o 
+\o ----------------      LFoundry GmbH           ----------------
+\o ----------------    Initializing LF150 PDK    ----------------
+\o ----------------       Version 2.0.0          ----------------
+\o ----------------       Option 6metal          ----------------
+\o *LF-INFO* .cdsinit: Loading project .cdsenv file       skipped
+\o *LF-INFO* .cdsinit: Setting Spectre models                done
+\o *LF-INFO* .cdsinit: Setting UltraSim models               done
+\o *LF-INFO* .cdsinit: Setting AMS analog models             done
+\o *LF-INFO* .cdsinit: Setting AMS netlist mode to OSS       done
+\o *LF-INFO* .cdsinit: Setting CDL out keys                  done
+\o *LF-INFO* .cdsinit: Loading Ciranova abut function        done
+\o *LF-INFO* .cdsinit: WiCkeD setup                       skipped
+\o *LF-INFO* .cdsinit: Golden Gate setup                  skipped
+\o *LF-INFO* .cdsinit: Loading default bindkeys              done
+\o *LF-INFO* .cdsinit: Opening library manager               done
+\w *WARNING* .cdsinit: PDF reader not found.
+\o *LF-INFO* .cdsinit: Creating LF150 PDK menus           skipped
+\o *LF-INFO* .cdsinit: Loading LF150 display.drf             done
+\o *LF-INFO* .cdsinit: Loading the user .cdsinit          skipped
+\o *Info*    Client has finished starting ... 
+\o 
+\p > 
+\# Available memory:         14,700 MB at UTC 2016.05.17 18:16:29.514
+\# Memory report: Maximum memory size now 14,885 MB at UTC 2016.05.17 18:16:29.514
+\# Memory report: using         184 MB, process size 989 MB at UTC 2016.05.17 18:16:29.514
+\o Job 0 timed out after no activity in 300 seconds.
+\o Loading viva.cxt 
+\o Loading lce.cxt 
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 
+\o Loading simui.cxt 

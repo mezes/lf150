@@ -1,0 +1,30 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.11s.
+*WARNING* (icLic-3) Could not get license Virtuoso_Schematic_Editor_L
+*WARNING* (icLic-21) License Virtuoso_Schematic_Editor_L ("Schematics L") is not available to run Schematics L.
+Trying to check out the license Virtuoso_Schematic_Editor_XL ("Schematics XL") instead.
+*INFO* (icLic-25) License Virtuoso_Schematic_Editor_XL ("Schematics XL") was used to run Schematics L.
+
+Running simulation in directory: "/home/pancha/ProjGe3D/lf150/LVSruns/".
+
+Running Artist Hierarchical Netlisting ...
+*LF-INFO* Loading lf150/lf150.skill/lf150_cdfCbks.il   done
+*LF-INFO* lf150 libInit.il loaded successfully. 
+ *WARNING* (TECH-2000203): Technology library 'lf150' is attached to technology library 'lf150_techLib'.
+ The local techDB takes precedence over property attachment in the new OA attachment policy.
+End netlisting Apr 14 15:01:13 2016
+
+Running simin
+*WARNING* (icLic-3) Could not get license Virtuoso_Schematic_Editor_L
+*WARNING* (icLic-21) License Virtuoso_Schematic_Editor_L ("Schematics L") is not available to run Schematics L.
+Trying to check out the license Virtuoso_Schematic_Editor_XL ("Schematics XL") instead.
+*INFO* (icLic-25) License Virtuoso_Schematic_Editor_XL ("Schematics XL") was used to run Schematics L.
+
+Running runSim()...
+
+
+Running runsim with simulator: "auCdl"
+Begin simulation:    Apr 14 15:01:13 2016
+
+auCdl netlisting completed
+End simulation:      Apr 14 15:01:13 2016
+INFO (AUCDL-21): (Analog) CDL netlisting completed successfully.

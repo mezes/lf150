@@ -1,0 +1,9 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary test_rppoly
+% P2_M1$$1 2
+% DIFF_M1$$2 1
+% rppoly$$3 3
+% test_rppoly 3
+1 D
+2 C
+3 A

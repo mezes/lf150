@@ -1,0 +1,6 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary inverter
+VSS 3 VSS 2670 5580 met1_top
+INP 1 INP 2640 2920 met1
+VDD 4 VDD 2590 5670 met1
+OUTP 2 OUTP 2940 4510 met1

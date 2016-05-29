@@ -1,0 +1,2 @@
+artistResMgrCalcExprSetup("true" "plot" "E15" "VF("/net030")/IF("/V0/PLUS")")
+artistResMgrCalcExprSetup("true" "plot" "E16" "mag(v("/net030" ?result "ac"))")

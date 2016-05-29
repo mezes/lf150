@@ -1,0 +1,8 @@
+# Placement Hierarchy File (sph)
+# 
+# 
+# 
+% test_filter 4
+RI0 R 3
+CC0 C 2
+RI1 R 3

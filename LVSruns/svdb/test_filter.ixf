@@ -1,0 +1,9 @@
+# XXXX: Instance Cross Reference (ixf) (File format 1)
+# XXXX: Layout Primary test_filter
+# XXXX: End of header.
+% R 3 R 3
+% C 2 C 2
+% test_filter 4 test_filter 4
+0 X5/R0 0 RI0  
+0 X6/R0 0 RI1  
+0 C0 0 CC0  

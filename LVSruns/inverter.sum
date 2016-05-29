@@ -1,0 +1,107 @@
+********************************************************************************
+*** PVS HERC SUMMARY
+***
+Execute on Date/Time    : Thu Apr 14 15:01:17 2016
+PVS HERC VERSION        : 14.14-s507 Mon Mar 30 17:55:00 PDT 2015
+Rule Deck Path          : /home/pancha/ProjGe3D/lf150/LVSruns/.technology.rul
+Rule Deck Title         :
+Layout System           : GDSII
+Layout Path             : /home/pancha/ProjGe3D/lf150/LVSruns/inverter.gds
+Current Directory       : /home/pancha/ProjGe3D/lf150/LVSruns
+User Name:              : pancha
+Maximum Results         : 1000
+Maximum Result Vertices : 4096
+Layout Depth            : ALL
+Text Depth              : 0
+Summary File            : inverter.sum
+Geometry Flagging       : ACUTE = NO  ANGLED = NO  SKEW = NO  OFFGRID = NO
+                          NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Keep Empty Checks       : YES
+Excluded Cells          : 
+Layout Primary Cell     : inverter
+ASCII ERC Error Report  :
+ERC Results Database    :
+--------------------------------------------------------------------------------
+--- RUNNING TIME WARNINGS
+---
+--------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER diff ....................... Total Original Geometry:        6 (       6)
+LAYER ncore ...................... Total Original Geometry:        0 (       0)
+LAYER npoly_imp .................. Total Original Geometry:        0 (       0)
+LAYER poly ....................... Total Original Geometry:        5 (       5)
+LAYER vt_nmin .................... Total Original Geometry:        0 (       0)
+LAYER nimp ....................... Total Original Geometry:        1 (       1)
+LAYER cont ....................... Total Original Geometry:        9 (       9)
+LAYER met1 ....................... Total Original Geometry:       11 (      12)
+LAYER cap ........................ Total Original Geometry:        0 (       0)
+LAYER pwell ...................... Total Original Geometry:        0 (       0)
+LAYER pimp ....................... Total Original Geometry:        1 (       1)
+LAYER rfmark ..................... Total Original Geometry:        0 (       0)
+LAYER met1_pin ................... Total Original Geometry:        0 (       0)
+LAYER met2 ....................... Total Original Geometry:        2 (       4)
+LAYER met2_pin ................... Total Original Geometry:        0 (       0)
+LAYER via1 ....................... Total Original Geometry:        1 (       2)
+LAYER nwell ...................... Total Original Geometry:        4 (       4)
+LAYER pcore ...................... Total Original Geometry:        1 (       1)
+LAYER vt_pmin .................... Total Original Geometry:        1 (       1)
+LAYER met3 ....................... Total Original Geometry:        2 (       4)
+LAYER met3_pin ................... Total Original Geometry:        0 (       0)
+LAYER via2 ....................... Total Original Geometry:        1 (       2)
+LAYER via3 ....................... Total Original Geometry:        1 (       2)
+LAYER met4 ....................... Total Original Geometry:        2 (       4)
+LAYER met4_pin ................... Total Original Geometry:        0 (       0)
+LAYER via4 ....................... Total Original Geometry:        1 (       2)
+LAYER met5 ....................... Total Original Geometry:        2 (       4)
+LAYER met5_pin ................... Total Original Geometry:        0 (       0)
+LAYER miv ........................ Total Original Geometry:        1 (       2)
+LAYER diff_top ................... Total Original Geometry:        5 (       5)
+LAYER ncore_top .................. Total Original Geometry:        1 (       1)
+LAYER npoly_imp_top .............. Total Original Geometry:        1 (       1)
+LAYER poly_top ................... Total Original Geometry:        2 (       2)
+LAYER vt_nmin_top ................ Total Original Geometry:        1 (       1)
+LAYER nimp_top ................... Total Original Geometry:        1 (       1)
+LAYER cont_top ................... Total Original Geometry:        5 (       5)
+LAYER met1_top ................... Total Original Geometry:       12 (      13)
+LAYER pimp_top ................... Total Original Geometry:        0 (       0)
+LAYER met1_top_pin ............... Total Original Geometry:        0 (       0)
+LAYER met2_top ................... Total Original Geometry:        0 (       0)
+LAYER met2_top_pin ............... Total Original Geometry:        0 (       0)
+LAYER via1_top ................... Total Original Geometry:        0 (       0)
+LAYER pcore_top .................. Total Original Geometry:        0 (       0)
+LAYER vt_pmin_top ................ Total Original Geometry:        0 (       0)
+LAYER met3_top ................... Total Original Geometry:        0 (       0)
+LAYER met3_top_pin ............... Total Original Geometry:        0 (       0)
+LAYER via2_top ................... Total Original Geometry:        0 (       0)
+LAYER via3_top ................... Total Original Geometry:        0 (       0)
+LAYER met4_top ................... Total Original Geometry:        0 (       0)
+LAYER met4_top_pin ............... Total Original Geometry:        0 (       0)
+LAYER via4_top ................... Total Original Geometry:        0 (       0)
+LAYER met5_top ................... Total Original Geometry:        0 (       0)
+LAYER met5_top_pin ............... Total Original Geometry:        0 (       0)
+LAYER viaF_top ................... Total Original Geometry:        0 (       0)
+LAYER metF_top ................... Total Original Geometry:        0 (       0)
+LAYER metF_top_pin ............... Total Original Geometry:        0 (       0)
+LAYER metT_top_pin ............... Total Original Geometry:        0 (       0)
+LAYER MIM_top .................... Total Original Geometry:        0 (       0)
+LAYER MIM_mark ................... Total Original Geometry:        0 (       0)
+LAYER IND_mark ................... Total Original Geometry:        0 (       0)
+LAYER RES_mark ................... Total Original Geometry:        0 (       0)
+LAYER back_gate .................. Total Original Geometry:        4 (       4)
+LAYER NO_salicide ................ Total Original Geometry:        0 (       0)
+--------------------------------------------------------------------------------
+--- WARNINGS FROM FLAG STATEMENT
+---
+--------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+--------------------------------------------------------------------------------
+--- SUMMARY
+---
+Total CPU Time                    : 0(s)
+Total Real Time                   : 0(s)
+Peak Memory Used                  : 15(M)
+Total Original Geometry           : 84 (99)
+Total ERC RuleChecks              : 0
+Total ERC Results                 : 0 (0)

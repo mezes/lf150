@@ -1,0 +1,8 @@
+CADENCE IHNL01070
+$model
+cdnlive2016/inverter/schematic inverter
+$endmodel
+$net
+$endnet
+$param
+$endparam

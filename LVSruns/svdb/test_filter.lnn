@@ -1,0 +1,12 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary test_filter
+% DIFF_M1$$21 3
+% P2_M1$$22 4
+% P2_M1$$23 1
+% rppoly_SAL$$24 4
+% rppoly$$25 5
+% test_filter 4
+1 Vsup
+2 VSS
+3 OUT
+5 INP

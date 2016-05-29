@@ -1,0 +1,16 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Dec  1 14:40:31 2015 
+Best design point: 1
+Design specs: 
+	UTSOI_model:Ids_VGS_@100mV_sc:1	corner	Nominal - 
+Design parameters: 
+	L1		150n
+	VDS		1
+	VGS		1
+
+Interactive.0
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.0 completed. 
+Current time: Tue Dec  1 14:40:35 2015 

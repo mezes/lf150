@@ -1,0 +1,6 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary test_filter
+OUT 3 OUT 23460 41040 met1
+Vsup 1 Vsup 40360 64670 met1
+INP 5 INP 22890 78190 met1
+VSS 2 VSS 30740 137020 met1

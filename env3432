@@ -1,0 +1,4 @@
+CASE_SENSITIVE=TRUE
+TEMPDIR=/tmp/qrc_3277/test_rppoly_s/rcx_temp
+QRC=Y
+SAVEDIR=flattenInputs/

@@ -1,0 +1,34 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  cdnlive2016
+* Top Cell Name: inverter
+* View Name:     schematic
+* Netlisted on:  Apr 14 15:01:13 2016
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: cdnlive2016
+* Cell Name:    inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inverter INP OUTP VDD VSS
+*.PININFO INP:B OUTP:B VDD:B VSS:B
+MM0 OUTP INP VDD VDD pmos_hs W=1.74u L=150n m=1.0
+MI1 OUTP INP VSS VSS nmos_hs_top W=1.2u L=150.00n
+.ENDS
+

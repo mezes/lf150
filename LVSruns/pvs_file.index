@@ -1,0 +1,90 @@
+"Cadence Directory" internal none /home/pancha/ProjGe3D/lf150/.cadence/
+"Current Directory" internal none /home/pancha/ProjGe3D/lf150
+"GUI Flow" internal none virtuoso6
+"GUI Preset" internal none /home/pancha/ProjGe3D/lf150/LVSruns/.preset.autosave
+"Job Signature" internal none IPVS_1460638870_30807
+"PVS Job Mode" internal none lvs
+"Run Directory" internal none /home/pancha/ProjGe3D/lf150/LVSruns
+"Technology Mapping File" internal none /home/pancha/ProjGe3D/lf150/PDK_LF150i_V2_0_0/pv/pvtech.lib
+"Technology Name" internal none "LF150"
+"Technology Rule File" internal none /home/pancha/ProjGe3D/lf150/LVSruns/.technology.rul
+"Technology RuleSet" internal none "default"
+"PVS Version" internal none 14.14-s507
+"Binary Name" internal none ipvs
+"PVS Build Date" internal none "Mon Mar 30 17:46:13 PDT 2015"
+"PVS Job Time" internal none 1460638871
+"CDL Out Display Pin Information" internal none ENABLED
+"CDL Out Stop List" internal text auCdl
+"CDL Out View List" internal text auCdl schematic
+"Control File" input text /home/pancha/ProjGe3D/lf150/LVSruns/pvslvsctl
+"DFII version" internal none 6.1.6.8
+"Do not check rules files before run" internal none ENABLED
+"Extracted Spice File" output text /home/pancha/ProjGe3D/lf150/LVSruns/inverter.spi
+"Input Layout" input none OA: cdnlive2016 inverter layout
+"Input Schematic" input none OA: cdnlive2016 inverter schematic
+"Intermediate GDSII File" output none /home/pancha/ProjGe3D/lf150/LVSruns/inverter.gds
+"Intermediate GDSII File creation Errors" output none /home/pancha/ProjGe3D/lf150/LVSruns/PIPO1.LOG
+"Intermediate OASIS File creation Errors" output none /home/pancha/ProjGe3D/lf150/LVSruns/PIPO1.LOG
+"Layout Cell Name" internal none inverter
+"Layout ConvertPin" internal text geometry
+"Layout GDSII" input none /home/pancha/ProjGe3D/lf150/LVSruns/inverter.gds
+"Layout HierDepth" internal none 32
+"Layout Library Name" internal none cdnlive2016
+"Layout MaxVertices" internal none 2048
+"Layout Scale" internal none 0.001
+"Layout TechLib" internal none lf150_techLib
+"Layout Top Cell" internal none inverter
+"Layout View Name" internal none layout
+"Output Layout Cellmap I" internal text /home/pancha/ProjGe3D/lf150/LVSruns/lay_cellMap.txt
+"PIPO Log I" log text  /home/pancha/ProjGe3D/lf150/LVSruns/PIPO1.LOG
+"PIPO Output I" internal text  /home/pancha/ProjGe3D/lf150/LVSruns/PIPO1.OUT
+"PIPO Setup File I" internal text  /home/pancha/ProjGe3D/lf150/LVSruns/pipo1.setup
+"PVS Job Log" log text /home/pancha/ProjGe3D/lf150/LVSruns/pvsuilvs.log
+"PVS Job Mode" internal none lvs
+"Quantus QRC Data" internal none ENABLED
+"Rule File" input text /home/pancha/ProjGe3D/lf150/LVSruns/.technology.rul
+"Run Directory" internal none /home/pancha/ProjGe3D/lf150/LVSruns
+"SI Log" log text  /home/pancha/ProjGe3D/lf150/LVSruns/SI.LOG
+"SI OSS Directory" internal none /home/pancha/ProjGe3D/lf150/LVSruns/
+"SI Output" log text  /home/pancha/ProjGe3D/lf150/LVSruns/SI.OUT
+"SI Setup File" internal text  /home/pancha/ProjGe3D/lf150/LVSruns/si.env
+"Schematic Cell Name" internal none inverter
+"Schematic Library Name" internal none cdnlive2016
+"Schematic Netlist" output text /home/pancha/ProjGe3D/lf150/LVSruns/inverter.cdl
+"Schematic Top Cell" internal none inverter
+"Schematic View Name" internal none schematic
+"Simulator Mode" internal none auCdl
+"PVS Version" internal none 14.14-s507
+"Binary Name" internal none pvsvirt
+"PVS Build Date" internal none "Mon Mar 30 18:09:40 PDT 2015"
+"PVS Job Time" internal none 1460638876
+"Comparison Report" output cls /home/pancha/ProjGe3D/lf150/LVSruns/inverter.rep.cls
+"ERC Result" internal none EMPTY
+"ERC Summary" output text /home/pancha/ProjGe3D/lf150/LVSruns/inverter.sum
+"Extracted Spice File" output text /home/pancha/ProjGe3D/lf150/LVSruns/inverter.spi
+"Extraction Report" output erc /home/pancha/ProjGe3D/lf150/LVSruns/inverter.rep
+"Extraction Result" internal none CLEAN
+"LVS Report Options" internal none -none
+"Layout GDSII" input none /home/pancha/ProjGe3D/lf150/LVSruns/inverter.gds
+"Layout Top Cell" internal none inverter
+"Mask SVDB Directory" internal none /home/pancha/ProjGe3D/lf150/LVSruns/svdb
+"PVS Job Mode" internal none lvs
+"QRC Top Cell" internal none inverter
+"Report MaxResults" internal none 1000
+"Rule File" input text /home/pancha/ProjGe3D/lf150/LVSruns/.technology.rul
+"Run Directory" internal none /home/pancha/ProjGe3D/lf150/LVSruns/
+"Schematic Top Cell" internal none inverter
+"UI Data" internal none ENABLED
+"PVS Version" internal none 14.14-s507
+"Binary Name" internal none pvs
+"PVS Build Date" internal none "Mon Mar 30 17:55:00 PDT 2015"
+"PVS Job Time" internal none 1460638877
+"Comparison Result" internal none MATCH
+"LVS Run Name" internal none inverter.rep
+"Run Directory" internal none /home/pancha/ProjGe3D/lf150/LVSruns/
+"Schematic Netlist" input text /home/pancha/ProjGe3D/lf150/LVSruns/netlist
+"UI Data" internal none ENABLED
+"PVS Version" internal none 14.14-s507
+"Binary Name" internal none pvsnvn
+"PVS Build Date" internal none "Mon Mar 30 18:08:10 PDT 2015"
+"PVS Job Time" internal none 1460638877

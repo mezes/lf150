@@ -1,0 +1,27 @@
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* CDL Netlist:                                          *
+*                                                       *
+* Cell Name  : inverter2D                               *
+* Netlisted  : Wed Apr 13 02:44:42 2016                 *
+* PVS Version: 14.14-s507 Mon Mar 30 17:55:00 PDT 2015 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+*.LDD
+*.DEVTMPLT 0 MN(nmos_hs) nmos_hs nsd(D) poly_rout(G) nsd(S) pwell(B)
+*.DEVTMPLT 1 MN(nmos_hs_top) nmos_hs_top nsd_top(D) poly_top(G) nsd_top(S) back_gate(B)
+*.DEVTMPLT 2 MP(pmos_hs) pmos_hs psd(D) poly_rout(G) psd(S) nwell(B)
+*.DEVTMPLT 3 MP(pmos_hs_4_top) pmos_hs_top psd_top(D) poly_top(G) psd_top(S)
+*.DEVTMPLT 4 R(resistor) ppoly_res poly_rout(PLUS) poly_rout(MINUS) nwell(B)
+*.DEVTMPLT 5 R(resistor) ppoly_res_h poly_rout(PLUS) poly_rout(MINUS) nwell(B)
+*.DEVTMPLT 6 C(capacitor) mim_cap_top MIM_top(T) met5_top(B)
+*.DEVTMPLT 7 L(ind3n30a02g4) ind3n30 metF_ind_orth(PLUS) metF_ind_orth(MINUS)
+*.DEVTMPLT 8 L(ind3n60a02g4) ind3n60 metF_ind_orth(PLUS) metF_ind_orth(MINUS)
+*.DEVTMPLT 9 ind3n60_1n80a2g4_CT() ind3n60_ct metF_ind_orth(PLUS) metF_ind_orth(MINUS) met5_ind(CT)
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: inverter2D                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt inverter2D 3 4 1 2
+** N=8 EP=4 FDC=2
+M0 4 1 2 2 nmos_hs w=1.2e-06 l=1.5e-07 $X=3050 $Y=1490 $dt=0
+M1 4 1 3 3 pmos_hs w=1.74e-06 l=1.5e-07 $X=3050 $Y=3330 $dt=2
+.ends inverter2D

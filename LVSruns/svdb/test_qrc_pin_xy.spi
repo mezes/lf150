@@ -1,0 +1,53 @@
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* CDL Netlist:                                          *
+*                                                       *
+* Cell Name  : test_qrc                                 *
+* Netlisted  : Tue Apr 12 20:21:55 2016                 *
+* PVS Version: 14.14-s507 Mon Mar 30 17:55:00 PDT 2015 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+*.LDD
+*.DEVTMPLT 0 MN(nmos_hs) nmos_hs nsd(D) poly_rout(G) nsd(S) pwell(B)
+*.DEVTMPLT 1 MN(nmos_hs_top) nmos_hs_top nsd_top(D) poly_top(G) nsd_top(S) back_gate(B)
+*.DEVTMPLT 2 MP(pmos_hs) pmos_hs psd(D) poly_rout(G) psd(S) nwell(B)
+*.DEVTMPLT 3 MP(pmos_hs_4_top) pmos_hs_top psd_top(D) poly_top(G) psd_top(S)
+*.DEVTMPLT 4 R(resistor) ppoly_res poly_rout(PLUS) poly_rout(MINUS) nwell(B)
+*.DEVTMPLT 5 R(resistor) ppoly_res_h poly_rout(PLUS) poly_rout(MINUS) nwell(B)
+*.DEVTMPLT 6 C(capacitor) mim_cap_top MIM_top(T) met5_top(B)
+*.DEVTMPLT 7 L(ind3n30a02g4) ind3n30 metF_ind_orth(PLUS) metF_ind_orth(MINUS)
+*.DEVTMPLT 8 L(ind3n60a02g4) ind3n60 metF_ind_orth(PLUS) metF_ind_orth(MINUS)
+*.DEVTMPLT 9 ind3n60_1n80a2g4_CT() ind3n60_ct metF_ind_orth(PLUS) metF_ind_orth(MINUS) met5_ind(CT)
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: M3_M4$$2                                    *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt M3_M4$$2 1
+** N=1 EP=1 FDC=0
+.ends M3_M4$$2
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: M2_M3$$3                                    *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt M2_M3$$3 1
+** N=1 EP=1 FDC=0
+.ends M2_M3$$3
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: M1_M2$$4                                    *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt M1_M2$$4 1
+** N=1 EP=1 FDC=0
+.ends M1_M2$$4
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: test_qrc                                    *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt test_qrc 3 1 2
+** N=7 EP=3 FDC=1
+X0 1 M3_M4$$2 $T=920 2590 0 0 $X=770 $Y=2270
+X1 2 M3_M4$$2 $T=4250 2590 0 0 $X=4100 $Y=2270
+X2 1 M2_M3$$3 $T=920 2590 0 0 $X=770 $Y=2270
+X3 2 M2_M3$$3 $T=4250 2590 0 0 $X=4100 $Y=2270
+X4 1 M1_M2$$4 $T=920 2590 0 0 $X=770 $Y=2270
+X5 2 M1_M2$$4 $T=4250 2590 0 0 $X=4100 $Y=2270
+M0 2 3 1 1 nmos_hs w=6e-07 l=1.5e-07 $X=2500 $Y=2290 $dt=0
+.ends test_qrc

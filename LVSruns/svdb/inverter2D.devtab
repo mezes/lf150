@@ -1,0 +1,158 @@
+Device_Table 1000
+0 0 1 Wed Apr 13 02:44:42 2016
+10
+Device Entry 0
+0 0 15 Wed Apr 13 02:44:42 2016
+nmos_hs
+MOS
+MN
+nmos_hs
+(null)
+(null)
+4
+G poly_rout 0
+S nsd 1
+D nsd 1
+B pwell 0
+0
+2
+w
+l
+Device Entry 1
+0 0 15 Wed Apr 13 02:44:42 2016
+nmos_hs_top
+MOS
+MN
+nmos_hs_top
+(null)
+(null)
+4
+G poly_top 0
+S nsd_top 1
+D nsd_top 1
+B back_gate 0
+0
+2
+W
+L
+Device Entry 2
+0 0 15 Wed Apr 13 02:44:42 2016
+pmos_hs
+MOS
+MP
+pmos_hs
+(null)
+(null)
+4
+G poly_rout 0
+S psd 1
+D psd 1
+B nwell 0
+0
+2
+w
+l
+Device Entry 3
+0 0 14 Wed Apr 13 02:44:42 2016
+pmos_hs_top
+MOS
+MP
+pmos_hs_4_top
+(null)
+(null)
+3
+G poly_top 0
+S psd_top 1
+D psd_top 1
+0
+2
+w
+l
+Device Entry 4
+0 0 15 Wed Apr 13 02:44:42 2016
+ppoly_res
+RESISTOR
+R
+resistor
+(null)
+(null)
+3
+PLUS poly_rout 1
+MINUS poly_rout 1
+B nwell 0
+0
+3
+r
+l
+w
+Device Entry 5
+0 0 15 Wed Apr 13 02:44:42 2016
+ppoly_res_h
+RESISTOR
+R
+resistor
+(null)
+(null)
+3
+PLUS poly_rout 1
+MINUS poly_rout 1
+B nwell 0
+0
+3
+r
+L
+W
+Device Entry 6
+0 0 12 Wed Apr 13 02:44:42 2016
+mim_cap_top
+CAPACITOR
+C
+capacitor
+(null)
+(null)
+2
+T MIM_top 0
+B met5_top 0
+0
+1
+c
+Device Entry 7
+0 0 11 Wed Apr 13 02:44:42 2016
+ind3n30
+USER
+L
+ind3n30a02g4
+(null)
+(null)
+2
+PLUS metF_ind_orth 1
+MINUS metF_ind_orth 1
+0
+0
+Device Entry 8
+0 0 11 Wed Apr 13 02:44:42 2016
+ind3n60
+USER
+L
+ind3n60a02g4
+(null)
+(null)
+2
+PLUS metF_ind_orth 1
+MINUS metF_ind_orth 1
+0
+0
+Device Entry 9
+0 0 12 Wed Apr 13 02:44:42 2016
+ind3n60_ct
+USER
+ind3n60_1n80a2g4_CT
+(null)
+(null)
+(null)
+3
+PLUS metF_ind_orth 1
+MINUS metF_ind_orth 1
+CT met5_ind 0
+0
+0

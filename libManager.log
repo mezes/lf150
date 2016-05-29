@@ -1,0 +1,71 @@
+\o Program:		@(#)$CDS: libManager version 6.1.6 - CAT33 11/05/2015 10:33 (sjfql586) $
+\o Sub version:		sub-version  s019 
+\o Arguments:		-mpssession virtuoso11928 -mpshost s1632.it.kth.se 
+\o Working Directory:	s1632.it.kth.se:/home/pancha/ProjGe3D/lf150
+\o 64-bit offsets
+\o Qt version: 		4.7.2
+\o Log file is "/home/pancha/ProjGe3D/lf150/libManager.log".
+\o Opening libManager window.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(0 25 1914 1144))
+\o changeWorkingDir("/home/pancha/ProjGe3D/lf150") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "RF_FrontEnd"
+\a cdsLibManager->libLineEdit->value = "RF_FrontEnd"
+\a cdsLibManager->showCatsToggle->value = t
+\a cdsLibManager->QToolButton7->value = t
+\a cdsLibManager->showCategoriesAction->value = t
+\a cdsLibManager->libCatsTreeView->value = "Everything"
+\a cdsLibManager->catLineEdit->value = "Everything"
+\a cdsLibManager->libCatsTreeView->value = "Chain"
+\a cdsLibManager->catLineEdit->value = "Chain"
+\a cdsLibManager->cellListBox->value = "ChainTest3"
+\a cdsLibManager->cellListBox->value = "ChainTest2"
+\a cdsLibManager->cellListBox->value = "ChainTest"
+\a cdsLibManager->cellLineEdit->value = "ChainTest"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->catLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libCatsTreeView->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "RF_FrontEnd"
+\a cdsLibManager->libLineEdit->value = "RF_FrontEnd"
+\a cdsLibManager->libCatsTreeView->value = "Everything"
+\a cdsLibManager->catLineEdit->value = "Everything"
+\a cdsLibManager->libCatsTreeView->value = nil
+\a cdsLibManager->catLineEdit->value = ""
+\a cdsLibManager->libCatsTreeView->value = "Everything"
+\a cdsLibManager->catLineEdit->value = "Everything"
+\a cdsLibManager->libCatsTreeView->value = "Chain"
+\a cdsLibManager->catLineEdit->value = "Chain"
+\a cdsLibManager->cellListBox->value = "ChainTest"
+\a cdsLibManager->cellLineEdit->value = "ChainTest"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libCatsTreeView->value = "BaseBand"
+\a cdsLibManager->catLineEdit->value = "BaseBand"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)

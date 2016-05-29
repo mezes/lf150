@@ -1,0 +1,6 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary S3D_inv
+OUT 3 OUT 3330 2440 met1_top
+VDD 1 VDD 2530 1410 met1_top
+VSS 4 VSS 1290 2460 met1_top
+IN 2 IN 2290 3550 met1_top

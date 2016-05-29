@@ -1,0 +1,4 @@
+CASE_SENSITIVE=TRUE
+TEMPDIR=/tmp/qrc_19051/ac_nmos_top/rcx_temp
+QRC=Y
+SAVEDIR=flattenInputs/

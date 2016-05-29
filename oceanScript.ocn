@@ -1,0 +1,57 @@
+simulator( 'spectre )
+
+design(	 "TopBiasing"  "Noise_Comp"  "schematic")
+resultsDir( "/home/pancha/simulation/Noise_Comp/spectre/schematic" )
+
+modelFile( 
+    '("/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" "tt_hs")
+    '("/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" "tt_ll")
+    '("/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" "tt_na")
+    '("/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" "tt_3")
+    '("/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" "tt_5")
+    '("/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" "res_typ")
+    '("/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" "mim_typ")
+    '("/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" "bjt_t")
+    '("/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" "dio_t")
+)
+
+
+Freq = 10M;
+Ibias = 10u;
+L1 = 150n;
+Wf1 = 10u;
+Vds1 = 400m;
+
+desVar(	  "freq1" Freq )
+desVar(	  "Ibias"  Ibias 	)
+desVar(	  "L1"  L1	)
+desVar(	  "VDS1"  Vds1	)
+desVar(	  "Wf1"  Wf1	)
+
+;;*******************TOP TIER *********************************************************
+
+analysis('dc ?saveOppoint t  )
+analysis('noise ?start "10"  ?stop "100M"  ?p "/Dtop"  
+		?n ""  ?oprobe ""  ?iprobe "/VinTop"  )
+
+envOption(
+	'analysisOrder  list("dc" "noise") 
+)
+temp( 27 ) 
+run()
+input\ noise\;\ V\ \/\ sqrt\(Hz\) = getData("in" ?result "noise")
+plot( input\ noise\;\ V\ \/\ sqrt\(Hz\) ?expr '( "input noise; V / sqrt(Hz)" ) )
+
+;;**********************BOTTOM TIER************************************************************************
+/*
+analysis('dc ?saveOppoint t  )
+analysis('noise ?start "10"  ?stop "100M"  ?p "/Dbot"  
+		?n ""  ?oprobe ""  ?iprobe "/VinBOT"  )
+
+envOption(
+	'analysisOrder  list("dc" "noise") 
+)
+temp( 27 ) 
+run()
+input\ noise\;\ V\ \/\ sqrt\(Hz\) = getData("in" ?result "noise")
+plot( input\ noise\;\ V\ \/\ sqrt\(Hz\) ?expr '( "input noise; V / sqrt(Hz)" ) )

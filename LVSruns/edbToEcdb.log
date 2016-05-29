@@ -1,0 +1,15 @@
+
+/pkg/Cadence/installs/PVS141/tools.lnx86/pvs/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : inverter_27371.db
+ECDB dir        : ./
+Top Cell        : inverter
+CDL netlist     : /home/pancha/ProjGe3D/lf150/LVSruns/svdb/inverter.net
+Layer map file  : /home/pancha/ProjGe3D/lf150/LVSruns/svdb/inverter.ecdbmap
+Text map file   : /home/pancha/ProjGe3D/lf150/LVSruns/svdb/inverter.ports
+Lvs file        : /home/pancha/ProjGe3D/lf150/LVSruns/svdb/inverter.lvsfile
+Float net file : .inverter.info.softchk
+debug           : 0
+Source Library  : inverter_27371

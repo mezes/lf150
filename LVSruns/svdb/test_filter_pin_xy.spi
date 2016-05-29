@@ -1,0 +1,70 @@
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* CDL Netlist:                                          *
+*                                                       *
+* Cell Name  : test_filter                              *
+* Netlisted  : Mon Mar 21 14:50:28 2016                 *
+* PVS Version: 14.14-s507 Mon Mar 30 17:55:00 PDT 2015 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+*.LDD
+*.DEVTMPLT 0 MN(nmos_hs) nmos_hs nsd(D) poly_rout(G) nsd(S) pwell(B)
+*.DEVTMPLT 1 MN(nmos_hs_top) nmos_hs_top nsd_top(D) poly_top(G) nsd_top(S) back_gate(B)
+*.DEVTMPLT 2 MP(pmos_hs) pmos_hs psd(D) poly_rout(G) psd(S) nwell(B)
+*.DEVTMPLT 3 MP(pmos_hs_4_top) pmos_hs_top psd_top(D) poly_top(G) psd_top(S)
+*.DEVTMPLT 4 R(resistor) ppoly_res poly_rout(PLUS) poly_rout(MINUS) nwell(B)
+*.DEVTMPLT 5 R(resistor) ppoly_res_h poly_rout(PLUS) poly_rout(MINUS) nwell(B)
+*.DEVTMPLT 6 C(capacitor) mim_cap_top MIM_top(T) met5_top(B)
+*.DEVTMPLT 7 L(ind3n30a02g4) ind3n30 metF_ind_orth(PLUS) metF_ind_orth(MINUS)
+*.DEVTMPLT 8 L(ind3n60a02g4) ind3n60 metF_ind_orth(PLUS) metF_ind_orth(MINUS)
+*.DEVTMPLT 9 ind3n60_1n80a2g4_CT() ind3n60_ct metF_ind_orth(PLUS) metF_ind_orth(MINUS) met5_ind(CT)
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: DIFF_M1$$21                                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt DIFF_M1$$21 1 2 3
+** N=67 EP=3 FDC=0
+.ends DIFF_M1$$21
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: P2_M1$$22                                   *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt P2_M1$$22 1 2 3 4
+** N=4 EP=4 FDC=0
+.ends P2_M1$$22
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: P2_M1$$23                                   *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt P2_M1$$23 1
+** N=1 EP=1 FDC=0
+.ends P2_M1$$23
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rppoly_SAL$$24                              *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rppoly_SAL$$24 1 2 3 4
+** N=6 EP=4 FDC=1
+R0 3 2 114.9 l=1e-05 w=1e-06 $[resistor] $SUB=1 $X=4140 $Y=-3180 $dt=4
+.ends rppoly_SAL$$24
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: rppoly$$25                                  *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt rppoly$$25 1 2 3 4 5
+** N=7 EP=5 FDC=1
+R0 3 2 9867.65 L=1.5e-05 W=3.4e-06 $[resistor] $SUB=1 $X=2940 $Y=-8180 $dt=5
+.ends rppoly$$25
+
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+* Sub cell: test_filter                                 *
+* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+.subckt test_filter 3 1 2 5
+** N=7 EP=4 FDC=3
+X0 1 2 3 DIFF_M1$$21 $T=40420 63460 0 0 $X=39450 $Y=59130
+X1 1 4 2 3 P2_M1$$22 $T=22960 58090 0 0 $X=21370 $Y=57940
+X2 1 5 2 3 P2_M1$$22 $T=23000 74270 0 0 $X=21410 $Y=74120
+X3 3 P2_M1$$23 $T=23040 44030 0 0 $X=22650 $Y=43880
+X4 4 P2_M1$$23 $T=23050 54210 0 0 $X=22660 $Y=54060
+X5 1 4 3 2 rppoly_SAL$$24 $T=18400 47300 0 0 $X=20950 $Y=43630
+X6 1 5 4 2 3 rppoly$$25 $T=18320 66860 0 0 $X=16770 $Y=57490
+C0 3 2 4.8328e-12 $[capacitor] $X=-7770 $Y=46500 $dt=6
+.ends test_filter

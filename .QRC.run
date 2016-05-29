@@ -1,0 +1,6 @@
+#!/bin/sh -f
+#--------------------------------------------------------------------------------------
+# THE RUN FILE created by Cadence Extraction Quantus QRC UI Version 14.23-s099
+#--------------------------------------------------------------------------------------
+
+qrc  -log_file /home/pancha/ProjGe3D/lf150/LVSruns/svdb/qrc.inverter.log -cmd /home/pancha/ProjGe3D/lf150/LVSruns/svdb/qrc.inverter.ccl

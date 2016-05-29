@@ -1,0 +1,4 @@
+TDMCHECKPOINT="1.0"
+keepEmptyCategory type="unknown"
+lf150_top/nmos_hs_4_top type="cell"
+lf150_top/pmos_hs_top type="cell"

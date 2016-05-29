@@ -1,0 +1,54 @@
+;| version 1
+text text_met1 attach met1
+text text_met2 attach met2
+text text_met3 attach met3
+text text_met4 attach met4
+text text_met5 attach met5
+text text_met1_top attach met1_top
+text text_met2_top attach met2_top
+text text_met3_top attach met3_top
+text text_met4_top attach met4_top
+text text_met5_top attach met5_top
+text text_metF_top attach metF_top
+connect met1 nsd by cont
+connect met1 psd by cont
+connect met1 poly_rout by cont
+connect pwell met1 by pdiff_bulk
+connect nwell met1 by ndiff_bulk
+connect met2 met1 by via1
+connect met3 met2 by via2
+connect met4 met3 by via3
+connect met5 met4 by via4
+connect met1_top nsd_top by cont_top
+connect met1_top psd_top by cont_top
+connect met1_top poly_top by cont_top
+connect back_gate nsd_top by cont_top
+connect met1_top met5 by miv
+connect met2_top met1_top by via1_top
+connect met3_top met2_top by via2_top
+connect met4_top met3_top by via3_top
+connect met5_top met4_top by via4_top
+connect metF_top met5_top by via5_top
+connect metF_top MIM_top by via_MIM_top
+stamp met5_ind by met5_top
+stamp metF_ind_orth by metF_top
+model=mos[nmos_hs],nmos_hs
+element mos[nmos_hs] nmos_hs poly_rout nsd pwell
+model=mos[nmos_hs_top],nmos_hs_top
+element mos[nmos_hs_top] nmos_hs_top poly_top nsd_top back_gate
+model=mos[pmos_hs],pmos_hs
+element mos[pmos_hs] pmos_hs poly_rout psd nwell
+model=mos[pmos_hs_4_top],pmos_hs_4_top
+element mos[pmos_hs_4_top] pmos_hs_top poly_top psd_top
+model=generic[rppoly_s],rppoly_s
+element generic[rppoly_s] ppoly_res poly_rout[PLUS] poly_rout[MINUS] nwell[B]
+model=res[resistor],resistor
+element res[resistor] ppoly_res_h poly_rout nwell
+model=cap[cmim],cmim
+element cap[cmim] mim_cap_top MIM_top met5_top
+model=generic[ind3n30a02g4],ind3n30a02g4
+element generic[ind3n30a02g4] ind3n30 metF_ind_orth[PLUS] metF_ind_orth[MINUS]
+model=generic[ind3n60a02g4],ind3n60a02g4
+element generic[ind3n60a02g4] ind3n60 metF_ind_orth[PLUS] metF_ind_orth[MINUS]
+model=generic[ind3n60_1n80a2g4_CT],ind3n60_1n80a2g4_CT
+element generic[ind3n60_1n80a2g4_CT] ind3n60_ct metF_ind_orth[PLUS] metF_ind_orth[MINUS] met5_ind[CT]

@@ -1,0 +1,10 @@
+# XXXX: Net Cross Reference (nxf) (File format 1)
+# XXXX: Layout Primary INDct_TEST2
+# XXXX: End of header.
+% C 2 C 2 
+0 PLUS 0 PLUS
+0 MINUS 0 MINUS
+% INDct_TEST2 3 INDct_TEST2 3 
+0 A 0 A
+0 B 0 B
+0 C 0 C

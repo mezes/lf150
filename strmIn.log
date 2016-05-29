@@ -1,0 +1,14 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream In
+Program   : @(#)$CDS: strmin version 6.1.5-64b 06/11/2013 20:04 (sjfnl006) $
+          : sub-version  IC6.1.5-64b.500.17 
+Started at: 04-Nov-2015  13:37:18
+User Name : pancha
+Host Name : s1632.it.kth.se
+Directory : /home/pancha/ProjGe3D/lf150
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+ERROR (XSTRM-13): Failed to open input Stream file `S3D_inv.gds'. Check that the file exists in the run directory and that you have permission to read it.
+INFO (XSTRM-273): Translation failed. '1' error(s) and '0' warning(s) found.

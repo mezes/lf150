@@ -1,0 +1,34 @@
+##############################################################################################################
+#####  
+#####                                         PVS LVS COMPARISON
+#####  
+#####  Version                       :   14.14-s507
+#####  NVN Run Start                 :   Thu Apr 14 15:01:17 2016
+#####  ERC Summary File              :   inverter.sum
+#####  Extraction Report File        :   inverter.rep
+#####  Comparison Report File        :   inverter.rep.cls
+#####  Top Cell                      :   inverter  <vs>  inverter
+#####  
+#####  Run Result                    :   MATCH
+#####  
+#####  Run Summary                   :   [INFO]  ERC Results: Empty
+#####                                :   [INFO]  Extraction Clean
+#####  
+#####  Layout Design                 :   cdnlive2016 inverter layout
+#####  Schematic File                :   /home/pancha/ProjGe3D/lf150/LVSruns/inverter.cdl (cdl)
+#####  Rules File                    :   .technology.rul
+#####  Pin Swap File                 :   inverter.rep.cps
+#####  
+#####  Extraction CPU Time           :   0h 0m 0s - (0s)
+#####  Extraction Exec Time          :   0h 0m 0s - (0s)
+#####  Extraction Peak Memory Usage  :   15.00MB
+#####  NVN CPU Time                  :   0h 0m 0s - (0s)                 
+#####  NVN Exec Time                 :   0h 0m 0s - (0s)                 
+#####  NVN Peak Memory Usage         :   211.27MB
+#####  LVS Total CPU Time            :   0h 0m 0s - (0s)                 
+#####  LVS Total Exec Time           :   0h 0m 0s - (0s)                 
+#####  LVS Total Peak Memory Usage   :   211.27MB
+#####  
+##############################################################################################################
+
+

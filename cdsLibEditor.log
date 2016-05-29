@@ -1,0 +1,25 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.6 - CAT33 11/05/2015 10:35 (sjfql586) $
+\o Sub version:		sub-version  s019 
+\o Arguments:		-cdslib /home/pancha/ProjGe3D/lf150/cds.lib -mpssession virtuoso16535 -mpshost s1632.it.kth.se 
+\o Working Directory:	s1632.it.kth.se:/home/pancha/ProjGe3D/lf150
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		4.7.2
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "cdsDefTechLib"
+\a nrResizeWindow(cdsLibEditor list(1920 28 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 27 0)
+\o Active cell: 27 0 "lf150_passives"
+\a nrListItemAction(cdsLibEditor->mainTable 28 0)
+\o Active cell: 28 0 ""
+\a nrResizeWindow(cdsLibEditor list(1920 28 522 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a cdsLibEditor->fileExitButton->value = t
+\o QUESTION (CLE-205): You have made changes which have not been saved. \n\nWould you like to save your changes? 
+\a nrSetWindowVisibility(needSaveDialog "show")
+\a nrResizeWindow(needSaveDialog list(1989 140 384 148))
+\a nrSetCurrentWindow(needSaveDialog)
+\a needSaveDialog->noButton->value = t
+\a nrSetWindowVisibility(cdsLibEditor "hide")
+\a exit(0)

@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("UTSOI_model" "Ids_VGS_@100mV" "schematic" "spectre")
+descriptionText = "None"

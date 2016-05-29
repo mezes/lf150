@@ -1,0 +1,14 @@
+
+
+vuipreRcxFormTable = '(
+	runName  "inverter"
+	runDir  "/home/pancha/ProjGe3D/lf150/LVSruns/svdb"
+	assuraTech  "/home/pancha/ProjGe3D/lf150/PDK_LF150i_V2_0_0/pv/pvtech.lib"
+	tech  "LF150"
+	mapFile  ""
+	netProp  5
+	instProp  6
+	devProp  7
+)
+
+

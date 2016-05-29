@@ -1,0 +1,5 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary INDct_TEST2
+B 1 B 357780 564660 metF_top
+C 5 C 389030 235870 metF_top
+A 2 A 104820 319730 metF_top

@@ -1,0 +1,24 @@
+Gds_Map 1000
+Layers:
+0 0 19 Mar 21 15:55:05 2016
+met5_ind 52 0
+MIM_top 11 0
+metF_top 6 0
+via_MIM_top 46 0
+via5_top 48 0
+ind3n60_ct 43 0
+metF_ind_orth 54 0
+met5_top 4 0
+mim_cap_top 35 0
+ind3n30 38 0
+ind3n60 40 0
+ppoly_res 29 0
+pmos_hs_top 23 0
+ppoly_res_h 32 0
+nmos_hs_top 8 0
+nmos_hs 0 0
+pdiff_bulk 39 0
+ndiff_bulk 42 0
+pmos_hs 16 0
+END OF RESPONSE
+0 0 0 Mar 21 15:55:05 2016

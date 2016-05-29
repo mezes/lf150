@@ -1,0 +1,881 @@
+
+
+  Cadence Quantus QRC Extraction - 64-bit Parasitic Extractor - Version
+14.2.3-s099 Wed Jun 17 00:01:02 PDT 2015
+-------------------------------------------------------------------------------------------------------------------
+                                    Copyright 2015 Cadence Design Systems,
+Inc.
+
+INFO (LBRCXM-624): No temperature processing will occur for the layer DIFF_top, because thislayer has no Tc1 and Tc2.
+
+INFO (LBRCXM-624): No temperature processing will occur for the layer CONT, because this layerhas no Tc1 and Tc2.
+
+INFO (LBRCXM-624): No temperature processing will occur for the layer CONT, because this layerhas no Tc1 and Tc2.
+
+INFO (LBRCXM-624): No temperature processing will occur for the layer VIA1, because this layerhas no Tc1 and Tc2.
+
+INFO (LBRCXM-624): No temperature processing will occur for the layer VIA2, because this layerhas no Tc1 and Tc2.
+
+INFO (LBRCXM-624): No temperature processing will occur for the layer VIA3, because this layerhas no Tc1 and Tc2.
+
+INFO (LBRCXM-624): No temperature processing will occur for the layer VIA4, because this layerhas no Tc1 and Tc2.
+
+INFO (LBRCXM-624): No temperature processing will occur for the layer MIV, because this layerhas no Tc1 and Tc2.
+
+INFO (LBRCXM-624): No temperature processing will occur for the layer CONT_top, because thislayer has no Tc1 and Tc2.
+
+INFO (LBRCXM-624): No temperature processing will occur for the layer VIA1_top, because thislayer has no Tc1 and Tc2.
+
+INFO (LBRCXM-624): No temperature processing will occur for the layer VIA2_top, because thislayer has no Tc1 and Tc2.
+
+INFO (LBRCXM-624): No temperature processing will occur for the layer VIA3_top, because thislayer has no Tc1 and Tc2.
+
+INFO (LBRCXM-624): No temperature processing will occur for the layer VIA4_top, because thislayer has no Tc1 and Tc2.
+
+INFO (LBRCXM-624): No temperature processing will occur for the layer VIAF_top, because thislayer has no Tc1 and Tc2.
+
+INFO (LBRCXM-624): No temperature processing will occur for the layer VIAF_top, because thislayer has no Tc1 and Tc2.
+
+INFO (LBRCXM-624): No temperature processing will occur for the layer CONT_top, because thislayer has no Tc1 and Tc2.
+
+INFO (LBRCXM-630): Starting extraction: Tue Apr 12 20:45:46 2016
+
+
+Forking: agdsPrep -V -rundir /home/pancha/ProjGe3D/lf150/LVSruns/svdb -outdir /tmp/qrc_23612/test_qrc -sch -e /home/pancha/ProjGe3D/lf150/LVSruns/svdb/test_qrc.gds.map:test_qrc.alm,test_qrc.ilf -pl test_qrc.ports -mcell /tmp/qrc_23612/test_qrc/test_qrc.hcl -d test_qrc.devtab -prefix /tmp/qrc_23612/test_qrc/prefixfile -l /home/pancha/ProjGe3D/lf150/LVSruns/svdb/test_qrc.lvsfile -i test_qrc.ixf,test_qrc.lph,test_qrc.sph:test_qrc.gdx -n test_qrc.nxf,test_qrc.stl:test_qrc.gnx -s test_qrc_pin_xy.spi:test_qrc.xcn,hccidtmfile
+Forking:  /pkg/Cadence/installs/EXT142/tools/extraction/bin/64bit//capgen -techdir /PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/pv/pvs/qrc -lvs /tmp/qrc_23612/test_qrc/test_qrc.xcn -p2lvs /PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/pv/pvs/qrc/qrcTechFile -reseqn -sw3d -add_via_effect METAL1,DIFF -add_via_effect METAL1_top,DIFF_top -lexclude POLY2,DIFF_top,POLY2_top -blocking nmos_hs:0.001,POLY2,DIFF -blocking pmos_hs:0.001,POLY2,DIFF -blocking nmos_hs_top:0.001,POLY2_top,DIFF_top -blocking pmos_hs_top:0.001,POLY2_tINFO (LBMISC-215205): 
+*** Cadence Quantus QRC Extraction Techgen -trans VERSION 14.2.3 Linux 64 bit - (Wed Jun 17 00:01:02 PDT 2015)  ***
+
+
+INFO (CAPGEN-41199): 
+
+
+Techgen -trans results will be written to directory: /tmp/qrc_23612/test_qrc
+
+INFO (CAPGEN-41737): Lvs layers MIM_0top back_0gate met5_0ind metF_0ind_0orth are not mapped in layer_setup file
+
+WARNING (RCXSPIC-28081): no via between lyrs 'METAL1_top' & 'DIFF_top'; Via effect ignored. Remove the 2 layers for -add_via_effect
+
+op,DIFF_top /tmp/qrc_23612/test_qrc
+The supplied design data will be treated as a HIERARCHICAL design
+
+Successfully created RCX script '/tmp/qrc_23612/test_qrc/rcx.sh'
+INFO (LBRCXM-581): Checked out '1' license(s) for Virtuoso_QRC_Extraction_XL 14.20
+
+INFO (LBRCXM-608): Executing command
+   /pkg/Cadence/installs/EXT142/tools/extraction/bin/64bit//assura_rcx -V  /tmp/qrc_23612/test_qrc/rcx.sh
+
+INFO (ASSREXT-35013): 
+
+
+     ***    assura_rcx VERSION 14.2.3 Linux 64 bit - (Wed Jun 17 00:01:02 PDT 2015)    ***
+
+
+	***************************************************
+	*			  			  *
+	* Copyright (c) 2016 Cadence Design Systems, Inc. *
+	*		All Rights Reserved		  *
+	*			  			  *
+	*	  THIS IS UNPUBLISHED PROPRIETARY	  *
+	*  INFORMATION OF Cadence Design Systems, Inc. 	  *
+	*	   THE COPYRIGHT NOTICE DOES NOT	  *
+	*	       EVIDENCE PUBLICATION		  *
+	*			  			  *
+	***************************************************
+set -e
+set -v
+##=======================================================
+##ADD_EXPLICIT_VIAS=N
+##ADD_BULK_TERMINAL=N
+##AGDS_FILE=/dev/null
+##AGDS_LAYER_MAP_FILE=/home/pancha/ProjGe3D/lf150/LVSruns/svdb/test_qrc.gds.map
+##HCCI_DEV_PROP_FILE=/dev/null
+##AGDS_SPICE_FILE=/dev/null
+##AGDS_TEXT_LAYERS=
+##ARRAY_VIAS_SPACING=
+##ASSURA_RUN_DIR=.
+##ASSURA_RUN_NAME=run1
+##BLACK_BOX_CELLS=/dev/null
+##BREAK_WIDTH=
+##CAP_COUPLING_FACTOR=1.0
+##CAP_EXTRACT_MODE=coupled
+##CAP_GROUND=S
+##CAP_MODELS=yes
+##DANGLINGR=N
+##DEVICE_FINGER_DELIMITER='@'
+##DF2=N
+##DRACULA_RUN_DIR=
+##DRACULA_RUN_NAME=
+##ENABLESENSITIVITYEXTRACTION=N
+##EXCLUDE_FLOAT_LIMIT=
+##EXCLUDE_FLOAT_DECOPULING_FACTOR=
+##EXCLUDE_FLOATING_NETS=N
+##EXCLUDE_NETS_REDUCERC=/dev/null
+##EXCLUDE_SELF_CAPS=N
+##IGNORE_GATE_DIFFUSION_FRINGING_CAP=Y
+##EXTRACT=cap
+##EXTRACT_MOS_DIFFUSION_AP=N
+##EXTRACT_MOS_DIFFUSION_HIGH=
+##EXTRACT_MOS_DIFFUSION_RES=N
+##FILTER_SIZE=2.0
+##FIXED_NETS_FILE=/dev/null
+##FMAX=
+##FRACTURE_LENGTH_UNITS=microns
+##FREQUENCY_FILE=/dev/null
+##GROUND_NETS=
+##GROUND_NETS_FILE=/dev/null
+##HCCI_DEV_PROP=7
+##HCCI_INST_PROP=6
+##HCCI_NET_PROP=5
+##HCCI_RULE_FILE=
+##HCCI_RUN_DIR=/home/pancha/ProjGe3D/lf150/LVSruns/svdb
+##HCCI_RUN_NAME=test_qrc
+##HEADER_FILE=/dev/null
+##HIERARCHY_DELIMITER='/'
+##HRCX_CELLS_FILE=/dev/null
+##IMPORT_GLOBALS=Y
+##LADDER_NETWORK=N
+##LVS_SOURCE=hcci
+##M_FACTORR=
+##M_FACTORW=N
+##MACRO_CELL=N
+##MAX_FRACTURE_LENGTH=infinite
+##MAX_SIGNALS=
+##MERGE_PARALLEL_R=N
+##MINC=1e-16
+##MINC_BY_PERCENTAGE=0.1
+##MINR=0.001
+##NET_NAME_SPACE=layout
+##NETS_FILE=/dev/null
+##NP=1
+##OUTPUT=/home/pancha/ProjGe3D/lf150/test_qrc.sp
+##OUTPUT_NET_NAME_SPACE=schematic
+##PARASITIC_BLOCKING_DEVICE_CELLS_TYPEgray
+##PARASITIC_CAP_MODELS=no
+##PARASITIC_RES_MODELS=no
+##PARASITIC_RES_LENGTH=N
+##PARASITIC_RES_WIDTH=N
+##PARASITIC_RES_WIDTH_DRAWN=N
+##PARASITIC_RES_UNIT=N
+##PARTIAL_CAP_BLOCKING=N
+##PEEC=N
+##PIN_ORDER_FILE=/dev/null
+##PIPE_ADVGEN=
+##PIPE_SPICE2DB=
+##POWER_NETS=
+##POWER_NETS_FILE=/dev/null
+##RC_FREQUENCY=
+##RCXDIR=/tmp/qrc_23612/test_qrc
+##RCXFS_HIGH=N
+##RCXFS_NETS_FILE=/dev/null
+##RCXFS_TYPE=full
+##RCXFS_CUTOFF_DISTANCE=
+##RCXFS_CUTOFF_DISTANCE=
+##RCXFS_CUTOFF_DISTANCE=
+##RCXFS_CUTOFF_DISTANCE=
+##RCXFS_CUTOFF_DISTANCE=
+##RCXFS_VIA_OFF=N
+##REDUCERC=N
+##REGION_LIMIT=
+##RES_MODELS=yes
+##RISE_TIME=
+##SAVE_FILL_SHAPES=N
+##SINGLE_CAP_EDSPF=N
+##SHOW_DIODES=N
+##SKIN_FREQUENCY=
+##SPEF=N
+##SPEF_UNITS=
+##SPLIT_PINS=N
+##FORCE_SUBCELL_PIN_ORDERS=N
+##SPLIT_PINS_DISTANCE=
+##SUB_NODE_CHAR='#'
+##SUBSTRATE_PROFILE=/dev/null
+##SUBSTRATE_STAMPING_OFF=N
+##TEMPDIR=/tmp/qrc_23612/test_qrc/rcx_temp
+##TYPE=full
+##USER_REGION=/dev/null
+##VARIANT_CELL_FILE=/dev/null
+##VIA_EFFECT_OFF=N
+##VIRTUAL_FILL=
+##XREF=/tmp/qrc_23612/test_qrc/test_qrc.gnx,/tmp/qrc_23612/test_qrc/test_qrc.gdx
+##XY_COORDINATES=
+##=======================================================
+CASE_SENSITIVE=TRUE
+export CASE_SENSITIVE
+setTempDir /tmp/qrc_23612/test_qrc/rcx_temp
+DEVICE_FINGER_DELIMITER=@
+HIERARCHY_DELIMITER=/
+cd /tmp/qrc_23612/test_qrc
+cat <<ENDCAT> caps2dversion
+* caps2d version: 10
+ENDCAT
+cat <<ENDCAT> flattransUnit.info
+microns
+ENDCAT
+QRC=Y
+export QRC
+#==========================================================#
+# Generate RCX input data from annotated GDS2 database
+#==========================================================#
+agds2rcx -H satfile -r /tmp/qrc_23612/test_qrc/test_qrc.xcn -crundir \
+	/home/pancha/ProjGe3D/lf150/LVSruns/svdb -unit microns -xgl -pl \
+	test_qrc.ports -f test_qrc.alm -lnn test_qrc.lnn -pnet 5 -pinst 6 \
+	-pdev 7 test_qrc.agf test_qrc_pin_xy.spi
+	***************************************************
+	*			  			  *
+	* Copyright (c) 2016 Cadence Design Systems, Inc. *
+	*		All Rights Reserved		  *
+	*			  			  *
+	*	  THIS IS UNPUBLISHED PROPRIETARY	  *
+	*  INFORMATION OF Cadence Design Systems, Inc. 	  *
+	*	   THE COPYRIGHT NOTICE DOES NOT	  *
+	*	       EVIDENCE PUBLICATION		  *
+	*			  			  *
+	***************************************************
+INFO (AGDSEXT-30016): 
+setting dbunit 1e-09 1 1e-09
+
+LVS DB import stage took  0.03 user, 0.08 sys, 0.00 elapsed, 27484.0 kbytes
+geom nmos_0hs nsd - nmos_0hs,10,i,1
+#==========================================================#
+# Generate power list
+#==========================================================#
+cat global.net > power_list
+#==========================================================#
+# Create RCXFS via layers for capacitance-only extraction
+#==========================================================#
+geom -V cont nsd met1 - cont_met1_nsd,111,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 26216.0 kbytes
+geom -V cont poly_0rout met1 - cont_met1_poly_0rout,111,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 26216.0 kbytes
+geom -V pdiff_0bulk pwell met1 - pdiff_0bulk,111,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 26216.0 kbytes
+geom -V via1 met1 met2 - via1,111,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 26220.0 kbytes
+geom -V via2 met2 met3 - via2,111,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 26220.0 kbytes
+geom -V via3 met3 met4 - via3,111,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 26220.0 kbytes
+geom -V via4 met4 met5 - via4,111,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 26216.0 kbytes
+geom -V miv met5 met1_0top - miv,111,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 26216.0 kbytes
+#==========================================================#
+# Prepare via effect layers
+#==========================================================#
+geom -V cont met1 nsd - cont_met1_nsd,111,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 26216.0 kbytes
+#==========================================================#
+# Flatten net file, routing, via and device layers
+#==========================================================#
+beginFlattenInputs
+/bin/mv -f NET h_NET
+flatnet -V -li -h / h_NET NET
+flatnet took 0.00 user, 0.00 sys, 0.00 elapsed, 25892.0 kbytes
+netprint -V -N1 power_list:power_list_nums NET
+flattenTransistorData nmos_0hs microns
+flattub took  0.00 user, 0.00 sys, 0.00 elapsed, 25728.0 kbytes
+flatnet took 0.00 user, 0.00 sys, 0.00 elapsed, 25744.0 kbytes
+flattrans took 0.00 user, 0.00 sys, 0.00 elapsed, 25764.0 kbytes
+flattenLayers -m met1_0top met5 met4 met3 met2 met1 poly_0rout nsd pwell \
+	pdiff_0bulk via1 via2 via3 via4 miv cont_met1_nsd \
+	cont_met1_poly_0rout
+flattub took  0.04 user, 0.09 sys, 0.00 elapsed, 25728.0 kbytes
+endFlattenInputs
+#==========================================================#
+# Initialize CAP_GROUND variable
+#==========================================================#
+findCapGround -g S NET > tmpnebgnd
+echo CAP_GROUND= ${CAP_GROUND}export CAP_GROUND
+reconnect -float floatlvsnetsfile -tf nmos_0hs -probe \
+	text_met1:met1:text_met1_fvia,text_met5:met5:text_met5_fvia,text_met1_0top:met1_0top:text_met1_0top_fvia
+#==========================================================#
+# Form capacitance layers for resistive process layers
+#==========================================================#
+/bin/cp poly_0rout POLY2
+/bin/cp met1 METAL1
+/bin/cp met2 METAL2
+/bin/cp met3 METAL3
+/bin/cp met4 METAL4
+/bin/cp met5 METAL5
+/bin/cp met1_0top METAL1_top
+#==========================================================#
+# Form capacitance layers for non-resistive process layers
+#==========================================================#
+/bin/cp nsd DIFF
+createEmptyLayer MIM_top
+createEmptyLayer METALF_top
+createEmptyLayer METAL5_top
+createEmptyLayer METAL4_top
+createEmptyLayer METAL3_top
+createEmptyLayer METAL2_top
+createEmptyLayer POLY2_top
+createEmptyLayer DIFF_top
+#==========================================================#
+# Form substrate
+#==========================================================#
+xytoebbox -V -g 35.55 -e METALF_top,MIM_top,METAL5_top,METAL4_top,METAL3_top,METAL2_top,METAL1_top,POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,pwell xg_pwell
+xytoebbox took  0.00 user, 0.00 sys, 0.00 elapsed, 25128.0 kbytes
+grow -V 0.001 pwell g_pwell
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 26032.0 kbytes
+geom -V xg_pwell g_pwell - tmp_pwell,10
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 123728.0 kbytes
+epick -V -reo -D ${CAP_GROUND} tmp_pwell pick_pwell
+epick took  0.00 user, 0.00 sys, 0.00 elapsed, 25788.0 kbytes
+grow -V -m 0.002 pwell g_pwell
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 26032.0 kbytes
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 123732.0 kbytes
+stamp -i g_pwell pick_pwell
+emerge -V pick_pwell pwell tmp1_pwell
+emerge took  0.00 user, 0.00 sys, 0.00 elapsed, 25616.0 kbytes
+geom -V tmp1_pwell - pwell,1,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 123732.0 kbytes
+/bin/rm -f g_pwell xg_pwell tmp_pwell tmp1_pwell
+geom -V pwell - STI,1,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 123732.0 kbytes
+geom -V STI DIFF - STI,10,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 123728.0 kbytes
+#==========================================================#
+# Compensate for via capacitance effects
+#==========================================================#
+geom -V POLY2,cont_met1_nsd - POLY2_with_via,1,i,1
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 123728.0 kbytes
+geom nmos_0hs - qrcgate,1,i,1
+#==========================================================#
+# Prepare blocking layers
+#==========================================================#
+netprint -max NET > maxnetfile
+grow -V 0.002 nmos_0hs g_nmos_0hs_1
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 26032.0 kbytes
+grow -V -0.001 g_nmos_0hs_1 g_dev
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 123732.0 kbytes
+merge input file took 0.00 user, 0.00 sys, 0.00 elapsed, 26032.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 26056.0 kbytes
+sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 24572.0 kbytes
+geom g_nmos_0hs_1 g_dev DIFF - DIFF_in,111,i,3 DIFF_out,001,i,3 DIFF_new_cut,101
+/bin/rm -f g_dev
+/bin/mv -f DIFF_new_cut DIFF_cut
+grow -V -0.001 g_nmos_0hs_1 g_dev
+geom took  0.00 user, 0.00 sys, 0.00 elapsed, 123732.0 kbytes
+merge input file took 0.00 user, 0.00 sys, 0.00 elapsed, 26032.0 kbytes
+grow took  0.00 user, 0.00 sys, 0.00 elapsed, 26056.0 kbytes
+sort edges took  0.00 user, 0.00 sys, 0.00 elapsed, 24572.0 kbytes
+geom g_nmos_0hs_1 g_dev POLY2 - POLY2_in,111,i,3 POLY2_out,001,i,3 POLY2_new_cut,101
+geom g_nmos_0hs_1 g_dev POLY2_with_via - POLY2_with_via_in,111,i,3 POLY2_with_via_out,001,i,3 POLY2_with_via_new_cut,101
+/bin/rm -f g_dev
+/bin/mv -f POLY2_new_cut POLY2_cut
+/bin/mv -f POLY2_with_via_new_cut POLY2_with_via_cut
+relocate -V -n NET DIFF_in POLY2_in POLY2_with_via_in
+relocate took 0.00 user, 0.00 sys, 0.00 elapsed, 25524.0 kbytes
+emerge DIFF_in DIFF_out DIFF
+emerge POLY2_in POLY2_out POLY2
+emerge POLY2_with_via_in POLY2_with_via_out POLY2_with_via
+#==========================================================#
+# Create sip/sw3d/cn3d capacitance data files
+#==========================================================#
+cat <<ENDCAT> sip.cmd
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc METAL4,METAL5 -n 3.5 -i 0,3.501 \
+	-b METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI -t \
+	POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-j 0.35 -Maxw 5.25 -p DIFF_top,key 0,3.5 - DIFF_top.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc METAL5,DIFF_top -n 2.6 -i \
+	0,2.601 -b DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-t \
+	METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-j 0.15 -Maxw 2.25 -p POLY2_top,key 0,2.6 - POLY2_top.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc POLY2_top,METAL1_top -n 6 -i \
+	0,6.001 -b \
+	METAL1_top,POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-t METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top -j 0.24 -Maxw \
+	3.6 -p METAL2_top,key 0,6 - METAL2_top.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc METAL1_top,METAL2_top -n 6 -i \
+	0,6.001 -b \
+	METAL2_top,METAL1_top,POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-t METAL4_top,METAL5_top,MIM_top,METALF_top -j 0.24 -Maxw 3.6 -p \
+	METAL3_top,key 0,6 - METAL3_top.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc METAL2_top,METAL3_top -n 6 -i \
+	0,6.001 -b \
+	METAL3_top,METAL2_top,METAL1_top,POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-t METAL5_top,MIM_top,METALF_top -j 0.24 -Maxw 3.6 -p METAL4_top,key \
+	0,6 - METAL4_top.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc METAL3_top,METAL4_top -n 6 -i \
+	0,6.001 -b \
+	METAL4_top,METAL3_top,METAL2_top,METAL1_top,POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-t MIM_top,METALF_top -j 0.24 -Maxw 3.6 -p METAL5_top,key 0,6 - \
+	METAL5_top.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc METAL4_top,METAL5_top,MIM_top -n \
+	8.6 -i 0,8.601 -b \
+	MIM_top,METAL5_top,METAL4_top,METAL3_top,METAL2_top,METAL1_top,POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-j 0.58 -Maxw 8.7 -p METALF_top,key 0,8.6 - METALF_top.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc METAL4_top,METAL5_top -n 15 -i \
+	0,15.001 -b \
+	METAL5_top,METAL4_top,METAL3_top,METAL2_top,METAL1_top,POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-t METALF_top -j 5 -Maxw 75 -p MIM_top,key 0,15 - MIM_top.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -n 2.6 -i 0,2.601 -b DIFF,STI -t \
+	METAL1,METAL2,METAL3,METAL4,METAL5,DIFF_top,POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-j 0.15 -Maxw 2.25 -p POLY2,key 0,2.6 - POLY2.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc POLY2 -n 2.4 -i 0,2.401 -b \
+	POLY2,DIFF,STI -t \
+	METAL2,METAL3,METAL4,METAL5,DIFF_top,POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-j 0.24 -Maxw 3.6 -p METAL1,key 0,2.4 - METAL1.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc POLY2,METAL1 -n 2.4 -i 0,2.401 \
+	-b METAL1,POLY2,DIFF,STI -t \
+	METAL3,METAL4,METAL5,DIFF_top,POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-j 0.24 -Maxw 3.6 -p METAL2,key 0,2.4 - METAL2.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc METAL1,METAL2 -n 2.4 -i 0,2.401 \
+	-b METAL2,METAL1,POLY2,DIFF,STI -t \
+	METAL4,METAL5,DIFF_top,POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-j 0.24 -Maxw 3.6 -p METAL3,key 0,2.4 - METAL3.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc METAL2,METAL3 -n 4.8 -i 0,4.801 \
+	-b METAL3,METAL2,METAL1,POLY2,DIFF,STI -t \
+	METAL5,DIFF_top,POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-j 0.24 -Maxw 3.6 -p METAL4,key 0,4.8 - METAL4.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc METAL3,METAL4 -n 4.8 -i 0,4.801 \
+	-b METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI -t \
+	DIFF_top,POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-j 0.24 -Maxw 3.6 -p METAL5,key 0,4.8 - METAL5.sip
+sip -V -cgnd ${CAP_GROUND} -s -o -sub 2 -mlc DIFF_top,POLY2_top -n 6 -i \
+	0,6.001 -b \
+	POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-t METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top -j \
+	0.24 -Maxw 3.6 -p METAL1_top,key 0,6 - METAL1_top.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -b \
+	METAL5_top,METAL4_top,METAL3_top,METAL2_top,METAL1_top,POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-Maxw 75 -p MIM_top,key,METALF_top,key 0,15,0 - \
+	MIM_top_METALF_top.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -b \
+	METAL4_top,METAL3_top,METAL2_top,METAL1_top,POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-Maxw 8.7 -p METAL5_top,key,METALF_top,key 0,8.6,0 - \
+	METAL5_top_METALF_top.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b \
+	METAL4_top,METAL3_top,METAL2_top,METAL1_top,POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-t METALF_top -Maxw 75 -p METAL5_top,key,MIM_top,key 0,15,0 - \
+	METAL5_top_MIM_top.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R METALF_top -b \
+	METAL3_top,METAL2_top,METAL1_top,POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-k METAL5_top:0,MIM_top:0 -Maxw 8.7 -p METAL4_top,key,METALF_top,key \
+	0,8.6,0 - METAL4_top_METALF_top.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -R MIM_top -b \
+	METAL3_top,METAL2_top,METAL1_top,POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-t METALF_top -Maxw 75 -p METAL4_top,key,MIM_top,key 0,15,0 - \
+	METAL4_top_MIM_top.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b \
+	METAL3_top,METAL2_top,METAL1_top,POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-t MIM_top,METALF_top -Maxw 3.6 -p METAL4_top,key,METAL5_top,key \
+	0,6,0 - METAL4_top_METAL5_top.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R METAL5_top -b \
+	METAL2_top,METAL1_top,POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-t MIM_top,METALF_top -Maxw 3.6 -p METAL3_top,key,METAL5_top,key \
+	0,6,0 - METAL3_top_METAL5_top.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b \
+	METAL2_top,METAL1_top,POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-t METAL5_top,MIM_top,METALF_top -Maxw 3.6 -p \
+	METAL3_top,key,METAL4_top,key 0,6,0 - METAL3_top_METAL4_top.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R METAL4_top -b \
+	METAL1_top,POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-t METAL5_top,MIM_top,METALF_top -Maxw 3.6 -p \
+	METAL2_top,key,METAL4_top,key 0,6,0 - METAL2_top_METAL4_top.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b \
+	METAL1_top,POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-t METAL4_top,METAL5_top,MIM_top,METALF_top -Maxw 3.6 -p \
+	METAL2_top,key,METAL3_top,key 0,6,0 - METAL2_top_METAL3_top.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R METAL3_top -b \
+	POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-t METAL4_top,METAL5_top,MIM_top,METALF_top -Maxw 3.6 -p \
+	METAL1_top,key,METAL3_top,key 0,6,0 - METAL1_top_METAL3_top.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b \
+	POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-t METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top -Maxw 3.6 -p \
+	METAL1_top,key,METAL2_top,key 0,6,0 - METAL1_top_METAL2_top.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R METAL2_top -b \
+	DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI -t \
+	METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top -k METAL1_top:0.4 \
+	-Maxw 3.6 -p POLY2_top,key,METAL2_top,key 0,6,0 - \
+	POLY2_top_METAL2_top.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b \
+	DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI -t \
+	METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top -Maxw \
+	3.6 -p POLY2_top,key,METAL1_top,key 0,6,0 - POLY2_top_METAL1_top.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R METAL1_top -b \
+	METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI -t \
+	METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top -Maxw \
+	5.25 -p DIFF_top,key,METAL1_top,key 0,6,0 - DIFF_top_METAL1_top.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b \
+	METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI -t \
+	METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-Maxw 5.25 -p DIFF_top,key,POLY2_top,key 0,3.5,0 - \
+	DIFF_top_POLY2_top.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R POLY2_top -b \
+	METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI -t \
+	METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-Maxw 3.6 -p METAL5,key,POLY2_top,key 0,4.8,0 - METAL5_POLY2_top.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b \
+	METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI -t \
+	POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-Maxw 5.25 -p METAL5,key,DIFF_top,key 0,4.8,0 - METAL5_DIFF_top.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R DIFF_top -b \
+	METAL3,METAL2,METAL1,POLY2,DIFF,STI -t \
+	POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-k METAL5:0.4 -Maxw 5.25 -p METAL4,key,DIFF_top,key 0,4.8,0 - \
+	METAL4_DIFF_top.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b \
+	METAL3,METAL2,METAL1,POLY2,DIFF,STI -t \
+	DIFF_top,POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-Maxw 3.6 -p METAL4,key,METAL5,key 0,4.8,0 - METAL4_METAL5.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R METAL5 -b \
+	METAL2,METAL1,POLY2,DIFF,STI -t \
+	DIFF_top,POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-k METAL4:0.4 -Maxw 3.6 -p METAL3,key,METAL5,key 0,4.8,0 - \
+	METAL3_METAL5.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b METAL2,METAL1,POLY2,DIFF,STI -t \
+	METAL5,DIFF_top,POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-Maxw 3.6 -p METAL3,key,METAL4,key 0,4.8,0 - METAL3_METAL4.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R METAL4 -b \
+	METAL1,POLY2,DIFF,STI -t \
+	METAL5,DIFF_top,POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-k METAL3:0.4 -Maxw 3.6 -p METAL2,key,METAL4,key 0,4.8,0 - \
+	METAL2_METAL4.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b METAL1,POLY2,DIFF,STI -t \
+	METAL4,METAL5,DIFF_top,POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-Maxw 3.6 -p METAL2,key,METAL3,key 0,2.4,0 - METAL2_METAL3.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R METAL3 -b POLY2,DIFF,STI -t \
+	METAL4,METAL5,DIFF_top,POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-k METAL2:0.4 -Maxw 3.6 -p METAL1,key,METAL3,key 0,2.4,0 - \
+	METAL1_METAL3.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -b POLY2,DIFF,STI -t \
+	METAL3,METAL4,METAL5,DIFF_top,POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-Maxw 3.6 -p METAL1,key,METAL2,key 0,2.4,0 - METAL1_METAL2.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -L3A -h -R METAL2 -b DIFF,STI -t \
+	METAL3,METAL4,METAL5,DIFF_top,POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-k METAL1:0.4 -Maxw 3.6 -p POLY2:POLY2_cut,key,METAL2,key 0,2.6,0 - \
+	POLY2_METAL2.sip
+sip -V -s -cgnd ${CAP_GROUND} -sub 2 -h -R METAL1,POLY2 -b DIFF,STI -t \
+	METAL2,METAL3,METAL4,METAL5,DIFF_top,POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-Maxw 3.6 -p POLY2:POLY2_cut,key,METAL1,key 0,2.6,0 - \
+	POLY2_METAL1.sip
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b \
+	METAL5_top,METAL4_top,METAL3_top,METAL2_top,METAL1_top,POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-p MIM_top,METALF_top - MIM_top_METALF_top.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b \
+	METAL4_top,METAL3_top,METAL2_top,METAL1_top,POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-t METALF_top -p METAL5_top,MIM_top - METAL5_top_MIM_top.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b \
+	METAL3_top,METAL2_top,METAL1_top,POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-t MIM_top,METALF_top -p METAL4_top,METAL5_top - \
+	METAL4_top_METAL5_top.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b \
+	METAL2_top,METAL1_top,POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-t METAL5_top,MIM_top,METALF_top -p METAL3_top,METAL4_top - \
+	METAL3_top_METAL4_top.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b \
+	METAL1_top,POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-t METAL4_top,METAL5_top,MIM_top,METALF_top -p METAL2_top,METAL3_top \
+	- METAL2_top_METAL3_top.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b \
+	POLY2_top,DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI \
+	-t METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top -p \
+	METAL1_top,METAL2_top - METAL1_top_METAL2_top.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b \
+	DIFF_top,METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI -t \
+	METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top -p \
+	POLY2_top,METAL1_top - POLY2_top_METAL1_top.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b \
+	METAL5,METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI -t \
+	METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-p DIFF_top,POLY2_top - DIFF_top_POLY2_top.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b \
+	METAL4,METAL3,METAL2,METAL1,POLY2,DIFF,STI -t \
+	POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-p METAL5,DIFF_top - METAL5_DIFF_top.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b METAL3,METAL2,METAL1,POLY2,DIFF,STI -t \
+	DIFF_top,POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-p METAL4,METAL5 - METAL4_METAL5.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b METAL2,METAL1,POLY2,DIFF,STI -t \
+	METAL5,DIFF_top,POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-p METAL3,METAL4 - METAL3_METAL4.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b METAL1,POLY2,DIFF,STI -t \
+	METAL4,METAL5,DIFF_top,POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-p METAL2,METAL3 - METAL2_METAL3.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b POLY2,DIFF,STI -t \
+	METAL3,METAL4,METAL5,DIFF_top,POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-p METAL1,METAL2 - METAL1_METAL2.sw3d
+sw3d -V -cgnd ${CAP_GROUND} -sub 2 -b DIFF,STI -t \
+	METAL2,METAL3,METAL4,METAL5,DIFF_top,POLY2_top,METAL1_top,METAL2_top,METAL3_top,METAL4_top,METAL5_top,MIM_top,METALF_top \
+	-p POLY2:POLY2_cut,METAL1 - POLY2_METAL1.sw3d
+ENDCAT
+#==========================================================#
+# Run RCXFS to generate capfile
+#==========================================================#
+stamp -i METAL1 cont_met1_nsd
+stamp -i METAL1 cont_met1_poly_0rout
+stamp -i METAL1 pdiff_0bulk
+stamp -i METAL2 via1
+stamp -i METAL3 via2
+stamp -i METAL4 via3
+stamp -i METAL5 via4
+stamp -i METAL1_top miv
+qrcfs -V -spin -exclude_maxnet_file maxnetfile -gnd ${CAP_GROUND} \
+	-excludefile power_list_nums -exclude ${CAP_GROUND} -floaters_file \
+	floatlvsnetsfile tmp_nebcapfile \
+	/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/pv/pvs/qrc/qrcTechFile STI:STI_cut \
+	DIFF:DIFF_cut POLY2:POLY2_cut METAL1:METAL1_cut METAL2:METAL2_cut \
+	METAL3:METAL3_cut METAL4:METAL4_cut METAL5:METAL5_cut \
+	DIFF_top:DIFF_top_cut POLY2_top:POLY2_top_cut \
+	METAL1_top:METAL1_top_cut METAL2_top:METAL2_top_cut \
+	METAL3_top:METAL3_top_cut METAL4_top:METAL4_top_cut \
+	METAL5_top:METAL5_top_cut MIM_top:MIM_top_cut \
+	METALF_top:METALF_top_cut - cont_met1_nsd,2,4 \
+	cont_met1_poly_0rout,3,4 pdiff_0bulk,1,4 via1,4,5 via2,5,6 via3,6,7 \
+	via4,7,8 miv,8,11
+No temperature processing will occur for the layer DIFF_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer CONT, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer CONT, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA1, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA2, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA3, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA4, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer MIV, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer CONT_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA1_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA2_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA3_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA4_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIAF_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIAF_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer CONT_top, because this
+layer has no Tc1 and Tc2.
+INFO (FSWRAPPER-101): Starting geometry preparation
+
+INFO: No temperature processing will occur for the layer DIFF_top, because thislayer has no Tc1 and Tc2.
+INFO: No temperature processing will occur for the layer CONT, because this layerhas no Tc1 and Tc2.
+INFO: No temperature processing will occur for the layer CONT, because this layerhas no Tc1 and Tc2.
+INFO: No temperature processing will occur for the layer VIA1, because this layerhas no Tc1 and Tc2.
+INFO: No temperature processing will occur for the layer VIA2, because this layerhas no Tc1 and Tc2.
+INFO: No temperature processing will occur for the layer VIA3, because this layerhas no Tc1 and Tc2.
+INFO: No temperature processing will occur for the layer VIA4, because this layerhas no Tc1 and Tc2.
+INFO: No temperature processing will occur for the layer MIV, because this layerhas no Tc1 and Tc2.
+INFO: No temperature processing will occur for the layer CONT_top, because thislayer has no Tc1 and Tc2.
+INFO: No temperature processing will occur for the layer VIA1_top, because thislayer has no Tc1 and Tc2.
+INFO: No temperature processing will occur for the layer VIA2_top, because thislayer has no Tc1 and Tc2.
+INFO: No temperature processing will occur for the layer VIA3_top, because thislayer has no Tc1 and Tc2.
+INFO: No temperature processing will occur for the layer VIA4_top, because thislayer has no Tc1 and Tc2.
+INFO: No temperature processing will occur for the layer VIAF_top, because thislayer has no Tc1 and Tc2.
+INFO: No temperature processing will occur for the layer VIAF_top, because thislayer has no Tc1 and Tc2.
+INFO: No temperature processing will occur for the layer CONT_top, because thislayer has no Tc1 and Tc2.
+No temperature processing will occur for the layer DIFF_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer CONT, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer CONT, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA1, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA2, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA3, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA4, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer MIV, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer CONT_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA1_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA2_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA3_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA4_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIAF_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIAF_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer CONT_top, because this
+layer has no Tc1 and Tc2.
+WARNING (NEBULAM-135059): via between STI and METAL1 was not identified in ictfile - no manufacturing effects will be applied to via
+
+nebulamesh took 19.09 user, 6.21 sys, 25.00 elapsed, 66724.0 kbytes
+INFO (FSWRAPPER-103): Starting solver
+
+No temperature processing will occur for the layer DIFF_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer CONT, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer CONT, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA1, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA2, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA3, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA4, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer MIV, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer CONT_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA1_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA2_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA3_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA4_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIAF_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIAF_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer CONT_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer DIFF_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer CONT, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer CONT, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA1, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA2, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA3, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA4, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer MIV, because this layer
+has no Tc1 and Tc2.
+No temperature processing will occur for the layer CONT_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA1_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA2_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA3_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIA4_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIAF_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer VIAF_top, because this
+layer has no Tc1 and Tc2.
+No temperature processing will occur for the layer CONT_top, because this
+layer has no Tc1 and Tc2.
+INFO (NEBULA-134002): rcxfs: 16.67% done, about 0.57 seconds remaining
+
+INFO (NEBULA-134002): rcxfs: 33.33% done, about 0.34 seconds remaining
+
+INFO (NEBULA-134002): rcxfs: 50.00% done, about 0.41 seconds remaining
+
+INFO (NEBULA-134002): rcxfs: 66.67% done, about 0.21 seconds remaining
+
+INFO (NEBULA-134002): rcxfs: 83.33% done, about 0.08 seconds remaining
+
+INFO (NEBULA-134002): rcxfs: 100.00% done, about 0.00 seconds remaining
+
+nebula took 0.58 user, 0.05 sys, 1.00 elapsed, 83632.0 kbytes
+mergecap -filterfile maxnetfile -c tmp_nebcapfile nebcapfile
+#==========================================================#
+# Restore layers augmented with via effects for pax16
+#==========================================================#
+/bin/cp -f POLY2_with_via POLY2
+/bin/cp -f POLY2_with_via_cut POLY2_cut
+#==========================================================#
+# Run pax16 to generate capfile
+#==========================================================#
+pax16 -V -neb_delta_cap -neb_excludefile power_list_nums -ignore_cf_table \
+	-scf sip.cmd -filterfile maxnetfile -M_perim_off -c \
+	/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/pv/pvs/qrc/qrcTechFile -f STI \
+	DIFF:DIFF_cut POLY2:POLY2_cut METAL1 METAL2 METAL3 METAL4 METAL5 \
+	DIFF_top POLY2_top METAL1_top METAL2_top METAL3_top METAL4_top \
+	METAL5_top MIM_top METALF_top - \
+	/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/pv/pvs/qrc/qrcTechFile - - NET - \
+	rcxcapfile
+pax16_rdpaxcmd took  0.14 user, 0.17 sys, 0.00 elapsed, 128408.0 kbytes
+pax16 took  0.47 user, 0.85 sys, 1.00 elapsed, 182344.0 kbytes
+#==========================================================#
+# Combine pax16 and RCXFS selected net C results
+#==========================================================#
+mergecap -neb_delta_cap rcxcapfile -c nebcapfile capfile
+mergecap -nc -c capfile,_Cf_capfile capfile
+relocate -V -r maxnetfile -n NET DIFF POLY2
+relocate took 0.00 user, 0.00 sys, 0.00 elapsed, 25524.0 kbytes
+#==========================================================#
+# Generate netlister data files
+#==========================================================#
+cat <<ENDCAT> lvsmos.mod
+xnmos_hs,	100000.0, 0,	xnmos_hs,	unused, unused, 100000.0
+nmos_hs,	100000.0, 0,	nmos_hs,	unused, unused, 100000.0
+ENDCAT
+#==========================================================#
+# Process text layers
+#==========================================================#
+flatlabel -V  -tc -F text_met1,text_met5,text_met1_0top L1T0,L2T0,L3T0
+INFO (FLTLBL-89003): exec labsort -V L1T0
+
+sort labels took  0.00 user, 0.00 sys, 0.00 elapsed, 24492.0 kbytes
+INFO (FLTLBL-89003): exec labsort -V L2T0
+
+sort labels took  0.00 user, 0.00 sys, 0.00 elapsed, 24492.0 kbytes
+INFO (FLTLBL-89003): exec labsort -V L3T0
+
+sort labels took  0.00 user, 0.00 sys, 0.00 elapsed, 24492.0 kbytes
+flatlabel took 0.00 user, 0.00 sys, 1.00 elapsed, 25604.0 kbytes
+#==========================================================#
+# Perform RC reduction
+#==========================================================#
+xreduce -V -mergecap -n NET -tech \
+	/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/pv/pvs/qrc -d1 -g ${CAP_GROUND},1.0 \
+	-danglingR -minR 0.001 -minC 1e-16 -minCper 0.1 -cap capfile \
+	nmos_0hs.trans L1T0 L2T0 L3T0
+INFO (XREDUCE-199109): minR option removed 0 resistors (0%)
+
+INFO (XREDUCE-199054): Total number of capacitors in capfile is 3
+
+INFO (XREDUCE-199065): minC small capacitor decoupling set to 0.1%
+
+INFO (XREDUCE-199066): minC option decoupled 0 capacitors in capfile
+
+INFO (XREDUCE-199067): the number of capacitors decreased by 0 (0%)
+
+INFO (XREDUCE-199108): d1 option renamed 0 nets
+
+xreduce took 0.01 user, 0.00 sys, 0.00 elapsed, 52668.0 kbytes
+#==========================================================#
+# Generate HSPICE file
+#==========================================================#
+advgen -V -g0 -li -f -n -o HSPICE -nxref /tmp/qrc_23612/test_qrc/test_qrc.gnx \
+	-dxref /tmp/qrc_23612/test_qrc/test_qrc.gdx -sc caps2dversion -m \
+	capfile -ta lvsmos.mod,nmos_0hs.net nmos_0hs.trans - NET - \
+	/home/pancha/ProjGe3D/lf150/test_qrc.sp
+process netfile took 0.01 user, 0.00 sys, 0.00 elapsed, 55428.0 kbytes
+advgen took:  0.00 user, 0.00 sys, 0.00 elapsed, 55420.0 kbytes
+assura_rcx took:  21.62 user, 9.13 sys, 31.00 elapsed, 27484.0 kbytes
+INFO (LBRCXM-610): Extraction finished.
+
+INFO (LBRCXM-582): Checking in license for Virtuoso_QRC_Extraction_XL 14.20
+
+INFO (LBRCXM-702): Run ended: Tue Apr 12 20:46:18 2016
+
+
+INFO (LBRCXM-805): Run took: 32s elapsed
+
+INFO (LBRCXM-708): *****  Quantus QRC terminated normally  *****
+
+

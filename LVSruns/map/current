@@ -1,0 +1,24 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "inverter"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/pancha/ProjGe3D/lf150/LVSruns/"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "cdnlive2016/inverter/schematic" "inverter" )
+ )
+( term
+ )
+( param
+ )
+( "inverter" "ihnl/cds0/map" )
+ )

@@ -1,0 +1,4 @@
+CASE_SENSITIVE=TRUE
+TEMPDIR=/tmp/qrc_4788/INDct_TEST2/rcx_temp
+QRC=Y
+SAVEDIR=flattenInputs/

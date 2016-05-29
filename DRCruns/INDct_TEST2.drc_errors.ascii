@@ -1,0 +1,597 @@
+INDct_TEST2 1000
+nwell.w.1.5
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+nwell.w.1.5 : Nwell width must be >= 1.5u
+diff.w.0.32
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+diff.w.0.32 : Diff width must be >= 0.32u
+nimp.w.0.48
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+nimp.w.0.48 : N_PLUS width must be >= 0.48u
+pimp.w.0.48
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+pimp.w.0.48 : P_PLUS width must be >= 0.48u
+ncore.w.0.5
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+ncore.w.0.5 : N_CORE width must be >= 0.5u
+pcore.w.0.5
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+pcore.w.0.5 : P_CORE width must be >= 0.5u
+vt_nmin.w.0.48
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_nmin.w.0.48 : N_MIN_LVT width must be >= 0.48u
+vt_pmin.w.0.48
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_pmin.w.0.48 : P_MIN_LVT width must be >= 0.48u
+npoly_imp.w.0.5
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+npoly_imp.w.0.5 : N_DUALGTE width must be >= 0.5u
+diff_top.w.0.32
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+diff_top.w.0.32 : Diff_top  width must be >= 0.32u
+nimp_top.w.0.48
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+nimp_top.w.0.48 : N_PLUS_top width must be >= 0.48u
+pimp_top.w.0.48
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+pimp_top.w.0.48 : P_PLUS_top  width must be >= 0.48u
+ncore_top.w.0.5
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+ncore_top.w.0.5 : N_CORE_top  width must be >= 0.5u
+pcore_top.w.0.5
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+pcore_top.w.0.5 : P_CORE_top  width must be >= 0.5u
+vt_nmin_top.w.0.48
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_nmin_top.w.0.48 : N_MIN_LVT_top  width must be >= 0.48u
+vt_pmin_top.w.0.48
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_pmin_top.w.0.48 : P_MIN_LVT_top  width must be >= 0.48u
+npoly_imp_top.w.0.5
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+npoly_imp_top.w.0.5 : N_DUALGTE_top width must be >= 0.5u
+nwell.s.1.5
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+nwell.s.1.5 : Spacing between nwells must be >= 1.5u
+diff.s.0.32
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+diff.s.0.32 : Spacing between diff layers must be >= 0.32u
+nimp.s.0.48
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+nimp.s.0.48 : Spacing between n_plus layers must be >= 0.48u
+pimp.s.0.48
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+pimp.s.0.48 : Spacing between p_plus layers must be >= 0.48u
+ncore.s.0.5
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+ncore.s.0.5 : Spacing between ncore layers must be >= 0.5u
+pcore.s.0.5
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+pcore.s.0.5 : Spacing between pcore layers must be >= 0.5u
+vt_nmin.s.0.48
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_nmin.s.0.48 : Spacing between N_MIN_LVT layers must be >= 0.48u
+vt_pmin.s.0.48
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_pmin.s.0.48 : Spacing between P_MIN_LVT layers must be >= 0.48u
+npoly_imp.s.0.5
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+npoly_imp.s.0.5 : Spacing between N_DUALGTE layers must be >= 0.5u
+diff_top.s.0.32
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+diff_top.s.0.32 : Spacing between diff_top  layers must be >= 0.32u
+nimp_top.s.0.48
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+nimp_top.s.0.48 : Spacing between n_plus_top  layers must be >= 0.48u
+pimp_top.s.0.48
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+pimp_top.s.0.48 : Spacing between p_plus_top  layers must be >= 0.48u
+ncore_top.s.0.5
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+ncore_top.s.0.5 : Spacing between ncore_top  layers must be >= 0.5u
+pcore_top.s.0.5
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+pcore_top.s.0.5 : Spacing between pcore_top  layers must be >= 0.5u
+vt_nmin_top.s.0.48
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_nmin_top.s.0.48 : Spacing between N_MIN_LVT_top  layers must be >= 0.48u
+vt_pmin_top.s.0.48
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_pmin_top.s.0.48 : Spacing between P_MIN_LVT_top layers must be >= 0.48u
+npoly_imp_top.s.0.5
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+npoly_imp_top.s.0.5 : Spacing between N_DUALGTE_top  layers must be >= 0.5u
+poly.w.0.15
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+poly.w.0.15 : Poly2 width must be >= 0.15u
+met1.w.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met1.w.0.24 : Metal1 width must be >= 0.24u
+met2.w.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met2.w.0.24 : Metal2 width must be >= 0.24u
+met3.w.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met3.w.0.24 : Metal3 width must be >= 0.24u
+met4.w.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met4.w.0.24 : Metal4 width must be >= 0.24u
+met5.w.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met5.w.0.24 : Metal5 width must be >= 0.24u
+poly_top.w.0.15
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+poly_top.w.0.15 : Poly2_top  width must be >= 0.15u
+met1_top.w.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met1_top.w.0.24 : Metal1_top  width must be >= 0.24u
+met2_top.w.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met2_top.w.0.24 : Metal2_top  width must be >= 0.24u
+met3_top.w.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met3_top.w.0.24 : Metal3_top  width must be >= 0.24u
+met4_top.w.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met4_top.w.0.24 : Metal4_top  width must be >= 0.24u
+met5_top.w.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met5_top.w.0.24 : Metal5_top  width must be >= 0.24u
+metF_top.w.0.58
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+metF_top.w.0.58 : MetalF_top  width must be >= 0.58u
+MIM_top.w.5
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+MIM_top.w.5 : MIM_top  width must be >= 5u
+MIM_top.w.70
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+MIM_top.w.70 : MIM_top width must be =< 70u
+metT_top.w.6
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+metT_top.w.6 : MetalT_top  width must be >= 6u
+poly.s.0.26
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+poly.s.0.26 : Spacing between Poly2 lines must be > 0.26u
+met1.s.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met1.s.0.24: Spacing between metal1 lines must be > 0.24u for lines with width < 0.4u
+met1.thick.s.0.34
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met1.thick.s.0.34: Spacing between metal1 lines must be > 0.34u for thick lines with width > 0.4u
+met2.s.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met2.s.0.24: Spacing between metal2 lines must be > 0.24u for lines with width < 0.4u
+met2.thick.s.0.34
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met2.thick.s.0.34: Spacing between metal2 lines must be > 0.34u for thick lines with width > 0.4u
+met3.s.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met3.s.0.24: Spacing between metal3 lines must be > 0.24u for lines with width < 0.4u
+met3.thick.s.0.34
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met3.thick.s.0.34: Spacing between metal3 lines must be > 0.34u for thick lines with width > 0.4u
+met4.s.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met4.s.0.24: Spacing between metal4 lines must be > 0.24u for lines with width < 0.4u
+met4.thick.s.0.34
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met4.thick.s.0.34: Spacing between metal4 lines must be > 0.34u for thick lines with width > 0.4u
+met5.s.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met5.s.0.24: Spacing between metal5 lines must be > 0.24u for lines with width < 0.4u
+met5.thick.s.0.34
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met5.thick.s.0.34: Spacing between metal5 lines must be > 0.34u for thick lines with width > 0.4u
+poly_top.s.0.26
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+poly_top.s.0.26 : Spacing between Poly2_top  lines must be > 0.26u
+met1_top.s.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met1_top.s.0.24: Spacing between metal1_top  lines must be > 0.24u for lines with width < 0.4u
+met1_top.thick.s.0.34
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met1_top.thick.s.0.34: Spacing between metal1_top  lines must be > 0.34u for thick lines with width > 0.4u
+met2_top.s.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met2_top.s.0.24: Spacing between metal2_top  lines must be > 0.24u for lines with width < 0.4u
+met2_top.thick.s.0.34
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met2_top.thick.s.0.34: Spacing between metal2_top  lines must be > 0.34u for thick lines with width > 0.4u
+met3_top.s.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met3_top.s.0.24: Spacing between metal3_top  lines must be > 0.24u for lines with width < 0.4u
+met3_top.thick.s.0.34
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met3_top.thick.s.0.34: Spacing between metal3_top  lines must be > 0.34u for thick lines with width > 0.4u
+met4_top.s.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met4_top.s.0.24: Spacing between metal4_top  lines must be > 0.24u for lines with width < 0.4u
+met4_top.thick.s.0.34
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met4_top.thick.s.0.34: Spacing between metal4_top  lines must be > 0.34u for thick lines with width > 0.4u
+met5_top.s.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met5_top.s.0.24: Spacing between metal5_top  lines must be > 0.24u for lines with width < 0.4u
+met5_top.thick.s.0.34
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met5_top.thick.s.0.34: Spacing between metal5_top  lines must be > 0.34u for thick lines with width > 0.4u
+MIM_top.s.1.5
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+MIM_top.s.1.5: Spacing between MIM_top shapes must be > 1.5u
+metF_top.s.0.58
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+metF_top.s.0.58: Spacing between metalF_top  lines must be > 0.58u for lines with width < 1u
+metF_top.thick.s.1
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+metF_top.thick.s.1: Spacing between metalF_top  lines must be > 1u for thick lines with width > 1u
+metT_top.s.5.5
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+metT_top.s.5.5: Spacing between metalT_top  lines must be > 5.5u
+cont.d.0.18
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+cont.d.0.18 : CONT must be 0.18u x 0.18u
+cont.s.0.30
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+cont.s.0.30 : Spacing between conts must be >= 0.30u
+via1.d.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via1.d.0.24 : VIA1 must be 0.24u x 0.24u
+via1.s.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via1.s.0.24 : Spacing between via1s must be >= 0.24u
+via2.d.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via2.d.0.24 : VIA2 must be 0.24u x 0.24u
+via2.s.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via2.s.0.24 : Spacing between via2s must be >= 0.24u
+via3.d.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via3.d.0.24 : VIA3 must be 0.24u x 0.24u
+via3.s.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via3.s.0.24 : Spacing between via3s must be >= 0.24u
+via4.d.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via4.d.0.24 : VIA4 must be 0.24u x 0.24u
+via4.s.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via4.s.0.24 : Spacing between via4s must be >= 0.24u
+miv.d.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+miv.d.0.24 : MIV  must be 0.24u x 0.24u
+cont_top.d.0.18
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+cont_top.d.0.18 : CONT_top  must be 0.18u x 0.18u
+cont_top.s.0.30
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+cont_top.s.0.30 : Spacing between cont_top s must be >= 0.30u
+via1_top.d.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via1_top.d.0.24 : VIA1_top  must be 0.24u x 0.24u
+via1_top.s.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via1_top.s.0.24 : Spacing between via1_top s must be >= 0.24u
+via2_top.d.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via2_top.d.0.24 : VIA2_top  must be 0.24u x 0.24u
+via2_top.s.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via2_top.s.0.24 : Spacing between via2_top s must be >= 0.24u
+via3_top.d.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via3_top.d.0.24 : VIA3_top  must be 0.24u x 0.24u
+via3_top.s.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via3_top.s.0.24 : Spacing between via3_top s must be >= 0.24u
+via4_top.d.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via4_top.d.0.24 : VIA4_top  must be 0.24u x 0.24u
+via4_top.s.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via4_top.s.0.24 : Spacing between via4_top s must be >= 0.24u
+viaF_top.d.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaF_top.d.0.24 : VIAF_top  must be 0.24u x 0.24u
+viaF_top.s.0.24
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaF_top.s.0.24 : Spacing between viaF_top s must be >= 0.24u
+viaT_top.w.3
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaT_top.w.3 : viaT_top  width must be >= 3u
+viaT_top.s.3
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaT_top.s.3 : Spacing between viaT_top s must be >= 3u
+cont.en.met1.diff
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+cont.en.met1.diff : CONT must be enclosed by Metal1 and Diff by a factor of at least 0.03u
+cont.en.met1.poly
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+cont.en.met1.poly : CONT must be enclosed by Metal1 and POLY by a factor of at least 0.03u
+cont.in.diff_poly.met1
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+cont.in.diff_poly.met1 : CONT must be inside DIFF or POLY and Metal1
+via1.en.met1.met2
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via1.en.met1.met2 : VIA1 must be enclosed by Metal1 and Metal2 by a factor of at least 0.03u
+via1.in.met1.met2
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via1.in.met1.met2 : VIA1 must inside Metal1 and Metal2
+via2.en.met2.met3
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via2.en.met2.met3 : VIA2 must be enclosed by Metal2 and Metal3 by a factor of at least 0.03u
+via2.in.met2.met3
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via2.in.met2.met3 : VIA2 must inside Metal2 and Metal3
+via3.en.met3.met4
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via3.en.met3.met4 : VIA3 must be enclosed by Metal3 and Metal4 by a factor of at least 0.03u
+via3.in.met3.met4
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via3.in.met3.met4 : VIA3 must inside Metal3 and Metal4
+via4.en.met4.met5
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via4.en.met4.met5 : VIA4 must be enclosed by Metal4 and Metal5 by a factor of at least 0.03u
+via4.in.met4.met5
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via4.in.met4.met5 : VIA4 must inside Metal4 and Metal5
+cont_top.en.met1_top.diff_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+cont_top.en.met1_top.diff_top  : CONT_top  must be enclosed by Metal1_top  and Diff_top  by a factor of at least 0.03u
+cont_top.en.met1_top.poly_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+cont_top.en.met1_top.poly_top  : CONT_top  must be enclosed by Metal1_top  and POLY_top  by a factor of at least 0.03u
+cont_top.in.diff_poly_top.met1_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+cont_top.in.diff_poly_top.met1_top  : CONT_top  must be inside DIFF_top  or POLY_top  and Metal1_top 
+via1_top.en.met1_top.met2_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via1_top.en.met1_top.met2_top : VIA1_top  must be enclosed by Metal1_top  and Metal2_top  by a factor of at least 0.03u
+via1_top.in.met1_top.met2_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via1_top.in.met1_top.met2_top : VIA1_top  must inside Metal1_top  and Metal2_top 
+via2_top.en.met2_top.met3_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via2_top.en.met2_top.met3_top  : VIA2_top  must be enclosed by Metal2_top  and Metal3_top  by a factor of at least 0.03u
+via2_top.in.met2_top.met3_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via2_top.in.met2_top.met3_top : VIA2_top  must inside Metal2_top  and Metal3_top 
+via3_top.en.met3_top.met4_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via3_top.en.met3_top.met4_top : VIA3_top  must be enclosed by Metal3_top  and Metal4_top  by a factor of at least 0.03u
+via3_top.in.met3_top.met4_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via3_top.in.met3_top.met4_top : VIA3_top  must inside Metal3_top  and Metal4_top 
+via4_top.en.met4_top.met5_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via4_top.en.met4_top.met5_top  : VIA4_top  must be enclosed by Metal4_top  and Metal5_top  by a factor of at least 0.03u
+via4_top.in.met4_top.met5_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via4_top.in.met4_top.met5_top  : VIA4_top  must inside Metal4_top  and Metal5_top 
+viaF_met5_top.en.met5_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaF_met5_top.en.met5_top : VIAF_met5_top  must be enclosed by Metal5_top by a factor of at least 0.03u
+viaF_met5_top.in.met5_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaF_met5_top.in.met5_top : VIAF_met5_top  must be inside Metal5_top
+viaF_MIM_top.en.MIM_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaF_MIM_top.en.MIM_top : VIAF_MIM_top  must be enclosed by MIM_top by a factor of at least 0.25u
+viaF_MIM_top.in.MIM_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaF_MIM_top.in.MIM_top : VIAF_MIM_top  must be inside MIM_top
+viaF_top.en.metF_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaF_top.en.metF_top : VIAF_top  must be enclosed by MetalF_top by a factor of at least 0.05u
+viaF_top.in.metF_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaF_top.in.metF_top : VIAF_top  must be inside MetalF_top
+viaT_top.en.metF_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaT_top.en.metF_top : VIAT_top  must be enclosed by MetalF_top by a factor of at least 0.5u
+viaT_top.in.metF_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaT_top.in.metF_top : VIAT_top  must be inside MetalF_top
+viaT_top.en.metT_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaT_top.en.metT_top : VIAT_top  must be enclosed by MetalT_top by a factor of at least 1u
+viaT_top.in.metT_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaT_top.in.metT_top : VIAT_top  must be inside MetalT_top
+miv.en.met5.met1_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+miv.en.met5.met1_top : MIV  must be enclosed by Metal5  and Metal1_top  by a factor of at least 0.03u
+miv.in.met5.met1_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+miv.in.met5.met1_top : MIV  must inside Metal5  and Metal1_top 
+vt_nmin.ov.vt_pmin
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_nmin.ov.vt_pmin : Layers N_MIN_LVT and P_MIN_LVT are not allowed to overlap
+vt_nmin.ov.pimp
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_nmin.ov.pimp : Layers N_MIN_LVT and P_PLUS are not allowed to overlap
+vt_pmin.ov.nimp
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_pmin.ov.nimp : Layers P_MIN_LVT and N_PLUS are not allowed to overlap
+vt_nmin_top.ov.vt_pmin_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_nmin_top.ov.vt_pmin_top  : Layers N_MIN_LVT_top  and P_MIN_LVT_top  are not allowed to overlap
+vt_nmin_top.ov.pimp_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_nmin_top.ov.pimp_top : Layers N_MIN_LVT_top  and P_PLUS_top  are not allowed to overlap
+vt_pmin_top.ov.nimp_top
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_pmin_top.ov.nimp_top  : Layers P_MIN_LVT_top  and N_PLUS_top  are not allowed to overlap
+nimp.s.pgate.0.32
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+nimp.s.pgate.0.32 : Spacing between N_PLUS and PGATE must be >= 0.32
+pimp.s.ngate.0.32
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+pimp.s.ngate.0.32 : Spacing between P_PLUS and NGATE must be >= 0.32
+nimp.s.ptap.0.008
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+nimp.s.ptap.0.008 : Spacing between N_PLUS and PTAP must be >= 0.08
+pimp.s.ntap.0.008
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+pimp.s.ntap.0.008 : Spacing between P_PLUS and NTAP must be >= 0.08
+nimp_top.s.pgate_top.0.32
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+nimp_top.s.pgate_top.0.32 : Spacing between N_PLUS_top  and PGATE_top  must be >= 0.32u
+pimp_top.s.ngate_top.0.32
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+pimp_top.s.ngate_top.0.32 : Spacing between P_PLUS_top  and NGATE_top  must be >= 0.32u
+via4_top.s.MIM_top.0.5
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via4_top.s.MIM_top.0.5 : Spacing between VIA4_top and MIM_top must be >= 0.5u
+viaF_met5_top.s.MIM_top.0.5
+0 0 2 Mar 14 15:57:45 2016
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaF_met5_top.s.MIM_top.0.5 : Spacing between VIAF_met5_top and MIM_top must be >= 0.5u

@@ -1,0 +1,22 @@
+Parameters:
+	-runDir
+	/home/pancha/ProjGe3D/lf150/LVSruns
+	-ossdir
+	/home/pancha/ProjGe3D/lf150/LVSruns/
+	-cellmap
+	/home/pancha/ProjGe3D/lf150/LVSruns/lay_cellMap.txt
+	-ppid
+	30625
+	-form
+	-viewer
+	virtuoso
+	-schview
+	schematic
+	-tag
+	HALLIFEHPHNNFHSJK
+
+
+Checking out SoftShare license Phys_Ver_Sys_Results_Mgr 14.1 ... succeeded (1s).
+starting pvsProbeServer: port= 48008
+Starting probe server on port: 48008
+Checking in all SoftShare licenses.

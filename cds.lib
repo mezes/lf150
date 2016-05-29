@@ -1,0 +1,19 @@
+# File Created by Panos at Tue Jan 26 09:30:56 2016
+# assisted by CdsLibEditor
+## PDK specific entries do not touch --
+INCLUDE /PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/tools/setup/cds.lib
+UNDEFINE avTech
+## END PDK specific entries do not touch --
+DEFINE test /home/pancha/ProjGe3D/lf150/test
+#Removed by ddDeleteObj: DEFINE lf150_top /afs/kth.se/home/p/a/pancha/ProjGe3D/lf150/lf150_top
+DEFINE lf150_top /home/pancha/ProjGe3D/lf150/lf150_top
+DEFINE RF_FrontEnd /home/pancha/ProjGe3D/lf150/RF_FrontEnd
+DEFINE UTSOI_model /home/pancha/ProjGe3D/lf150/UTSOI_model
+#Removed by ddDeleteObj: DEFINE test_shakir /home/pancha/ProjGe3D/lf150/test_shakir
+#Removed by ddDeleteObj: DEFINE testQRC /home/pancha/ProjGe3D/lf150/testQRC
+#Removed by ddDeleteObj: DEFINE test_GDS3D /home/pancha/ProjGe3D/lf150/test_GDS3D
+#Removed by ddDeleteObj: DEFINE test_layouts_S3D /home/pancha/ProjGe3D/lf150/test_layouts_S3D
+DEFINE TopBiasing /home/pancha/ProjGe3D/lf150/TopBiasing
+DEFINE cdnlive2016 cdnlive2016
+DEFINE lf150_passives /home/pancha/ProjGe3D/lf150/lf150_passives
+#Removed by ddDeleteObj: DEFINE BottomBiasing /home/pancha/ProjGe3D/lf150/BottomBiasing

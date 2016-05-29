@@ -1,0 +1,7 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary inverter2D
+% inverter2D 4
+1 INP
+2 VSS
+3 VDD
+4 OUTP

@@ -1,0 +1,40 @@
+Gds_Map 1000
+Layers:
+0 0 35 Apr 14 15:01:17 2016
+back_gate 15 0
+via1 21 0
+met5 36 0
+ndiff_bulk 42 0
+via2 27 0
+nwell 22 0
+cont_top 45 0
+cont 12 0
+pmos_hs 16 0
+nsd_top 10 0
+via3 28 0
+poly_rout 34 0
+met1_top 47 0
+miv 41 0
+met1 13 0
+met4 30 0
+poly_top 44 0
+met2 19 0
+psd 18 0
+met3 24 0
+nmos_hs_top 8 0
+via4 33 0
+pdiff_bulk 39 0
+nmos_hs 0 0
+mim_cap_top 35 0
+ind3n30 38 0
+met5_ind 52 0
+ind3n60 40 0
+via_MIM_top 46 0
+pmos_hs_top 23 0
+ppoly_res 29 0
+via5_top 48 0
+ind3n60_ct 43 0
+ppoly_res_h 32 0
+metF_ind_orth 54 0
+END OF RESPONSE
+0 0 0 Apr 14 15:01:17 2016

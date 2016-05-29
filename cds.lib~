@@ -1,0 +1,8 @@
+# File Created by Panos at Wed Oct  7 11:24:36 2015
+# assisted by CdsLibEditor
+## PDK specific entries do not touch --
+INCLUDE /afs/ict.kth.se/proj/ektlab/PDK/LFOUNDRY2/PDK_LF150i_V2_0_0/tools/setup/cds.lib
+## END PDK specific entries do not touch --
+DEFINE test /home/pancha/ProjGe3D/lf150/test
+#Removed by ddDeleteObj: DEFINE lf150_top /afs/kth.se/home/p/a/pancha/ProjGe3D/lf150/lf150_top
+DEFINE lf150_top /home/pancha/ProjGe3D/lf150/lf150_top

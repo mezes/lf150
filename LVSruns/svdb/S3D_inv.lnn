@@ -1,0 +1,13 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary S3D_inv
+% M2_M3$$1 1
+% M3_M4$$2 1
+% M4_M5$$3 1
+% M5_M1_top$$4 1
+% M1_M2$$5 1
+% nmos_hs_4_top$$8 3
+% S3D_inv 4
+1 VDD
+2 IN
+3 OUT
+4 VSS

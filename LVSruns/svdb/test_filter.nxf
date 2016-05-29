@@ -1,0 +1,16 @@
+# XXXX: Net Cross Reference (nxf) (File format 1)
+# XXXX: Layout Primary test_filter
+# XXXX: End of header.
+% R 3 R 3 
+0 PLUS 0 PLUS
+0 MINUS 0 MINUS
+0 B 0 B
+% C 2 C 2 
+0 PLUS 0 PLUS
+0 MINUS 0 MINUS
+% test_filter 4 test_filter 4 
+0 INP 0 INP
+0 OUT 0 OUT
+0 VSS 0 VSS
+0 Vsup 0 Vsup
+0 4 0 net10

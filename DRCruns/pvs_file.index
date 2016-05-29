@@ -1,0 +1,59 @@
+"Cadence Directory" internal none /home/pancha/ProjGe3D/lf150/.cadence/
+"Current Directory" internal none /home/pancha/ProjGe3D/lf150
+"GUI Flow" internal none virtuoso6
+"GUI Preset" internal none /home/pancha/ProjGe3D/lf150/DRCruns/.preset.autosave
+"Job Signature" internal none IPVS_1460638853_30807
+"PVS Job Mode" internal none drc
+"Run Directory" internal none /home/pancha/ProjGe3D/lf150/DRCruns
+"Technology Mapping File" internal none /home/pancha/ProjGe3D/lf150/PDK_LF150i_V2_0_0/pv/pvtech.lib
+"Technology Name" internal none "LF150"
+"Technology Rule File" internal none /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+"Technology RuleSet" internal none "default"
+"PVS Version" internal none 14.14-s507
+"Binary Name" internal none ipvs
+"PVS Build Date" internal none "Mon Mar 30 17:46:13 PDT 2015"
+"PVS Job Time" internal none 1460638853
+"Control File" input text /home/pancha/ProjGe3D/lf150/DRCruns/pvsdrcctl
+"DFII version" internal none 6.1.6.8
+"Do not check rules files before run" internal none ENABLED
+"Input Layout" input none OA: cdnlive2016 inverter layout
+"Intermediate GDSII File" output none /home/pancha/ProjGe3D/lf150/DRCruns/inverter.gds
+"Intermediate GDSII File creation Errors" output none /home/pancha/ProjGe3D/lf150/DRCruns/PIPO1.LOG
+"Intermediate OASIS File creation Errors" output none /home/pancha/ProjGe3D/lf150/DRCruns/PIPO1.LOG
+"Job Signature" internal none IPVS_1460638853_30807
+"Layout Cell Name" internal none inverter
+"Layout ConvertPin" internal text geometry
+"Layout GDSII" input none /home/pancha/ProjGe3D/lf150/DRCruns/inverter.gds
+"Layout HierDepth" internal none 32
+"Layout Library Name" internal none cdnlive2016
+"Layout MaxVertices" internal none 2048
+"Layout Scale" internal none 0.001
+"Layout TechLib" internal none lf150_techLib
+"Layout Top Cell" internal none inverter
+"Layout View Name" internal none layout
+"Output Layout Cellmap I" internal text /home/pancha/ProjGe3D/lf150/DRCruns/lay_cellMap.txt
+"PIPO Log I" log text  /home/pancha/ProjGe3D/lf150/DRCruns/PIPO1.LOG
+"PIPO Output I" internal text  /home/pancha/ProjGe3D/lf150/DRCruns/PIPO1.OUT
+"PIPO Setup File I" internal text  /home/pancha/ProjGe3D/lf150/DRCruns/pipo1.setup
+"PVS Job Log" log text /home/pancha/ProjGe3D/lf150/DRCruns/pvsuidrc.log
+"PVS Job Mode" internal none drc
+"Rule File" input text /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+"Run Directory" internal none /home/pancha/ProjGe3D/lf150/DRCruns
+"TTE mode" internal none ENABLED
+"PVS Version" internal none 14.14-s507
+"Binary Name" internal none pvsvirt
+"PVS Build Date" internal none "Mon Mar 30 18:09:40 PDT 2015"
+"PVS Job Time" internal none 1460638855
+"ASCII DRC Report Database" output rdb /home/pancha/ProjGe3D/lf150/DRCruns/inverter.drc_errors.ascii
+"DRC Summary" output text /home/pancha/ProjGe3D/lf150/DRCruns/inverter.sum
+"Layout GDSII" input none /home/pancha/ProjGe3D/lf150/DRCruns/inverter.gds
+"PVS Job Mode" internal none drc
+"Report MaxResults" internal none 1000
+"Rule File" input text /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+"Run Directory" internal none /home/pancha/ProjGe3D/lf150/DRCruns/
+"TTE mode" internal none ENABLED
+"UI Data" internal none ENABLED
+"PVS Version" internal none 14.14-s507
+"Binary Name" internal none pvs
+"PVS Build Date" internal none "Mon Mar 30 17:55:00 PDT 2015"
+"PVS Job Time" internal none 1460638855

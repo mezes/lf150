@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("test" "test_filter_tb" "config" "spectre")
+descriptionText = "None"

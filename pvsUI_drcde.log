@@ -1,0 +1,18 @@
+Checking out SoftShare license Phys_Ver_Sys_Results_Mgr 14.1 ... succeeded (1s).
+********************************************************************************
+pvstdb 14.14-s507 64 bit (Mon Mar 30 18:09:37 PDT 2015)
+Build Ref No.: 507 (03-30-2015) [pvs_1414]
+
+Copyright 2015 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+Build O/S:       Linux x86_64 2.6.18-194.el5
+Executed on:     s1632.it.kth.se (Linux x86_64 2.6.18-407.el5)
+Starting Time:   Thu Apr 14 15:00:57 2016 (Thu Apr 14 13:00:57 2016 GMT)
+With parameters: -sf /home/pancha/ProjGe3D/lf150/DRCruns/inverter.drc_errors.ascii.index /home/pancha/ProjGe3D/lf150/DRCruns/inverter.drc_errors.ascii /home/pancha/ProjGe3D/lf150/DRCruns/inverter.drc_errors.ascii.pvstdb 
+********************************************************************************
+
+Waiting for write lock on /home/pancha/ProjGe3D/lf150/DRCruns/inverter.drc_errors.ascii.index.
+Obtained lock after 0 seconds.
+pvstdb completed.
+Checking in SoftShare license Phys_Ver_Sys_Results_Mgr ... succeeded (1s).

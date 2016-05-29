@@ -1,0 +1,421 @@
+********************************************************************************
+pvs 14.14-s507 64 bit (Mon Mar 30 17:55:00 PDT 2015)
+Build Ref No.: 507 (03-30-2015) [pvs_1414]
+
+Copyright 2015 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+Build O/S:       Linux x86_64 2.6.18-194.el5
+Executed on:     s1632.it.kth.se (Linux x86_64 2.6.18-407.el5)
+Starting Time:   Thu Apr 14 12:54:33 2016 (Thu Apr 14 10:54:33 2016 GMT)
+With parameters: -lvs -get_rules /tmp/pvsrng.30807@s1632.it.kth.se.1 -tc top -gds /dev/null -get_options /tmp/pvsoptpar.30807@s1632.it.kth.se.1 -gen_tags /tmp/pvsgentags.30807@s1632.it.kth.se.1 -stc top -cdl . -control /tmp/ipvsRulesCheckControl.30807@s1632.it.kth.se.1 /home/pancha/ProjGe3D/lf150/LVSruns/.technology.rul.30807@s1632.it.kth.se.1 
+********************************************************************************
+
+
+########################################################################
+Get host info ...
+########################################################################
+CPU info:
+    model name      :  Intel(R) Xeon(R) CPU           E5420  @ 2.50GHz
+    cpu MHz         :  2000.000
+    cache size      :  6144 KB
+    physical cores  :  8
+    logical cores   :  8
+
+Memory info:
+    9992M physical memory installed.
+
+    MemTotal:     10232140 kB
+    MemFree:       1350144 kB
+    Buffers:        535280 kB
+    Cached:        5123376 kB
+    SwapCached:          0 kB
+    Active:        3302668 kB
+    Inactive:      3863060 kB
+    HighTotal:           0 kB
+    HighFree:            0 kB
+    LowTotal:     10232140 kB
+    LowFree:       1350144 kB
+    SwapTotal:    12287992 kB
+    SwapFree:     12287556 kB
+    Dirty:             440 kB
+    Writeback:           0 kB
+    AnonPages:     1496736 kB
+    Mapped:         426852 kB
+    Slab:          1635236 kB
+    PageTables:      36768 kB
+    NFS_Unstable:        0 kB
+    Bounce:              0 kB
+    CommitLimit:  17404060 kB
+    Committed_AS:  2400140 kB
+    VmallocTotal: 34359738367 kB
+    VmallocUsed:    269676 kB
+    VmallocChunk: 34359468279 kB
+    HugePages_Total:     0
+    HugePages_Free:      0
+    HugePages_Rsvd:      0
+    Hugepagesize:     2048 kB
+
+
+########################################################################
+Parsing Control File /tmp/ipvsRulesCheckControl.30807@s1632.it.kth.se.1 ...
+########################################################################
+RESULTS_DB -erc "/home/pancha/ProjGe3D/lf150/LVSruns/inverter.erc_errors.ascii" -ascii;
+LVS_RUN_ERC_CHECKS yes;
+
+########################################################################
+Parsing Rule File /home/pancha/ProjGe3D/lf150/LVSruns/.technology.rul.30807@s1632.it.kth.se.1 ...
+########################################################################
+TECHNOLOGY LF150 -ruleSet default -techLib /home/pancha/ProjGe3D/lf150/PDK_LF150i_V2_0_0/pv/pvtech.lib;
+[INFO] TECHNOLOGY: Rules file /PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/pv/pvs/./pvlLVS.rul will be included after the remainder of the current rules are processed.
+[INFO] TECHNOLOGY LF150 -techLib /home/pancha/ProjGe3D/lf150/PDK_LF150i_V2_0_0/pv/pvtech.lib: End of additions.
+INPUT_SCALE 1000;
+GRID 5;
+UNIT -length u;
+LAYOUT_PRESERVE_CASE -property yes;
+LAYER_DEF diff 60000;
+LAYER_MAP 1 -datatype 0 60000;
+LAYER_DEF ncore 60001;
+LAYER_MAP 9 -datatype 0 60001;
+LAYER_DEF npoly_imp 60002;
+LAYER_MAP 22 -datatype 0 60002;
+LAYER_DEF poly 60003;
+LAYER_MAP 25 -datatype 0 60003;
+LAYER_DEF vt_nmin 60004;
+LAYER_MAP 31 -datatype 0 60004;
+LAYER_DEF nimp 60005;
+LAYER_MAP 41 -datatype 0 60005;
+LAYER_DEF cont 60006;
+LAYER_MAP 44 -datatype 0 60006;
+LAYER_DEF met1 60007;
+LAYER_MAP 45 -datatype 0 60007;
+LAYER_DEF cap 60008;
+LAYER_MAP 19 -datatype 0 60008;
+LAYER_DEF pwell 60009;
+LAYER_MAP 5 -datatype 0 60009;
+LAYER_DEF pimp 60010;
+LAYER_MAP 40 -datatype 0 60010;
+LAYER_DEF rfmark 60011;
+LAYER_MAP 122 -datatype 0 60011;
+LAYER_DEF met1_pin 60012;
+LAYER_MAP 45 -texttype 251 60012;
+TEXT_LAYER met1_pin;
+PORT -text_layer met1_pin;
+LAYER_DEF met2 60013;
+LAYER_MAP 47 -datatype 0 60013;
+LAYER_DEF met2_pin 60014;
+LAYER_MAP 47 -texttype 251 60014;
+TEXT_LAYER met2_pin;
+PORT -text_layer met2_pin;
+LAYER_DEF via1 60015;
+LAYER_MAP 46 -datatype 0 60015;
+LAYER_DEF nwell 60016;
+LAYER_MAP 4 -datatype 0 60016;
+LAYER_DEF pcore 60017;
+LAYER_MAP 8 -datatype 0 60017;
+LAYER_DEF vt_pmin 60018;
+LAYER_MAP 30 -datatype 0 60018;
+LAYER_DEF met3 60019;
+LAYER_MAP 49 -datatype 0 60019;
+LAYER_DEF met3_pin 60020;
+LAYER_MAP 49 -texttype 251 60020;
+TEXT_LAYER met3_pin;
+PORT -text_layer met3_pin;
+LAYER_DEF via2 60021;
+LAYER_MAP 48 -datatype 0 60021;
+LAYER_DEF via3 60022;
+LAYER_MAP 50 -datatype 0 60022;
+LAYER_DEF met4 60023;
+LAYER_MAP 51 -datatype 0 60023;
+LAYER_DEF met4_pin 60024;
+LAYER_MAP 51 -texttype 251 60024;
+TEXT_LAYER met4_pin;
+PORT -text_layer met4_pin;
+LAYER_DEF via4 60025;
+LAYER_MAP 52 -datatype 0 60025;
+LAYER_DEF met5 60026;
+LAYER_MAP 53 -datatype 0 60026;
+LAYER_DEF met5_pin 60027;
+LAYER_MAP 53 -texttype 251 60027;
+TEXT_LAYER met5_pin;
+PORT -text_layer met5_pin;
+LAYER_DEF miv 60028;
+LAYER_MAP 134 -datatype 0 60028;
+LAYER_DEF RES_mark 60062;
+LAYER_MAP 100 -datatype 0 60062;
+LAYER_DEF NO_salicide 60064;
+LAYER_MAP 43 -datatype 0 60064;
+LAYER_DEF diff_top 60029;
+LAYER_MAP 400 -datatype 0 60029;
+LAYER_DEF ncore_top 60030;
+LAYER_MAP 409 -datatype 0 60030;
+LAYER_DEF npoly_imp_top 60031;
+LAYER_MAP 422 -datatype 0 60031;
+LAYER_DEF poly_top 60032;
+LAYER_MAP 425 -datatype 0 60032;
+LAYER_DEF vt_nmin_top 60033;
+LAYER_MAP 435 -datatype 0 60033;
+LAYER_DEF nimp_top 60034;
+LAYER_MAP 441 -datatype 0 60034;
+LAYER_DEF cont_top 60035;
+LAYER_MAP 135 -datatype 0 60035;
+LAYER_DEF met1_top 60036;
+LAYER_MAP 133 -datatype 0 60036;
+LAYER_DEF pimp_top 60037;
+LAYER_MAP 440 -datatype 0 60037;
+LAYER_DEF met1_top_pin 60038;
+LAYER_MAP 133 -texttype 251 60038;
+TEXT_LAYER met1_top_pin;
+PORT -text_layer met1_top_pin;
+LAYER_DEF met2_top 60039;
+LAYER_MAP 447 -datatype 0 60039;
+LAYER_DEF met2_top_pin 60040;
+LAYER_MAP 447 -texttype 251 60040;
+TEXT_LAYER met2_top_pin;
+PORT -text_layer met2_top_pin;
+LAYER_DEF via1_top 60041;
+LAYER_MAP 446 -datatype 0 60041;
+LAYER_DEF pcore_top 60042;
+LAYER_MAP 408 -datatype 0 60042;
+LAYER_DEF vt_pmin_top 60043;
+LAYER_MAP 430 -datatype 0 60043;
+LAYER_DEF met3_top 60044;
+LAYER_MAP 449 -datatype 0 60044;
+LAYER_DEF met3_top_pin 60045;
+LAYER_MAP 449 -texttype 251 60045;
+TEXT_LAYER met3_top_pin;
+PORT -text_layer met3_top_pin;
+LAYER_DEF via2_top 60046;
+LAYER_MAP 448 -datatype 0 60046;
+LAYER_DEF via3_top 60047;
+LAYER_MAP 450 -datatype 0 60047;
+LAYER_DEF met4_top 60048;
+LAYER_MAP 451 -datatype 0 60048;
+LAYER_DEF met4_top_pin 60049;
+LAYER_MAP 451 -texttype 251 60049;
+TEXT_LAYER met4_top_pin;
+PORT -text_layer met4_top_pin;
+LAYER_DEF via4_top 60050;
+LAYER_MAP 452 -datatype 0 60050;
+LAYER_DEF met5_top 60051;
+LAYER_MAP 553 -datatype 0 60051;
+LAYER_DEF met5_top_pin 60052;
+LAYER_MAP 553 -texttype 251 60052;
+TEXT_LAYER met5_top_pin;
+PORT -text_layer met5_top_pin;
+LAYER_DEF viaF_top 60053;
+LAYER_MAP 570 -datatype 0 60053;
+LAYER_DEF metF_top 60054;
+LAYER_MAP 571 -datatype 0 60054;
+LAYER_DEF metF_top_pin 60055;
+LAYER_MAP 571 -texttype 251 60055;
+TEXT_LAYER metF_top_pin;
+PORT -text_layer metF_top_pin;
+LAYER_DEF viaT_top 60056;
+LAYER_MAP 572 -datatype 0 60056;
+LAYER_DEF metT_top 60057;
+LAYER_MAP 573 -datatype 0 60057;
+LAYER_DEF metT_top_pin 60058;
+LAYER_MAP 573 -texttype 251 60058;
+TEXT_LAYER metT_top_pin;
+PORT -text_layer metT_top_pin;
+LAYER_DEF MIM_top 60059;
+LAYER_MAP 460 -datatype 0 60059;
+LAYER_DEF MIM_mark 60060;
+LAYER_MAP 103 -datatype 0 60060;
+LAYER_DEF IND_mark 60061;
+LAYER_MAP 123 -datatype 0 60061;
+LAYER_DEF back_gate 60063;
+LAYER_MAP 399 -datatype 0 60063;
+AND poly diff gate_all;
+NOT poly RES_mark poly_rout;
+AND pimp diff pdiff;
+AND nimp diff ndiff;
+NOT pdiff pcore pdiff_bulk;
+NOT ndiff ncore ndiff_bulk;
+AND poly_top diff_top gate_all_top;
+SELECT -outside poly_top gate_all poly_top_rout;
+AND pimp_top diff_top pdiff_top;
+AND nimp_top diff_top ndiff_top;
+NOT pdiff_top pcore_top pdiff_bulk_top;
+NOT ndiff_top ncore_top ndiff_bulk_top;
+AND MIM_mark viaF_top via_MIM_top;
+NOT viaF_top via_MIM_top via5_top;
+NOT metT_top IND_mark metT_rout;
+NOT viaT_top IND_mark viaT_rout;
+AND metF_top IND_mark metF_ind1;
+AND met5_top IND_mark met5_ind;
+NOT metF_ind1 met5_ind metF_ind;
+RECT_CHK metF_ind -orthogonal_only metF_ind_orth;
+AND gate_all nimp ngate_all;
+NOT ngate_all cap ngate_mos;
+AND vt_nmin ncore vt_nmos18;
+AND ngate_mos npoly_imp all_dualGate;
+AND all_dualGate vt_nmos18 nmos18;
+NOT nmos18 rfmark nmos_hs;
+AND ndiff ncore ndiff_nmos;
+NOT ndiff_nmos ngate_mos nsd;
+AND gate_all_top nimp_top ngate_all_top;
+NOT ngate_all_top cap ngate_mos_top;
+AND vt_nmin_top ncore_top vt_nmos18_top;
+AND ngate_mos_top npoly_imp_top all_dualGate_top;
+AND all_dualGate_top vt_nmos18_top nmos18_top;
+NOT nmos18_top rfmark nmos_hs_top;
+AND ndiff_top ncore_top ndiff_nmos_top;
+NOT ndiff_nmos_top ngate_mos_top nsd_top;
+AND gate_all pimp pgate_all;
+NOT pgate_all cap pgate_mos;
+AND pcore vt_pmin vt_pmos18;
+AND pgate_mos vt_pmos18 pmos18;
+NOT pmos18 rfmark pmos_hs;
+AND pdiff pcore pdiff_pmos;
+NOT pdiff_pmos pgate_mos psd;
+AND gate_all_top pimp_top pgate_all_top;
+NOT pgate_all_top cap pgate_mos_top;
+AND pcore_top vt_pmin_top vt_pmos18_top;
+AND pgate_mos_top vt_pmos18_top pmos18_top;
+NOT pmos18_top rfmark pmos_hs_top;
+AND pdiff_top pcore_top pdiff_pmos_top;
+NOT pdiff_pmos_top pgate_mos_top psd_top;
+AND poly RES_mark poly_res;
+AND poly_res nwell _ppoly_res;
+NOT _ppoly_res NO_salicide ppoly_res;
+AND _ppoly_res NO_salicide ppoly_res_h;
+AND met5_top MIM_top met5_MIM_top;
+AND met5_MIM_top MIM_mark mim_cap_top;
+RECT_CHK IND_mark -eq 290.02 -by -eq 253.01 -orthogonal_only ind3n30;
+RECT_CHK IND_mark -eq 313.82 -by -eq 284.33 -orthogonal_only ind3n60;
+RECT_CHK IND_mark -eq 313.82 -by -eq 293.46 -orthogonal_only ind3n60_ct;
+CONNECT met1 nsd -by cont;
+CONNECT met1 psd -by cont;
+CONNECT met1 poly_rout -by cont;
+CONNECT pwell met1 -by pdiff_bulk;
+CONNECT nwell met1 -by ndiff_bulk;
+CONNECT met2 met1 -by via1;
+CONNECT met3 met2 -by via2;
+CONNECT met4 met3 -by via3;
+CONNECT met5 met4 -by via4;
+ATTACH met1_pin met1;
+ATTACH met2_pin met2;
+ATTACH met3_pin met3;
+ATTACH met4_pin met4;
+ATTACH met5_pin met5;
+CONNECT met1_top nsd_top -by cont_top;
+CONNECT met1_top psd_top -by cont_top;
+CONNECT met1_top poly_top -by cont_top;
+CONNECT back_gate nsd_top -by cont_top;
+CONNECT met1_top met5 -by miv;
+CONNECT met2_top met1_top -by via1_top;
+CONNECT met3_top met2_top -by via2_top;
+CONNECT met4_top met3_top -by via3_top;
+CONNECT met5_top met4_top -by via4_top;
+CONNECT metF_top met5_top -by via5_top;
+CONNECT metF_top MIM_top -by via_MIM_top;
+ATTACH met1_top_pin met1_top;
+ATTACH met2_top_pin met2_top;
+ATTACH met3_top_pin met3_top;
+ATTACH met4_top_pin met4_top;
+ATTACH met5_top_pin met5_top;
+ATTACH metF_top_pin metF_top;
+ATTACH metT_top_pin metT_top;
+DEVICE MN ( nmos_hs ) nmos_hs poly_rout ( G ) nsd ( S ) nsd ( D ) pwell ( B ) [ 
+ property w , l 
+ w = perimeter_co ( nmos_hs , nsd ) *0.5 
+ l = perimeter_out ( nmos_hs , nsd ) *0.5 
+ ];
+LVS_CHECK_PROPERTY MN ( nmos_hs ) w w -tolerance 3;
+LVS_CHECK_PROPERTY MN ( nmos_hs ) l l -tolerance 3;
+DEVICE MN ( nmos_hs_top ) nmos_hs_top poly_top ( G ) nsd_top ( S ) nsd_top ( D ) back_gate ( B ) [ 
+ property W , L 
+ W = perimeter_co ( nmos_hs_top , nsd_top ) *0.5 
+ L = perimeter_out ( nmos_hs_top , nsd_top ) *0.5 
+ ];
+LVS_CHECK_PROPERTY MN ( nmos_hs_top ) W W -tolerance 3;
+LVS_CHECK_PROPERTY MN ( nmos_hs_top ) L L -tolerance 3;
+DEVICE MP ( pmos_hs ) pmos_hs poly_rout ( G ) psd ( S ) psd ( D ) nwell ( B ) [ 
+ property w , l 
+ w = perimeter_co ( pmos_hs , psd ) *0.5 
+ l = perimeter_out ( pmos_hs , psd ) *0.5 
+ ];
+LVS_CHECK_PROPERTY MP ( pmos_hs ) w w -tolerance 3;
+LVS_CHECK_PROPERTY MP ( pmos_hs ) l l -tolerance 3;
+DEVICE MP ( pmos_hs_4_top ) pmos_hs_top poly_top ( G ) psd_top ( S ) psd_top ( D ) [ 
+ property w , l 
+ w = perimeter_co ( pmos_hs_top , psd_top ) *0.5 
+ l = perimeter_out ( pmos_hs_top , psd_top ) *0.5 
+ ];
+LVS_CHECK_PROPERTY MP ( pmos_hs_4_top ) w w -tolerance 3;
+LVS_CHECK_PROPERTY MP ( pmos_hs_4_top ) l l -tolerance 3;
+DEVICE R ( resistor ) ppoly_res poly_rout ( PLUS ) poly_rout ( MINUS ) nwell ( B ) [ 
+ property w , l , r 
+ w = 0.25* ( perimeter ( ppoly_res ) - sqrt ( perimeter ( ppoly_res ) *perimeter ( ppoly_res ) - 16*area ( ppoly_res ) ) ) 
+ l = area ( ppoly_res ) / w 
+ r = 11.49*l / w 
+ ];
+LVS_CHECK_PROPERTY R ( resistor ) w w -tolerance 3;
+LVS_CHECK_PROPERTY R ( resistor ) l l -tolerance 3;
+LVS_CHECK_PROPERTY R ( resistor ) r r -tolerance 3;
+DEVICE R ( resistor ) ppoly_res_h poly_rout ( PLUS ) poly_rout ( MINUS ) nwell ( B ) [ 
+ property L , W , r 
+ W = 0.25* ( perimeter ( ppoly_res_h ) - sqrt ( perimeter ( ppoly_res_h ) *perimeter ( ppoly_res_h ) - 16*area ( ppoly_res_h ) ) ) 
+ L = area ( ppoly_res_h ) / w 
+ r = 1950*l / w + 2150*1e-6 / w*2 
+ ];
+LVS_CHECK_PROPERTY R ( resistor ) W W -tolerance 3;
+LVS_CHECK_PROPERTY R ( resistor ) L L -tolerance 3;
+LVS_CHECK_PROPERTY R ( resistor ) r r -tolerance 3;
+DEVICE C ( capacitor ) mim_cap_top MIM_top ( T ) met5_top ( B ) [ 
+ property c 
+ c = area ( mim_cap_top ) *1e+012*0.98e-015 + perimeter ( mim_cap_top ) *1e+006*0.11e-015 
+ w = 0.25*perimeter ( mim_cap_top ) + 0.5*sqrt ( 0.25*perimeter ( mim_cap_top ) *perimeter ( mim_cap_top ) - 4*area ( mim_cap_top ) ) 
+ l = 0.25*perimeter ( mim_cap_top ) - 0.5*sqrt ( 0.25*perimeter ( mim_cap_top ) *perimeter ( mim_cap_top ) - 4*area ( mim_cap_top ) ) 
+ ];
+LVS_CHECK_PROPERTY C ( capacitor ) c c -tolerance 1;
+DEVICE L ( ind3n30a02g4 ) ind3n30 metF_ind_orth ( PLUS ) metF_ind_orth ( MINUS );
+DEVICE L ( ind3n60a02g4 ) ind3n60 metF_ind_orth ( PLUS ) metF_ind_orth ( MINUS );
+DEVICE ind3n60_1n80a2g4_CT ind3n60_ct metF_ind_orth ( PLUS ) metF_ind_orth ( MINUS ) met5_ind ( CT );
+LVS_FILTER_DEVICE ind3n60_1n80a2g4_CT;
+
+
+########################################################################
+Optimizing Rules ...
+########################################################################
+[WARN] Neither hcell nor -automatch option is specified.
+Operation 'SELECT -outside' at line 257 in file /PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/pv/pvs/./pvlLVS.rul is not selected for executing, remove it.
+Operation 'NOT' at line 260 in file /PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/pv/pvs/./pvlLVS.rul is not selected for executing, remove it.
+Operation 'NOT' at line 261 in file /PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/pv/pvs/./pvlLVS.rul is not selected for executing, remove it.
+Operation 'NOT' at line 264 in file /PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/pv/pvs/./pvlLVS.rul is not selected for executing, remove it.
+Operation 'NOT' at line 265 in file /PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/pv/pvs/./pvlLVS.rul is not selected for executing, remove it.
+Completed execution early, as requested by the "-get_rules" or "-gen_tags"
+
+   ONE LAYER BOOLEAN: Cumulative Time CPU =        0(s) REAL =        0(s)
+   TWO LAYER BOOLEAN: Cumulative Time CPU =        0(s) REAL =        0(s)
+ POLYGON TOPOLOGICAL: Cumulative Time CPU =        0(s) REAL =        0(s)
+ POLYGON MEASUREMENT: Cumulative Time CPU =        0(s) REAL =        0(s)
+                SIZE: Cumulative Time CPU =        0(s) REAL =        0(s)
+    EDGE TOPOLOGICAL: Cumulative Time CPU =        0(s) REAL =        0(s)
+    EDGE MEASUREMENT: Cumulative Time CPU =        0(s) REAL =        0(s)
+               STAMP: Cumulative Time CPU =        0(s) REAL =        0(s)
+       ONE LAYER DRC: Cumulative Time CPU =        0(s) REAL =        0(s)
+       TWO LAYER DRC: Cumulative Time CPU =        0(s) REAL =        0(s)
+            NET AREA: Cumulative Time CPU =        0(s) REAL =        0(s)
+             DENSITY: Cumulative Time CPU =        0(s) REAL =        0(s)
+       MISCELLANEOUS: Cumulative Time CPU =        0(s) REAL =        0(s)
+             CONNECT: Cumulative Time CPU =        0(s) REAL =        0(s)
+              DEVICE: Cumulative Time CPU =        0(s) REAL =        0(s)
+                 ERC: Cumulative Time CPU =        0(s) REAL =        0(s)
+       PATTERN_MATCH: Cumulative Time CPU =        0(s) REAL =        0(s)
+
+
+Total CPU Time                    : 0(s)
+Total Real Time                   : 0(s)
+Peak Memory Used                  : 5(M)
+Total Original Geometry           : 0(0)
+Total ERC RuleChecks              : 0
+Total ERC Results                 : 0 (0)
+[WARN] Cannot open summary file.
+
+
+Netlist Extraction Finished Normally. Thu Apr 14 12:54:33 2016
+
+

@@ -1,0 +1,9 @@
+# Placement Hierarchy File (lph)
+# 
+# 
+# 
+% nmos_hs_4_top$$8 3
+M0 MN 4
+% S3D_inv 4
+X15 nmos_hs_4_top$$8 3
+M0 MP 4

@@ -1,0 +1,9 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary test_qrc
+% M3_M4$$2 1
+% M2_M3$$3 1
+% M1_M2$$4 1
+% test_qrc 3
+1 S
+2 D
+3 G

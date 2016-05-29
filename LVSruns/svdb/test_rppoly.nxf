@@ -1,0 +1,11 @@
+# XXXX: Net Cross Reference (nxf) (File format 1)
+# XXXX: Layout Primary test_rppoly
+# XXXX: End of header.
+% R 3 R 3 
+0 PLUS 0 PLUS
+0 MINUS 0 MINUS
+0 B 0 B
+% test_rppoly 3 test_rppoly 3 
+0 A 0 A
+0 C 0 C
+0 D 0 D

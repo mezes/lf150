@@ -1,0 +1,20 @@
+//Revision 43
+//NOTE
+// Default template for spectre
+// Note:
+//      Please remember to replace Top Cell Library, Cell, and View
+//      fields with the actual names used by your design.
+//END_NOTE
+
+config test_rppoly_s_tb;
+design test.test_rppoly_s_tb:schematic;
+liblist myLib;
+
+viewlist spectre, cmos_sch, \cmos.sch , schematic, veriloga, ahdl, pspice;
+stoplist spectre;
+
+
+cell test.test_rppoly_s binding :av_extracted;
+
+
+endconfig

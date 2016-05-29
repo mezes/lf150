@@ -1,0 +1,636 @@
+1457966463
+1 nwell.w.1.5 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+nwell.w.$$PVS$$
+$$PVS$$1.5 : Nwell width must be >= 1.5u
+2 diff.w.0.32 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+diff.w.0$$PVS$$
+$$PVS$$.32 : Diff width must be >= 0.32u
+3 nimp.w.0.48 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+nimp.w.0$$PVS$$
+$$PVS$$.48 : N_PLUS width must be >= 0.48u
+4 pimp.w.0.48 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+pimp.w.0$$PVS$$
+$$PVS$$.48 : P_PLUS width must be >= 0.48u
+5 ncore.w.0.5 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+ncore.w.$$PVS$$
+$$PVS$$0.5 : N_CORE width must be >= 0.5u
+6 pcore.w.0.5 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+pcore.w.$$PVS$$
+$$PVS$$0.5 : P_CORE width must be >= 0.5u
+7 vt_nmin.w.0.48 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_nmin.$$PVS$$
+$$PVS$$w.0.48 : N_MIN_LVT width must be >= 0.48u
+8 vt_pmin.w.0.48 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_pmin.$$PVS$$
+$$PVS$$w.0.48 : P_MIN_LVT width must be >= 0.48u
+9 npoly_imp.w.0.5 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+npoly_im$$PVS$$
+$$PVS$$p.w.0.5 : N_DUALGTE width must be >= 0.5u
+10 diff_top.w.0.32 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+diff_top$$PVS$$
+$$PVS$$.w.0.32 : Diff_top  width must be >= 0.32u
+11 nimp_top.w.0.48 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+nimp_top$$PVS$$
+$$PVS$$.w.0.48 : N_PLUS_top width must be >= 0.48u
+12 pimp_top.w.0.48 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+pimp_top$$PVS$$
+$$PVS$$.w.0.48 : P_PLUS_top  width must be >= 0.48u
+13 ncore_top.w.0.5 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+ncore_to$$PVS$$
+$$PVS$$p.w.0.5 : N_CORE_top  width must be >= 0.5u
+14 pcore_top.w.0.5 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+pcore_to$$PVS$$
+$$PVS$$p.w.0.5 : P_CORE_top  width must be >= 0.5u
+15 vt_nmin_top.w.0.48 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_nmin_$$PVS$$
+$$PVS$$top.w.0.48 : N_MIN_LVT_top  width must be >= 0.48u
+16 vt_pmin_top.w.0.48 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_pmin_$$PVS$$
+$$PVS$$top.w.0.48 : P_MIN_LVT_top  width must be >= 0.48u
+17 npoly_imp_top.w.0.5 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+npoly_im$$PVS$$
+$$PVS$$p_top.w.0.5 : N_DUALGTE_top width must be >= 0.5u
+18 nwell.s.1.5 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+nwell.s.$$PVS$$
+$$PVS$$1.5 : Spacing between nwells must be >= 1.5u
+19 diff.s.0.32 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+diff.s.0$$PVS$$
+$$PVS$$.32 : Spacing between diff layers must be >= 0.32u
+20 nimp.s.0.48 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+nimp.s.0$$PVS$$
+$$PVS$$.48 : Spacing between n_plus layers must be >= 0.48u
+21 pimp.s.0.48 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+pimp.s.0$$PVS$$
+$$PVS$$.48 : Spacing between p_plus layers must be >= 0.48u
+22 ncore.s.0.5 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+ncore.s.$$PVS$$
+$$PVS$$0.5 : Spacing between ncore layers must be >= 0.5u
+23 pcore.s.0.5 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+pcore.s.$$PVS$$
+$$PVS$$0.5 : Spacing between pcore layers must be >= 0.5u
+24 vt_nmin.s.0.48 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_nmin.$$PVS$$
+$$PVS$$s.0.48 : Spacing between N_MIN_LVT layers must be >= 0.48u
+25 vt_pmin.s.0.48 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_pmin.$$PVS$$
+$$PVS$$s.0.48 : Spacing between P_MIN_LVT layers must be >= 0.48u
+26 npoly_imp.s.0.5 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+npoly_im$$PVS$$
+$$PVS$$p.s.0.5 : Spacing between N_DUALGTE layers must be >= 0.5u
+27 diff_top.s.0.32 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+diff_top$$PVS$$
+$$PVS$$.s.0.32 : Spacing between diff_top  layers must be >= 0.32u
+28 nimp_top.s.0.48 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+nimp_top$$PVS$$
+$$PVS$$.s.0.48 : Spacing between n_plus_top  layers must be >= 0.48u
+29 pimp_top.s.0.48 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+pimp_top$$PVS$$
+$$PVS$$.s.0.48 : Spacing between p_plus_top  layers must be >= 0.48u
+30 ncore_top.s.0.5 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+ncore_to$$PVS$$
+$$PVS$$p.s.0.5 : Spacing between ncore_top  layers must be >= 0.5u
+31 pcore_top.s.0.5 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+pcore_to$$PVS$$
+$$PVS$$p.s.0.5 : Spacing between pcore_top  layers must be >= 0.5u
+32 vt_nmin_top.s.0.48 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_nmin_$$PVS$$
+$$PVS$$top.s.0.48 : Spacing between N_MIN_LVT_top  layers must be >= 0.48u
+33 vt_pmin_top.s.0.48 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_pmin_$$PVS$$
+$$PVS$$top.s.0.48 : Spacing between P_MIN_LVT_top layers must be >= 0.48u
+34 npoly_imp_top.s.0.5 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+npoly_im$$PVS$$
+$$PVS$$p_top.s.0.5 : Spacing between N_DUALGTE_top  layers must be >= 0.5u
+35 poly.w.0.15 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+poly.w.0$$PVS$$
+$$PVS$$.15 : Poly2 width must be >= 0.15u
+36 met1.w.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met1.w.0$$PVS$$
+$$PVS$$.24 : Metal1 width must be >= 0.24u
+37 met2.w.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met2.w.0$$PVS$$
+$$PVS$$.24 : Metal2 width must be >= 0.24u
+38 met3.w.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met3.w.0$$PVS$$
+$$PVS$$.24 : Metal3 width must be >= 0.24u
+39 met4.w.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met4.w.0$$PVS$$
+$$PVS$$.24 : Metal4 width must be >= 0.24u
+40 met5.w.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met5.w.0$$PVS$$
+$$PVS$$.24 : Metal5 width must be >= 0.24u
+41 poly_top.w.0.15 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+poly_top$$PVS$$
+$$PVS$$.w.0.15 : Poly2_top  width must be >= 0.15u
+42 met1_top.w.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met1_top$$PVS$$
+$$PVS$$.w.0.24 : Metal1_top  width must be >= 0.24u
+43 met2_top.w.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met2_top$$PVS$$
+$$PVS$$.w.0.24 : Metal2_top  width must be >= 0.24u
+44 met3_top.w.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met3_top$$PVS$$
+$$PVS$$.w.0.24 : Metal3_top  width must be >= 0.24u
+45 met4_top.w.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met4_top$$PVS$$
+$$PVS$$.w.0.24 : Metal4_top  width must be >= 0.24u
+46 met5_top.w.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met5_top$$PVS$$
+$$PVS$$.w.0.24 : Metal5_top  width must be >= 0.24u
+47 metF_top.w.0.58 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+metF_top$$PVS$$
+$$PVS$$.w.0.58 : MetalF_top  width must be >= 0.58u
+48 MIM_top.w.5 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+MIM_top.$$PVS$$
+$$PVS$$w.5 : MIM_top  width must be >= 5u
+49 MIM_top.w.70 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+MIM_top.$$PVS$$
+$$PVS$$w.70 : MIM_top width must be =< 70u
+50 metT_top.w.6 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+metT_top$$PVS$$
+$$PVS$$.w.6 : MetalT_top  width must be >= 6u
+51 poly.s.0.26 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+poly.s.0$$PVS$$
+$$PVS$$.26 : Spacing between Poly2 lines must be > 0.26u
+52 met1.s.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met1.s.0$$PVS$$
+$$PVS$$.24: Spacing between metal1 lines must be > 0.24u for lines with width < 0.4u
+53 met1.thick.s.0.34 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met1.thi$$PVS$$
+$$PVS$$ck.s.0.34: Spacing between metal1 lines must be > 0.34u for thick lines with wid$$PVS$$
+$$PVS$$th > 0.4u
+54 met2.s.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met2.s.0$$PVS$$
+$$PVS$$.24: Spacing between metal2 lines must be > 0.24u for lines with width < 0.4u
+55 met2.thick.s.0.34 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met2.thi$$PVS$$
+$$PVS$$ck.s.0.34: Spacing between metal2 lines must be > 0.34u for thick lines with wid$$PVS$$
+$$PVS$$th > 0.4u
+56 met3.s.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met3.s.0$$PVS$$
+$$PVS$$.24: Spacing between metal3 lines must be > 0.24u for lines with width < 0.4u
+57 met3.thick.s.0.34 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met3.thi$$PVS$$
+$$PVS$$ck.s.0.34: Spacing between metal3 lines must be > 0.34u for thick lines with wid$$PVS$$
+$$PVS$$th > 0.4u
+58 met4.s.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met4.s.0$$PVS$$
+$$PVS$$.24: Spacing between metal4 lines must be > 0.24u for lines with width < 0.4u
+59 met4.thick.s.0.34 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met4.thi$$PVS$$
+$$PVS$$ck.s.0.34: Spacing between metal4 lines must be > 0.34u for thick lines with wid$$PVS$$
+$$PVS$$th > 0.4u
+60 met5.s.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met5.s.0$$PVS$$
+$$PVS$$.24: Spacing between metal5 lines must be > 0.24u for lines with width < 0.4u
+61 met5.thick.s.0.34 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met5.thi$$PVS$$
+$$PVS$$ck.s.0.34: Spacing between metal5 lines must be > 0.34u for thick lines with wid$$PVS$$
+$$PVS$$th > 0.4u
+62 poly_top.s.0.26 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+poly_top$$PVS$$
+$$PVS$$.s.0.26 : Spacing between Poly2_top  lines must be > 0.26u
+63 met1_top.s.0.24 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met1_top$$PVS$$
+$$PVS$$.s.0.24: Spacing between metal1_top  lines must be > 0.24u for lines with width $$PVS$$
+$$PVS$$< 0.4u
+64 met1_top.thick.s.0.34 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met1_top$$PVS$$
+$$PVS$$.thick.s.0.34: Spacing between metal1_top  lines must be > 0.34u for thick lines$$PVS$$
+$$PVS$$ with width > 0.4u
+65 met2_top.s.0.24 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met2_top$$PVS$$
+$$PVS$$.s.0.24: Spacing between metal2_top  lines must be > 0.24u for lines with width $$PVS$$
+$$PVS$$< 0.4u
+66 met2_top.thick.s.0.34 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met2_top$$PVS$$
+$$PVS$$.thick.s.0.34: Spacing between metal2_top  lines must be > 0.34u for thick lines$$PVS$$
+$$PVS$$ with width > 0.4u
+67 met3_top.s.0.24 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met3_top$$PVS$$
+$$PVS$$.s.0.24: Spacing between metal3_top  lines must be > 0.24u for lines with width $$PVS$$
+$$PVS$$< 0.4u
+68 met3_top.thick.s.0.34 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met3_top$$PVS$$
+$$PVS$$.thick.s.0.34: Spacing between metal3_top  lines must be > 0.34u for thick lines$$PVS$$
+$$PVS$$ with width > 0.4u
+69 met4_top.s.0.24 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met4_top$$PVS$$
+$$PVS$$.s.0.24: Spacing between metal4_top  lines must be > 0.24u for lines with width $$PVS$$
+$$PVS$$< 0.4u
+70 met4_top.thick.s.0.34 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met4_top$$PVS$$
+$$PVS$$.thick.s.0.34: Spacing between metal4_top  lines must be > 0.34u for thick lines$$PVS$$
+$$PVS$$ with width > 0.4u
+71 met5_top.s.0.24 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met5_top$$PVS$$
+$$PVS$$.s.0.24: Spacing between metal5_top  lines must be > 0.24u for lines with width $$PVS$$
+$$PVS$$< 0.4u
+72 met5_top.thick.s.0.34 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+met5_top$$PVS$$
+$$PVS$$.thick.s.0.34: Spacing between metal5_top  lines must be > 0.34u for thick lines$$PVS$$
+$$PVS$$ with width > 0.4u
+73 MIM_top.s.1.5 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+MIM_top.$$PVS$$
+$$PVS$$s.1.5: Spacing between MIM_top shapes must be > 1.5u
+74 metF_top.s.0.58 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+metF_top$$PVS$$
+$$PVS$$.s.0.58: Spacing between metalF_top  lines must be > 0.58u for lines with width $$PVS$$
+$$PVS$$< 1u
+75 metF_top.thick.s.1 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+metF_top$$PVS$$
+$$PVS$$.thick.s.1: Spacing between metalF_top  lines must be > 1u for thick lines with $$PVS$$
+$$PVS$$width > 1u
+76 metT_top.s.5.5 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+metT_top$$PVS$$
+$$PVS$$.s.5.5: Spacing between metalT_top  lines must be > 5.5u
+77 cont.d.0.18 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+cont.d.0$$PVS$$
+$$PVS$$.18 : CONT must be 0.18u x 0.18u
+78 cont.s.0.30 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+cont.s.0$$PVS$$
+$$PVS$$.30 : Spacing between conts must be >= 0.30u
+79 via1.d.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via1.d.0$$PVS$$
+$$PVS$$.24 : VIA1 must be 0.24u x 0.24u
+80 via1.s.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via1.s.0$$PVS$$
+$$PVS$$.24 : Spacing between via1s must be >= 0.24u
+81 via2.d.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via2.d.0$$PVS$$
+$$PVS$$.24 : VIA2 must be 0.24u x 0.24u
+82 via2.s.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via2.s.0$$PVS$$
+$$PVS$$.24 : Spacing between via2s must be >= 0.24u
+83 via3.d.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via3.d.0$$PVS$$
+$$PVS$$.24 : VIA3 must be 0.24u x 0.24u
+84 via3.s.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via3.s.0$$PVS$$
+$$PVS$$.24 : Spacing between via3s must be >= 0.24u
+85 via4.d.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via4.d.0$$PVS$$
+$$PVS$$.24 : VIA4 must be 0.24u x 0.24u
+86 via4.s.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via4.s.0$$PVS$$
+$$PVS$$.24 : Spacing between via4s must be >= 0.24u
+87 miv.d.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+miv.d.0.$$PVS$$
+$$PVS$$24 : MIV  must be 0.24u x 0.24u
+88 cont_top.d.0.18 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+cont_top$$PVS$$
+$$PVS$$.d.0.18 : CONT_top  must be 0.18u x 0.18u
+89 cont_top.s.0.30 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+cont_top$$PVS$$
+$$PVS$$.s.0.30 : Spacing between cont_top s must be >= 0.30u
+90 via1_top.d.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via1_top$$PVS$$
+$$PVS$$.d.0.24 : VIA1_top  must be 0.24u x 0.24u
+91 via1_top.s.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via1_top$$PVS$$
+$$PVS$$.s.0.24 : Spacing between via1_top s must be >= 0.24u
+92 via2_top.d.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via2_top$$PVS$$
+$$PVS$$.d.0.24 : VIA2_top  must be 0.24u x 0.24u
+93 via2_top.s.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via2_top$$PVS$$
+$$PVS$$.s.0.24 : Spacing between via2_top s must be >= 0.24u
+94 via3_top.d.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via3_top$$PVS$$
+$$PVS$$.d.0.24 : VIA3_top  must be 0.24u x 0.24u
+95 via3_top.s.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via3_top$$PVS$$
+$$PVS$$.s.0.24 : Spacing between via3_top s must be >= 0.24u
+96 via4_top.d.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via4_top$$PVS$$
+$$PVS$$.d.0.24 : VIA4_top  must be 0.24u x 0.24u
+97 via4_top.s.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via4_top$$PVS$$
+$$PVS$$.s.0.24 : Spacing between via4_top s must be >= 0.24u
+98 viaF_top.d.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaF_top$$PVS$$
+$$PVS$$.d.0.24 : VIAF_top  must be 0.24u x 0.24u
+99 viaF_top.s.0.24 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaF_top$$PVS$$
+$$PVS$$.s.0.24 : Spacing between viaF_top s must be >= 0.24u
+100 viaT_top.w.3 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaT_top$$PVS$$
+$$PVS$$.w.3 : viaT_top  width must be >= 3u
+101 viaT_top.s.3 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaT_top$$PVS$$
+$$PVS$$.s.3 : Spacing between viaT_top s must be >= 3u
+102 cont.en.met1.diff 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+cont.en.$$PVS$$
+$$PVS$$met1.diff : CONT must be enclosed by Metal1 and Diff by a factor of at least 0.0$$PVS$$
+$$PVS$$3u
+103 cont.en.met1.poly 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+cont.en.$$PVS$$
+$$PVS$$met1.poly : CONT must be enclosed by Metal1 and POLY by a factor of at least 0.0$$PVS$$
+$$PVS$$3u
+104 cont.in.diff_poly.met1 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+cont.in.$$PVS$$
+$$PVS$$diff_poly.met1 : CONT must be inside DIFF or POLY and Metal1
+105 via1.en.met1.met2 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via1.en.$$PVS$$
+$$PVS$$met1.met2 : VIA1 must be enclosed by Metal1 and Metal2 by a factor of at least 0$$PVS$$
+$$PVS$$.03u
+106 via1.in.met1.met2 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via1.in.$$PVS$$
+$$PVS$$met1.met2 : VIA1 must inside Metal1 and Metal2
+107 via2.en.met2.met3 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via2.en.$$PVS$$
+$$PVS$$met2.met3 : VIA2 must be enclosed by Metal2 and Metal3 by a factor of at least 0$$PVS$$
+$$PVS$$.03u
+108 via2.in.met2.met3 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via2.in.$$PVS$$
+$$PVS$$met2.met3 : VIA2 must inside Metal2 and Metal3
+109 via3.en.met3.met4 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via3.en.$$PVS$$
+$$PVS$$met3.met4 : VIA3 must be enclosed by Metal3 and Metal4 by a factor of at least 0$$PVS$$
+$$PVS$$.03u
+110 via3.in.met3.met4 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via3.in.$$PVS$$
+$$PVS$$met3.met4 : VIA3 must inside Metal3 and Metal4
+111 via4.en.met4.met5 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via4.en.$$PVS$$
+$$PVS$$met4.met5 : VIA4 must be enclosed by Metal4 and Metal5 by a factor of at least 0$$PVS$$
+$$PVS$$.03u
+112 via4.in.met4.met5 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via4.in.$$PVS$$
+$$PVS$$met4.met5 : VIA4 must inside Metal4 and Metal5
+113 cont_top.en.met1_top.diff_top 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+cont_top$$PVS$$
+$$PVS$$.en.met1_top.diff_top  : CONT_top  must be enclosed by Metal1_top  and Diff_top $$PVS$$
+$$PVS$$ by a factor of at least 0.03u
+114 cont_top.en.met1_top.poly_top 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+cont_top$$PVS$$
+$$PVS$$.en.met1_top.poly_top  : CONT_top  must be enclosed by Metal1_top  and POLY_top $$PVS$$
+$$PVS$$ by a factor of at least 0.03u
+115 cont_top.in.diff_poly_top.met1_top 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+cont_top$$PVS$$
+$$PVS$$.in.diff_poly_top.met1_top  : CONT_top  must be inside DIFF_top  or POLY_top  an$$PVS$$
+$$PVS$$d Metal1_top 
+116 via1_top.en.met1_top.met2_top 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via1_top$$PVS$$
+$$PVS$$.en.met1_top.met2_top : VIA1_top  must be enclosed by Metal1_top  and Metal2_top$$PVS$$
+$$PVS$$  by a factor of at least 0.03u
+117 via1_top.in.met1_top.met2_top 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via1_top$$PVS$$
+$$PVS$$.in.met1_top.met2_top : VIA1_top  must inside Metal1_top  and Metal2_top 
+118 via2_top.en.met2_top.met3_top 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via2_top$$PVS$$
+$$PVS$$.en.met2_top.met3_top  : VIA2_top  must be enclosed by Metal2_top  and Metal3_to$$PVS$$
+$$PVS$$p  by a factor of at least 0.03u
+119 via2_top.in.met2_top.met3_top 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via2_top$$PVS$$
+$$PVS$$.in.met2_top.met3_top : VIA2_top  must inside Metal2_top  and Metal3_top 
+120 via3_top.en.met3_top.met4_top 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via3_top$$PVS$$
+$$PVS$$.en.met3_top.met4_top : VIA3_top  must be enclosed by Metal3_top  and Metal4_top$$PVS$$
+$$PVS$$  by a factor of at least 0.03u
+121 via3_top.in.met3_top.met4_top 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via3_top$$PVS$$
+$$PVS$$.in.met3_top.met4_top : VIA3_top  must inside Metal3_top  and Metal4_top 
+122 via4_top.en.met4_top.met5_top 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via4_top$$PVS$$
+$$PVS$$.en.met4_top.met5_top  : VIA4_top  must be enclosed by Metal4_top  and Metal5_to$$PVS$$
+$$PVS$$p  by a factor of at least 0.03u
+123 via4_top.in.met4_top.met5_top 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via4_top$$PVS$$
+$$PVS$$.in.met4_top.met5_top  : VIA4_top  must inside Metal4_top  and Metal5_top 
+124 viaF_met5_top.en.met5_top 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaF_met$$PVS$$
+$$PVS$$5_top.en.met5_top : VIAF_met5_top  must be enclosed by Metal5_top by a factor of$$PVS$$
+$$PVS$$ at least 0.03u
+125 viaF_met5_top.in.met5_top 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaF_met$$PVS$$
+$$PVS$$5_top.in.met5_top : VIAF_met5_top  must be inside Metal5_top
+126 viaF_MIM_top.en.MIM_top 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaF_MIM$$PVS$$
+$$PVS$$_top.en.MIM_top : VIAF_MIM_top  must be enclosed by MIM_top by a factor of at le$$PVS$$
+$$PVS$$ast 0.25u
+127 viaF_MIM_top.in.MIM_top 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaF_MIM$$PVS$$
+$$PVS$$_top.in.MIM_top : VIAF_MIM_top  must be inside MIM_top
+128 viaF_top.en.metF_top 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaF_top$$PVS$$
+$$PVS$$.en.metF_top : VIAF_top  must be enclosed by MetalF_top by a factor of at least $$PVS$$
+$$PVS$$0.05u
+129 viaF_top.in.metF_top 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaF_top$$PVS$$
+$$PVS$$.in.metF_top : VIAF_top  must be inside MetalF_top
+130 viaT_top.en.metF_top 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaT_top$$PVS$$
+$$PVS$$.en.metF_top : VIAT_top  must be enclosed by MetalF_top by a factor of at least $$PVS$$
+$$PVS$$0.5u
+131 viaT_top.in.metF_top 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaT_top$$PVS$$
+$$PVS$$.in.metF_top : VIAT_top  must be inside MetalF_top
+132 viaT_top.en.metT_top 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaT_top$$PVS$$
+$$PVS$$.en.metT_top : VIAT_top  must be enclosed by MetalT_top by a factor of at least $$PVS$$
+$$PVS$$1u
+133 viaT_top.in.metT_top 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaT_top$$PVS$$
+$$PVS$$.in.metT_top : VIAT_top  must be inside MetalT_top
+134 miv.en.met5.met1_top 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+miv.en.m$$PVS$$
+$$PVS$$et5.met1_top : MIV  must be enclosed by Metal5  and Metal1_top  by a factor of a$$PVS$$
+$$PVS$$t least 0.03u
+135 miv.in.met5.met1_top 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+miv.in.m$$PVS$$
+$$PVS$$et5.met1_top : MIV  must inside Metal5  and Metal1_top 
+136 vt_nmin.ov.vt_pmin 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_nmin.$$PVS$$
+$$PVS$$ov.vt_pmin : Layers N_MIN_LVT and P_MIN_LVT are not allowed to overlap
+137 vt_nmin.ov.pimp 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_nmin.$$PVS$$
+$$PVS$$ov.pimp : Layers N_MIN_LVT and P_PLUS are not allowed to overlap
+138 vt_pmin.ov.nimp 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_pmin.$$PVS$$
+$$PVS$$ov.nimp : Layers P_MIN_LVT and N_PLUS are not allowed to overlap
+139 vt_nmin_top.ov.vt_pmin_top 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_nmin_$$PVS$$
+$$PVS$$top.ov.vt_pmin_top  : Layers N_MIN_LVT_top  and P_MIN_LVT_top  are not allowed t$$PVS$$
+$$PVS$$o overlap
+140 vt_nmin_top.ov.pimp_top 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_nmin_$$PVS$$
+$$PVS$$top.ov.pimp_top : Layers N_MIN_LVT_top  and P_PLUS_top  are not allowed to overl$$PVS$$
+$$PVS$$ap
+141 vt_pmin_top.ov.nimp_top 4
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+vt_pmin_$$PVS$$
+$$PVS$$top.ov.nimp_top  : Layers P_MIN_LVT_top  and N_PLUS_top  are not allowed to over$$PVS$$
+$$PVS$$lap
+142 nimp.s.pgate.0.32 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+nimp.s.p$$PVS$$
+$$PVS$$gate.0.32 : Spacing between N_PLUS and PGATE must be >= 0.32
+143 pimp.s.ngate.0.32 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+pimp.s.n$$PVS$$
+$$PVS$$gate.0.32 : Spacing between P_PLUS and NGATE must be >= 0.32
+144 nimp.s.ptap.0.008 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+nimp.s.p$$PVS$$
+$$PVS$$tap.0.008 : Spacing between N_PLUS and PTAP must be >= 0.08
+145 pimp.s.ntap.0.008 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+pimp.s.n$$PVS$$
+$$PVS$$tap.0.008 : Spacing between P_PLUS and NTAP must be >= 0.08
+146 nimp_top.s.pgate_top.0.32 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+nimp_top$$PVS$$
+$$PVS$$.s.pgate_top.0.32 : Spacing between N_PLUS_top  and PGATE_top  must be >= 0.32u
+147 pimp_top.s.ngate_top.0.32 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+pimp_top$$PVS$$
+$$PVS$$.s.ngate_top.0.32 : Spacing between P_PLUS_top  and NGATE_top  must be >= 0.32u
+148 via4_top.s.MIM_top.0.5 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+via4_top$$PVS$$
+$$PVS$$.s.MIM_top.0.5 : Spacing between VIA4_top and MIM_top must be >= 0.5u
+149 viaF_met5_top.s.MIM_top.0.5 3
+Rule File Pathname: /home/pancha/ProjGe3D/lf150/DRCruns/.technology.rul
+viaF_met$$PVS$$
+$$PVS$$5_top.s.MIM_top.0.5 : Spacing between VIAF_met5_top and MIM_top must be >= 0.5u

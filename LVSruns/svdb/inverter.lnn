@@ -1,0 +1,13 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary inverter
+% M2_M3$$1 1
+% M3_M4$$2 1
+% M1_M2$$3 1
+% M4_M5$$4 1
+% M5_M1_top$$5 1
+% nmos_hs_4_top$$8 3
+% inverter 4
+1 INP
+2 OUTP
+3 VSS
+4 VDD

@@ -1,0 +1,67 @@
+simulator( 'spectre )
+design(	 "RF_FrontEnd" 	"signPath_imp1"	"schematic")
+resultsDir( "/home/pancha/simulation/signPath_imp1/spectre/schematic" )
+
+modelFile( 
+    '("/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" "tt_hs")
+    '("/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" "tt_ll")
+    '("/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" "tt_na")
+    '("/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" "tt_3")
+    '("/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" "tt_5")
+    '("/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" "res_typ")
+    '("/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" "mim_typ")
+    '("/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" "bjt_t")
+    '("/PDKs/LFOUNDRY2/PDK_LF150i_V2_0_0/analog/models/spectre/lf150.scs" "dio_t")
+)
+
+analysis('ac ?start "10"  ?stop "100M"  )
+
+;nmosBottom: W1tot = 20.000u L1 = 500.000n Ids = 20.000u VDS = 0.500V VGS = 0.335V 
+gmn = 0.404m
+ rdsn = 226762.24
+ Gain = 91.571
+ cdbn = 6.68f
+ cdsn = 16.18f
+ cgdn = 5.04f
+ cgsn = 35.95f
+ vthn = 0.3293
+ veffn = 5.78m
+ Ftn = 1567.82M
+
+;pmosBottom: W1tot = 20.000u L1 = 1000.000n Ids = 10.000u VDS = 0.500V VGS = 0.720V 
+gmp = 0.120m
+ rdsp = 7452129.04
+ Gainp = 894.838
+ cdbp = 19.11f
+ cdsp = 62.21f
+ cgdp = 3.83f
+ cgsp = 103.70f
+ vthp = 0.5636
+ veffp = 156.02m
+ Ftp = 177.73M
+
+
+desVar(	  "cdbn" cdbn	)
+desVar(	  "cdbp" cdbp	)
+desVar(	  "cdsn" cdsn	)
+desVar(	  "cdsp" cdsp	)
+desVar(	  "cgdn" cgdn	)
+desVar(	  "cgdp" cgdp	)
+desVar(	  "cgsn" cgsn	)
+desVar(	  "cgsp" cgsp	)
+desVar(	  "gmn" gmn	)
+desVar(	  "gmp" gmp	)
+desVar(	  "rdsn"  rdsn	)
+desVar(	  "rdsp"  rdsp)
+
+envOption(
+	'analysisOrder  list("ac") 
+)
+
+temp( 27 ) 
+
+run()
+
+selectResult( 'ac )
+
+ plot(getData("/Vout") )

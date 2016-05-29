@@ -1,0 +1,4 @@
+CASE_SENSITIVE=TRUE
+TEMPDIR=/tmp/qrc_22116/S3D_inv/rcx_temp
+QRC=Y
+SAVEDIR=flattenInputs/
